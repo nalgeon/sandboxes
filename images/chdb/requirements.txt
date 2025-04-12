@@ -1,0 +1,4 @@
+chdb==3.1.2
+numpy
+pandas
+pyarrow

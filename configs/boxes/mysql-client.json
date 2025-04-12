@@ -1,0 +1,4 @@
+{
+    "image": "codapi/mysql-client",
+    "network": "codapi"
+}

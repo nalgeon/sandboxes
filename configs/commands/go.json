@@ -1,0 +1,29 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.go",
+        "steps": [
+            {
+                "box": "go",
+                "command": ["go", "build", "-o", "main"],
+                "timeout": 8
+            },
+            {
+                "box": "debian",
+                "version": "latest",
+                "command": ["./main"]
+            }
+        ]
+    },
+    "test": {
+        "engine": "docker",
+        "entry": "main_test.go",
+        "steps": [
+            {
+                "box": "go",
+                "command": ["go", "test"],
+                "timeout": 8
+            }
+        ]
+    }
+}

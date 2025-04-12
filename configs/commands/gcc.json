@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.c",
+        "steps": [
+            {
+                "box": "gcc",
+                "command": ["sh", "-c", "gcc *.c -o /tmp/main && /tmp/main"]
+            }
+        ]
+    }
+}

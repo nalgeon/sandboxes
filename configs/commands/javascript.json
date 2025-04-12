@@ -1,0 +1,16 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.js",
+        "steps": [
+            {
+                "box": "typescript",
+                "command": [
+                    "sh",
+                    "-c",
+                    "esbuild --bundle --platform=node main.js | node"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.lua",
+        "steps": [
+            {
+                "box": "lua",
+                "command": ["lua", "main.lua"]
+            }
+        ]
+    }
+}

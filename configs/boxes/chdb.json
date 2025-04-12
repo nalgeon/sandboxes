@@ -1,0 +1,6 @@
+{
+    "image": "codapi/chdb",
+    "memory": 256,
+    "tmpfs": ["/tmp:rw,exec,nosuid,size=64m"],
+    "ulimit": ["nofile=1024"]
+}

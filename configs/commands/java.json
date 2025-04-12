@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.java",
+        "steps": [
+            {
+                "box": "java",
+                "command": ["java", "--enable-preview", "main.java"]
+            }
+        ]
+    }
+}

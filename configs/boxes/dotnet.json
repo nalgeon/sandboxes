@@ -1,0 +1,4 @@
+{
+    "image": "codapi/dotnet",
+    "tmpfs": ["/tmp:rw,exec,nosuid,size=16m"]
+}

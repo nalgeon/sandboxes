@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.v",
+        "steps": [
+            {
+                "box": "vlang",
+                "command": ["v", "-o", "/tmp/main", "run", "."]
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.sql",
+        "steps": [
+            {
+                "box": "chdb",
+                "command": ["python", "/opt/query.py", "main.sql"]
+            }
+        ]
+    }
+}

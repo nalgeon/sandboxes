@@ -1,0 +1,2482 @@
+2024/03/12 15:08:12 boxes: [alpine bash bytewax caddy chdb clickhouse-client cpp debian dotnet duckdb expr-lang gcc go go:dev java just kotlin lua mariadb-client mongodb-client mono mssql-client mysql-client navi net-tools odin php python python-web rlang ruby rust shell sqlglot sqlite sqlite:dev typescript vlang zig]
+2024/03/12 15:08:12 codapi main, commit 4468c61, built at 2024-03-03T15:24:08
+2024/03/12 15:08:12 commands: [bash bytewax caddy chdb chdb-python clickhouse cpp curl dotnet duckdb expr-lang ferretdb gcc go http java javascript just kotlin lua mariadb mongodb mono mssql mysql navi net-tools odin php postgres python python-web r ruby rust sh shell sqlglot sqlite typescript v zig]
+2024/03/12 15:08:12 listening on port 1313...
+2024/03/12 15:08:12 workers: 8
+2024/03/12 15:08:27 ✓ go_run_b4cea559: took 3282 ms
+2024/03/12 15:08:34 ✓ go_run_6062b066: took 3030 ms
+2024/03/12 15:08:40 ✓ go_run_5dac5183: took 1519 ms
+2024/03/12 15:09:18 ✓ go_run_407b634c: took 1532 ms
+2024/03/12 15:09:37 ✓ sqlite_run_88a32223: took 330 ms
+2024/03/12 15:10:09 ✓ go_run_4597ebe8: took 1590 ms
+2024/03/12 15:10:20 ✓ go_run_20ef301e: took 2082 ms
+2024/03/12 15:10:20 ✓ python_run_89eee8f9: took 4732 ms
+2024/03/12 15:11:17 ✓ postgres_run_df95bfb4: took 360 ms
+2024/03/12 15:11:19 ✓ postgres_run_f4aa5dc1: took 355 ms
+2024/03/12 15:11:22 ✓ postgres_run_1d26f90c: took 375 ms
+2024/03/12 15:11:43 ✓ go_run_cd8e2dfb: took 3101 ms
+2024/03/12 15:11:56 ✓ sqlite_run_68235f1a: took 325 ms
+2024/03/12 15:11:59 ✓ sqlite_run_9affc93f: took 320 ms
+2024/03/12 15:12:01 ✓ sqlite_run_c284dbbe: took 342 ms
+2024/03/12 15:12:06 ✓ net-tools_run_e1b6ab4a: took 626 ms
+2024/03/12 15:12:09 ✓ go_run_da07edad: took 3225 ms
+2024/03/12 15:12:09 ✓ net-tools_run_996a534a: took 500 ms
+2024/03/12 15:12:12 ✓ net-tools_run_7bd5952e: took 496 ms
+2024/03/12 15:12:18 ✓ python_run_6af10f90: took 1022 ms
+2024/03/12 15:12:22 ✓ python_run_ed2ebc7b: took 1483 ms
+2024/03/12 15:12:26 ✓ python_run_55239cfe: took 1377 ms
+2024/03/12 15:12:28 ✓ postgres_run_489f7228: took 378 ms
+2024/03/12 15:12:31 ✓ postgres_run_9456ec72: took 359 ms
+2024/03/12 15:12:33 ✓ postgres_run_9c045255: took 358 ms
+2024/03/12 15:13:07 ✓ ferretdb_run_202b80f3: took 3026 ms
+2024/03/12 15:13:09 ✓ shell_run_6011b0df: took 356 ms
+2024/03/12 15:13:50 ✓ postgres_run_49e7a4ce: took 370 ms
+2024/03/12 15:13:55 ✓ python_run_880a2b04: took 342 ms
+2024/03/12 15:14:07 ✓ python_run_4b8e51fc: took 361 ms
+2024/03/12 15:16:42 ✓ sqlite_run_cfc1460a: took 347 ms
+2024/03/12 15:17:28 ✓ sqlite_run_1c813f96: took 319 ms
+2024/03/12 15:17:54 ✓ sqlite_run_a682af89: took 354 ms
+2024/03/12 15:26:23 ✓ postgres_run_7239a8af: took 390 ms
+2024/03/12 15:30:07 ✓ cpp_run_bda558ad: took 1724 ms
+2024/03/12 15:37:15 ✓ sqlite_run_88880146: took 324 ms
+2024/03/12 15:37:40 ✓ sqlite_run_d33b071e: took 302 ms
+2024/03/12 15:44:31 ✓ go_run_7c2fbf01: took 1831 ms
+2024/03/12 15:44:47 ✓ go_run_09b28ee3: took 1526 ms
+2024/03/12 15:48:05 ✗ lua_run_9dda2526: lua: main.lua:2: invalid escape sequence near '"\.' (exit status 1)
+2024/03/12 15:48:11 ✗ lua_run_bba77181: lua: main.lua:2: attempt to index a function value stack traceback: main.lua:2: [truncated]
+2024/03/12 15:48:24 ✓ lua_run_dd6f6232: took 327 ms
+2024/03/12 15:48:53 ✓ postgres_run_2326dd38: took 395 ms
+2024/03/12 15:48:54 ✓ sqlite_run_c68a0c95: took 455 ms
+2024/03/12 15:48:56 ✓ mysql_run_5c313973: took 2515 ms
+2024/03/12 15:49:07 ✓ lua_run_bee6e90e: took 336 ms
+2024/03/12 15:49:23 ✓ lua_run_cc5eaaa7: took 331 ms
+2024/03/12 15:50:26 ✗ lua_run_fc20bd86: lua: main.lua:3: syntax error near 'val' (exit status 1)
+2024/03/12 15:50:47 ✓ zig_run_5c71b8f5: took 3914 ms
+2024/03/12 15:50:51 ✗ lua_run_9acfdb1a: lua: main.lua:3: syntax error near 'val' (exit status 1)
+2024/03/12 15:50:54 ✗ zig_run_cd807267: /usr/lib/zig/std/fmt.zig:648:21: error: cannot format slice without a specifier [truncated]
+2024/03/12 15:51:04 ✓ zig_run_0b6f02bb: took 4383 ms
+2024/03/12 15:51:12 ✓ lua_run_635b3186: took 327 ms
+2024/03/12 15:52:49 ✗ lua_run_0585f849: lua: main.lua:3: attempt to index a function value (local 'val') stack traceback [truncated]
+2024/03/12 16:04:10 ✓ python_run_de1aea9d: took 420 ms
+2024/03/12 16:18:34 ✓ sqlite_run_2486c196: took 351 ms
+2024/03/12 16:19:39 ✓ mssql_run_ce5a30b3: took 1345 ms
+2024/03/12 16:20:04 ✓ mssql_run_6176f132: took 1826 ms
+2024/03/12 16:20:16 ✓ mssql_run_276060d4: took 1274 ms
+2024/03/12 16:20:32 ✓ mssql_run_f1b80a88: took 1276 ms
+2024/03/12 16:20:53 ✓ mssql_run_355c4004: took 1227 ms
+2024/03/12 16:21:23 ✓ mssql_run_25e115a4: took 1238 ms
+2024/03/12 16:21:40 ✓ mssql_run_093d5635: took 1247 ms
+2024/03/12 16:26:32 ✓ mssql_run_6418ccab: took 1239 ms
+2024/03/12 16:30:14 ✓ caddy_run_1b202d90: took 539 ms
+2024/03/12 16:30:22 ✓ caddy_run_2e06a1dc: took 319 ms
+2024/03/12 16:30:26 ✓ caddy_exec_a1dd6973: took 715 ms
+2024/03/12 16:30:53 ✓ caddy_validate-json_4325299c: took 382 ms
+2024/03/12 16:30:58 ✓ caddy_exec_d2ef2802: took 688 ms
+2024/03/12 16:31:03 ✓ caddy_exec_cb9300db: took 888 ms
+2024/03/12 16:31:07 ✓ caddy_exec_ab83b0fc: took 716 ms
+2024/03/12 16:31:11 ✓ caddy_validate_443be090: took 384 ms
+2024/03/12 16:32:58 ✓ caddy_exec_5b853be3: took 701 ms
+2024/03/12 16:33:03 ✓ caddy_exec_d339ae1d: took 854 ms
+2024/03/12 16:54:05 ✓ go_run_af9400fe: took 2005 ms
+2024/03/12 16:54:10 ✓ go_run_98fc3a14: took 1570 ms
+2024/03/12 17:06:37 ✓ http_run_b3e0239d: took 23 ms
+2024/03/12 17:06:37 http_run_b3e0239d: POST http://127.0.0.1:4201/dump/request
+2024/03/12 17:07:30 ✓ http_run_c542ebad: took 2 ms
+2024/03/12 17:07:30 http_run_c542ebad: GET http://127.0.0.1:4201/get
+2024/03/12 17:07:31 ✓ http_run_67b68ce7: took 0 ms
+2024/03/12 17:07:31 http_run_67b68ce7: GET http://127.0.0.1:4201/get
+2024/03/12 17:18:01 ✗ cpp_run_dd204f44: main.cpp:1:8: error: expected constructor, destructor, or type conversion before [truncated]
+2024/03/12 17:29:25 ✓ http_run_8c5b428b: took 1 ms
+2024/03/12 17:29:25 http_run_8c5b428b: OPTIONS http://127.0.0.1:4201/dump/request
+2024/03/12 17:31:42 ✓ sqlite_run_f6c40a77: took 349 ms
+2024/03/12 17:31:49 ✓ shell_run_2ebaec24: took 403 ms
+2024/03/12 17:33:47 ✓ lua_run_ec458132: took 319 ms
+2024/03/12 17:38:13 ✓ sqlite_run_3ffe147b: took 323 ms
+2024/03/12 17:54:07 ✓ mysql_run_e7a52051: took 2424 ms
+2024/03/12 18:05:55 ✓ mariadb_run_c83009da: took 1038 ms
+2024/03/12 18:06:13 ✓ go_run_e426e9c0: took 1717 ms
+2024/03/12 18:06:17 ✓ go_run_4731427d: took 1606 ms
+2024/03/12 18:11:33 ✓ sqlite_run_5d4eea26: took 334 ms
+2024/03/12 18:11:54 ✓ sqlite_run_54ea9cb9: took 327 ms
+2024/03/12 18:43:34 ✓ mssql_run_48859c78: took 1317 ms
+2024/03/12 18:44:50 ✓ mssql_run_ab3394e9: took 1202 ms
+2024/03/12 18:45:14 ✓ mssql_run_474d816a: took 1174 ms
+2024/03/12 18:45:46 ✓ mssql_run_2b8aae91: took 1266 ms
+2024/03/12 18:56:49 ✓ shell_run_b378b1d1: took 340 ms
+2024/03/12 18:58:34 ✓ mssql_run_133362d8: took 1431 ms
+2024/03/12 18:58:48 ✓ mssql_run_37e6cabf: took 1258 ms
+2024/03/12 19:04:09 ✓ python_run_53e8d9af: took 428 ms
+2024/03/12 19:04:49 ✓ python_run_57ce6ad0: took 325 ms
+2024/03/12 19:14:46 ✓ python_run_e852c9af: took 351 ms
+2024/03/12 19:14:59 ✓ mssql_run_8b5ccc91: took 1955 ms
+2024/03/12 19:15:39 ✓ mssql_run_f4aac3c2: took 2388 ms
+2024/03/12 19:16:20 ✓ mssql_run_8f9401b4: took 2573 ms
+2024/03/12 19:16:30 ✓ mssql_run_94f3c0dd: took 3042 ms
+2024/03/12 19:25:33 ✓ sqlite_run_59a0d396: took 327 ms
+2024/03/12 19:25:43 ✗ sqlite_run_6f19f86c: Parse error near line 75: near "SELECT": syntax error egories (id, title) VALU [truncated]
+2024/03/12 19:25:46 ✓ sqlite_run_f479ea39: took 306 ms
+2024/03/12 19:41:57 ✓ postgres_run_ad53e50a: took 381 ms
+2024/03/12 20:26:00 ✓ shell_run_a6acf663: took 374 ms
+2024/03/12 20:55:21 ✓ net-tools_run_cb4437b1: took 502 ms
+2024/03/12 20:56:21 ✓ sqlite_run_514667c9: took 343 ms
+2024/03/12 20:56:31 ✓ sqlite_run_5c088e36: took 326 ms
+2024/03/12 20:56:42 ✗ sqlite_run_52425cfe: Parse error near line 21: no such table: emplloyees (exit status 1)
+2024/03/12 21:47:36 ✓ shell_run_0004bfa2: took 341 ms
+2024/03/12 21:54:11 ✓ go_run_22e826e1: took 1892 ms
+2024/03/12 21:54:28 ✗ go_run_817c7936: # sandbox ./main.go:5:2: "mime" imported and not used (exit status 1)
+2024/03/12 21:54:47 ✓ go_run_b66e2839: took 1566 ms
+2024/03/12 21:58:19 ✗ go_run_d1bf3227: # sandbox ./main.go:12:39: too many arguments in call to strings.Fields have (s [truncated]
+2024/03/12 21:58:30 ✓ r_run_efc842a4: took 801 ms
+2024/03/12 21:58:32 ✓ go_run_1e3e188c: took 1538 ms
+2024/03/12 21:58:39 ✓ r_run_47a877c0: took 648 ms
+2024/03/12 21:58:43 ✓ r_run_1893b6ca: took 516 ms
+2024/03/12 21:58:47 ✓ go_run_780cd573: took 1502 ms
+2024/03/12 22:02:37 ✓ r_run_d32b50f9: took 1174 ms
+2024/03/12 22:03:01 ✓ r_run_330b1af7: took 1057 ms
+2024/03/12 22:03:17 ✓ r_run_a5694c87: took 1039 ms
+2024/03/12 22:03:43 ✓ r_run_17d6171d: took 1065 ms
+2024/03/12 22:03:52 ✓ r_run_66ca70b2: took 1034 ms
+2024/03/12 22:04:03 ✓ r_run_0afdf905: took 1510 ms
+2024/03/12 22:04:29 ✓ r_run_0c734d98: took 1513 ms
+2024/03/12 22:37:10 ✓ shell_run_35d78ff8: took 375 ms
+2024/03/12 22:37:26 ✗ shell_run_df759d85: fatal: not a git repository (or any parent up to mount point /) Stopping at file [truncated]
+2024/03/12 22:37:34 ✓ shell_run_1d3c4148: took 309 ms
+2024/03/12 22:37:56 ✓ shell_run_e499eb7a: took 412 ms
+2024/03/12 22:38:13 ✓ shell_run_acfa9b73: took 465 ms
+2024/03/12 22:38:34 ✓ shell_run_5cfbfa28: took 364 ms
+2024/03/12 23:02:47 ✓ go_run_1ff149e1: took 1741 ms
+2024/03/12 23:02:50 ✓ go_run_31ff5b10: took 1486 ms
+2024/03/12 23:06:15 ✓ sqlite_run_0dc60404: took 313 ms
+2024/03/12 23:09:32 ✓ python_run_0cd533d0: took 402 ms
+2024/03/12 23:34:12 ✓ r_run_548e9caa: took 1141 ms
+2024/03/12 23:35:06 ✓ r_run_a1668b33: took 1193 ms
+2024/03/12 23:35:11 ✗ zig_run_2759cffb: /usr/lib/zig/std/fmt.zig:499:17: error: cannot format optional without a specifi [truncated]
+2024/03/12 23:35:23 ✓ zig_run_258ba8ad: took 3663 ms
+2024/03/12 23:35:50 ✓ zig_run_fdc4823d: took 3151 ms
+2024/03/12 23:48:11 ✓ zig_run_8de81017: took 3409 ms
+2024/03/13 00:00:15 ✗ duckdb_run_c306a724: Error: near line 71: Parser Error: syntax error at or near "salary" LINE 4: sa [truncated]
+2024/03/13 00:55:26 ✓ odin_run_332c4648: took 2173 ms
+2024/03/13 00:55:38 ✓ odin_run_2a3ef2f3: took 1509 ms
+2024/03/13 00:55:48 ✓ odin_run_9c0d808b: took 1169 ms
+2024/03/13 00:56:42 ✓ odin_run_df34c7d5: took 1199 ms
+2024/03/13 00:57:03 ✓ odin_run_ac831b61: took 1422 ms
+2024/03/13 00:57:17 ✓ odin_run_0cbcac38: took 1411 ms
+2024/03/13 00:57:33 ✗ odin_run_9178e086: /sandbox/main.odin(17:33) Cannot cast 'yes.bruh' as 'int' from 'union {mystruct, [truncated]
+2024/03/13 00:57:42 ✗ odin_run_8f218a50: /sandbox/main.odin(17:29) Syntax Error: Expected a type (exit status 1)
+2024/03/13 00:57:52 ✗ odin_run_5b06561d: /sandbox/main.odin(17:38) Cannot transmute 'yes.bruh' to 'int', 24 vs 8 bytes f [truncated]
+2024/03/13 00:58:00 ✓ odin_run_4fa32f20: took 1223 ms
+2024/03/13 00:58:46 ✓ sqlite_run_53cfe5c7: took 324 ms
+2024/03/13 01:04:14 ✓ sqlite_run_0b950981: took 306 ms
+2024/03/13 02:22:59 ✗ duckdb_run_f68240cb: Error: near line 71: Catalog Error: Table with name Customers does not exist! Di [truncated]
+2024/03/13 03:24:41 ✓ chdb-python_run_25009498: took 763 ms
+2024/03/13 03:24:49 ✓ chdb-python_run_559aac78: took 2543 ms
+2024/03/13 03:28:28 ✓ http_run_5a3ccd8b: took 4 ms
+2024/03/13 03:28:28 http_run_5a3ccd8b: POST http://127.0.0.1:4201/dump/request
+2024/03/13 03:28:55 ✗ http_run_7f35460b: host not allowed: 
+2024/03/13 03:29:24 ✗ http_run_bf80346b: host not allowed: www.example.com
+2024/03/13 03:30:16 ✗ http_run_61863355: host not allowed: example.com
+2024/03/13 03:30:26 ✓ http_run_1e41df43: took 6 ms
+2024/03/13 03:30:26 http_run_1e41df43: GET http://127.0.0.1:4201
+2024/03/13 03:37:38 ✓ mssql_run_5628a4d2: took 1472 ms
+2024/03/13 03:42:54 ✓ chdb-python_run_ec79fc6a: took 1736 ms
+2024/03/13 04:09:47 ✓ postgres_run_9b3e4a25: took 469 ms
+2024/03/13 04:09:47 ✓ sqlite_run_cf257f67: took 498 ms
+2024/03/13 04:09:50 ✓ mysql_run_4a106615: took 2646 ms
+2024/03/13 04:20:40 ✓ caddy_run_aeb07ea4: took 746 ms
+2024/03/13 04:20:44 ✓ caddy_run_2288fb6c: took 328 ms
+2024/03/13 04:20:48 ✓ caddy_exec_f9dbdd1d: took 649 ms
+2024/03/13 04:23:46 ✓ postgres_run_2acc6e3d: took 359 ms
+2024/03/13 04:23:51 ✓ postgres_run_188a6518: took 330 ms
+2024/03/13 04:24:08 ✓ postgres_run_f0d80a6e: took 339 ms
+2024/03/13 04:24:24 ✓ postgres_run_1057b199: took 345 ms
+2024/03/13 04:24:30 ✓ postgres_run_e6fa54fd: took 334 ms
+2024/03/13 04:24:41 ✓ postgres_run_e3743b7e: took 318 ms
+2024/03/13 04:24:58 ✓ postgres_run_15a0163d: took 334 ms
+2024/03/13 04:32:50 ✓ sqlite_run_8c57678a: took 301 ms
+2024/03/13 04:35:10 ✓ chdb-python_run_f974f54b: took 761 ms
+2024/03/13 04:36:54 ✓ caddy_exec_b02095da: took 685 ms
+2024/03/13 04:36:59 ✓ caddy_validate-json_97797693: took 335 ms
+2024/03/13 04:37:05 ✓ caddy_exec_7ffcdf0e: took 659 ms
+2024/03/13 04:37:08 ✓ caddy_exec_9b38f106: took 606 ms
+2024/03/13 04:37:15 ✓ caddy_validate_7b3f406e: took 345 ms
+2024/03/13 04:37:23 ✓ caddy_run_abdb549a: took 339 ms
+2024/03/13 04:38:47 ✓ caddy_exec_77531258: took 633 ms
+2024/03/13 04:38:53 ✓ caddy_exec_01b0eb66: took 650 ms
+2024/03/13 04:39:18 ✓ caddy_exec_192f306c: took 651 ms
+2024/03/13 04:44:11 ✓ mssql_run_5026920c: took 1240 ms
+2024/03/13 04:49:58 ✓ mssql_run_4d9c48f1: took 1230 ms
+2024/03/13 04:50:18 ✓ mssql_run_2aa6faae: took 1305 ms
+2024/03/13 04:50:46 ✓ mssql_run_e551a96c: took 1279 ms
+2024/03/13 05:09:03 ✓ postgres_run_bf3c60ed: took 383 ms
+2024/03/13 05:09:08 ✓ postgres_run_b29f55eb: took 333 ms
+2024/03/13 05:09:13 ✓ postgres_run_4e203b3b: took 317 ms
+2024/03/13 05:09:28 ✓ mssql_run_695cea8a: took 1236 ms
+2024/03/13 05:09:53 ✓ postgres_run_1a5a16e4: took 339 ms
+2024/03/13 05:10:04 ✓ mssql_run_d9cd1123: took 1221 ms
+2024/03/13 05:10:18 ✓ mssql_run_0d66fa57: took 1074 ms
+2024/03/13 05:10:42 ✓ mssql_run_bf64a23d: took 1158 ms
+2024/03/13 05:11:11 ✓ mssql_run_0f23f382: took 1064 ms
+2024/03/13 05:11:23 ✓ mssql_run_d4adfba4: took 1129 ms
+2024/03/13 05:53:14 ✓ mssql_run_2c34c54f: took 1313 ms
+2024/03/13 05:53:46 ✓ mssql_run_2c94797e: took 1192 ms
+2024/03/13 05:55:07 ✓ sqlite_run_afcfbb62: took 385 ms
+2024/03/13 05:56:09 ✓ python_run_f0e9a622: took 1184 ms
+2024/03/13 05:56:18 ✓ python_run_0a3666d0: took 1458 ms
+2024/03/13 05:56:27 ✓ sqlite_run_c3a5494e: took 305 ms
+2024/03/13 05:56:36 ✓ sqlite_run_c0a52c54: took 300 ms
+2024/03/13 05:56:47 ✓ sqlite_run_a49469e5: took 326 ms
+2024/03/13 05:56:58 ✓ mssql_run_e12acd86: took 1174 ms
+2024/03/13 06:05:06 ✓ mssql_run_dfb32b39: took 1201 ms
+2024/03/13 06:05:42 ✓ mssql_run_b7e7e8db: took 1178 ms
+2024/03/13 06:05:59 ✓ mssql_run_400b1cf3: took 1156 ms
+2024/03/13 06:07:33 ✓ mssql_run_29388fd9: took 1104 ms
+2024/03/13 06:07:53 ✓ mssql_run_4813c025: took 1254 ms
+2024/03/13 06:08:01 ✓ mssql_run_84facc5d: took 1231 ms
+2024/03/13 06:10:14 ✓ caddy_run_800733d1: took 559 ms
+2024/03/13 06:25:25 ✓ chdb-python_run_dd8e5dfb: took 841 ms
+2024/03/13 06:32:09 ✓ go_run_a8ba2998: took 2062 ms
+2024/03/13 06:38:37 ✓ go_run_5747d3b7: took 1577 ms
+2024/03/13 06:39:48 ✓ go.dev_run_a2c95519: took 2548 ms
+2024/03/13 06:42:01 ✓ mssql_run_7d5125d1: took 1317 ms
+2024/03/13 06:42:20 ✓ mssql_run_bffa577e: took 1216 ms
+2024/03/13 06:42:46 ✓ mssql_run_8ea19ea6: took 1162 ms
+2024/03/13 06:45:24 ✓ mssql_run_ea1a4d63: took 1115 ms
+2024/03/13 06:45:55 ✓ mssql_run_abad9c65: took 1230 ms
+2024/03/13 06:46:29 ✓ mssql_run_f8583e94: took 1150 ms
+2024/03/13 06:46:45 ✓ mssql_run_dc20ba1b: took 1181 ms
+2024/03/13 07:00:15 ✓ mssql_run_1599f859: took 3164 ms
+2024/03/13 07:01:14 ✗ mssql_run_a457d722: code execution timeout
+2024/03/13 07:01:14 mssql_run_a457d722: execution timeout, killed process=3243684, err=<nil>
+2024/03/13 07:01:48 ✗ mssql_run_6019178a: Sqlcmd: Error: Microsoft ODBC Driver 17 for SQL Server : Client unable to establ [truncated]
+2024/03/13 07:03:03 ✓ mssql_run_0cb93e46: took 1766 ms
+2024/03/13 07:03:27 ✓ sqlite_run_cc5fc823: took 359 ms
+2024/03/13 07:04:42 ✓ mssql_run_c65222b0: took 1137 ms
+2024/03/13 07:05:17 ✓ mssql_run_2454eb65: took 1283 ms
+2024/03/13 07:05:22 ✗ zig_run_6d7bb72c: /usr/lib/zig/std/start.zig:559:45: error: 'main' is not marked 'pub' main.zig:3: [truncated]
+2024/03/13 07:05:37 ✓ zig_run_09719bc9: took 4017 ms
+2024/03/13 07:06:14 ✗ zig_run_c97114e1: main.zig:5:15: error: expected 2 argument(s), found 1 /usr/lib/zig/std/io/buffer [truncated]
+2024/03/13 07:06:31 ✗ zig_run_f2908a69: main.zig:5:31: error: expected type 'usize', found 'type' /usr/lib/zig/std/io/bu [truncated]
+2024/03/13 07:07:03 ✗ zig_run_6bb6a4b6: main.zig:5:34: error: unable to resolve comptime value main.zig:5:34: note: argu [truncated]
+2024/03/13 07:07:55 ✓ zig_run_1b7d69dc: took 3907 ms
+2024/03/13 07:08:24 ✗ zig_run_65cafd57: main.zig:6:12: error: no field or member function named 'print' in 'io.buffered_ [truncated]
+2024/03/13 07:09:14 ✗ zig_run_05e76a8f: main.zig:6:12: error: member function expected 1 argument(s), found 2 /usr/lib/z [truncated]
+2024/03/13 07:09:32 ✗ zig_run_ddf553c7: main.zig:6:12: error: expected type '*io.buffered_writer.BufferedWriter(4096,io. [truncated]
+2024/03/13 07:09:46 ✗ zig_run_d1990862: main.zig:6:5: error: value of type 'usize' ignored main.zig:6:5: note: all non-v [truncated]
+2024/03/13 07:10:00 ✗ zig_run_a24b36b7: main.zig:7:14: error: error is ignored main.zig:7:14: note: consider using 'try' [truncated]
+2024/03/13 07:10:12 ✓ zig_run_f3f520bc: took 3618 ms
+2024/03/13 07:10:55 ✓ mssql_run_4aaf47c7: took 1449 ms
+2024/03/13 07:11:00 ✓ zig_run_20f6c2d8: took 3626 ms
+2024/03/13 07:11:06 ✓ mssql_run_d7d2313b: took 1266 ms
+2024/03/13 07:15:44 ✓ mssql_run_c92506fa: took 1303 ms
+2024/03/13 07:16:23 ✓ mssql_run_1ae6097d: took 1321 ms
+2024/03/13 07:18:44 ✓ mssql_run_2f5a17db: took 1273 ms
+2024/03/13 07:18:54 ✓ mssql_run_28356e2f: took 1233 ms
+2024/03/13 07:20:36 ✓ mssql_run_e5bb9794: took 1329 ms
+2024/03/13 07:21:04 ✓ mssql_run_3a799312: took 1297 ms
+2024/03/13 07:21:26 ✓ mssql_run_590e3f9b: took 1328 ms
+2024/03/13 07:23:21 ✓ python_run_bba64a61: took 423 ms
+2024/03/13 07:26:27 ✓ go_run_1a4b2a9b: took 1857 ms
+2024/03/13 07:26:30 ✓ go_run_86cbb78c: took 1582 ms
+2024/03/13 07:26:53 ✓ go_run_f2a3a410: took 1598 ms
+2024/03/13 07:29:05 ✗ zig_run_237cb187: main.zig:13:9: error: use of undeclared identifier 'stdout' (exit status 1)
+2024/03/13 07:29:46 ✗ zig_run_6b4fbf95: main.zig:14:5: error: expected type 'void', found 'error{AccessDenied,Unexpected [truncated]
+2024/03/13 07:30:25 ✗ zig_run_ed3bb1e2: main.zig:13:9: error: expected type 'void', found '@typeInfo(@typeInfo(@TypeOf(i [truncated]
+2024/03/13 07:30:27 ✓ mssql_run_aef5320d: took 1315 ms
+2024/03/13 07:32:37 ✓ go_run_e1da3c2f: took 1581 ms
+2024/03/13 07:32:58 ✓ go_run_bcfe5537: took 1542 ms
+2024/03/13 07:33:08 ✓ mssql_run_da3d8d9f: took 1322 ms
+2024/03/13 07:38:28 ✓ go_run_4fb47e9a: took 1660 ms
+2024/03/13 07:44:55 ✓ sqlglot_run_ddea289b: took 737 ms
+2024/03/13 07:47:00 ✓ sqlglot_run_a201a4b7: took 515 ms
+2024/03/13 07:47:22 ✓ sqlglot_run_7f9feb50: took 524 ms
+2024/03/13 07:47:31 ✓ sqlglot_run_7777df83: took 570 ms
+2024/03/13 07:48:01 ✗ sqlglot_run_544cd82d: File "/sandbox/main.py", line 4 "select a.spu_id,spu_name ^ SyntaxError: [truncated]
+2024/03/13 07:48:35 ✓ sqlglot_run_8e3f8b91: took 534 ms
+2024/03/13 07:54:39 ✓ go_run_5ffe9407: took 1650 ms
+2024/03/13 08:05:00 ✓ sqlglot_run_c0fe46bc: took 534 ms
+2024/03/13 08:08:42 ✓ sqlglot_run_78d8d7b0: took 549 ms
+2024/03/13 08:12:49 ✓ python_run_5d226953: took 346 ms
+2024/03/13 08:13:23 ✓ python_run_ae818dee: took 6650 ms
+2024/03/13 08:13:43 ✓ go_run_39e9a335: took 1748 ms
+2024/03/13 08:13:49 ✓ sqlite_run_a061d507: took 339 ms
+2024/03/13 08:13:53 ✓ sqlite_run_0b0c20b7: took 340 ms
+2024/03/13 08:14:05 ✓ python_run_9c5e318f: took 6807 ms
+2024/03/13 08:15:19 ✓ python_run_981e945b: took 370 ms
+2024/03/13 08:16:13 ✓ mysql_run_e589fa39: took 2641 ms
+2024/03/13 08:21:26 ✓ mysql_run_9f7d31b0: took 2446 ms
+2024/03/13 08:22:59 ✓ shell_run_1a631ba0: took 413 ms
+2024/03/13 08:23:25 ✓ python_run_bb81df5b: took 357 ms
+2024/03/13 08:27:31 ✗ go.dev_run_cbd63e4a: exec ./main: no such file or directory (exit status 1)
+2024/03/13 08:27:33 ✗ lua_run_b29c4933: lua: main.lua:3: attempt to concatenate a nil value (local 'sep') stack tracebac [truncated]
+2024/03/13 08:27:43 ✓ lua_run_58b2ce0a: took 316 ms
+2024/03/13 08:27:55 ✓ lua_run_7952628d: took 325 ms
+2024/03/13 08:31:23 ✓ chdb-python_run_d082c5e8: took 798 ms
+2024/03/13 08:31:51 ✓ chdb-python_run_023727d8: took 809 ms
+2024/03/13 08:36:56 ✓ go_run_2997a2f6: took 1902 ms
+2024/03/13 08:48:39 ✓ caddy_run_b5f0b2cc: took 320 ms
+2024/03/13 08:49:05 ✓ sqlite_run_76bd68b1: took 345 ms
+2024/03/13 08:49:23 ✓ sqlite_run_85e21f15: took 326 ms
+2024/03/13 09:16:55 ✗ sqlite_run_75d0fc43: Runtime error near line 22: UNIQUE constraint failed: employees.id (19) (exit st [truncated]
+2024/03/13 09:17:46 ✗ sqlite_run_d8a574c5: Runtime error near line 22: UNIQUE constraint failed: employees.id (19) (exit st [truncated]
+2024/03/13 09:18:29 ✓ mysql_run_16a1cf8f: took 2378 ms
+2024/03/13 09:27:58 ✓ net-tools_curl_9ad4bc8c: took 537 ms
+2024/03/13 09:31:51 ✓ sqlite_run_534f3301: took 337 ms
+2024/03/13 09:32:04 ✗ caddy_exec_9c4e30f0: exit status 7
+2024/03/13 09:42:53 ✓ mssql_run_16c7e6ff: took 1356 ms
+2024/03/13 09:45:17 ✓ mssql_run_2d5ed42f: took 1213 ms
+2024/03/13 09:51:51 ✓ mssql_run_7d0bfbae: took 1156 ms
+2024/03/13 09:52:31 ✓ mssql_run_6821ac24: took 1195 ms
+2024/03/13 09:52:55 ✓ mssql_run_d357d3a1: took 1206 ms
+2024/03/13 09:53:06 ✓ python_run_c13deb1e: took 367 ms
+2024/03/13 09:53:09 ✓ mssql_run_9736686c: took 1444 ms
+2024/03/13 09:56:04 ✓ sqlite_run_ddad8edc: took 340 ms
+2024/03/13 09:56:06 ✓ mssql_run_6c524973: took 1176 ms
+2024/03/13 09:56:27 ✓ mssql_run_761c8d22: took 1264 ms
+2024/03/13 09:57:10 ✓ gcc_run_75db3cfa: took 643 ms
+2024/03/13 09:57:13 ✓ sqlite_run_80f8112f: took 309 ms
+2024/03/13 09:57:18 ✓ gcc_run_19269db7: took 348 ms
+2024/03/13 09:57:57 ✓ gcc_run_2171b76e: took 362 ms
+2024/03/13 09:58:05 ✓ gcc_run_7a9f3b8d: took 385 ms
+2024/03/13 10:01:19 ✓ sqlite_run_fb032c46: took 367 ms
+2024/03/13 10:02:51 ✓ sqlite_run_9ab80aaa: took 348 ms
+2024/03/13 10:14:58 ✗ lua_run_26437f77: lua: main.lua:2: <name> expected near '1' (exit status 1)
+2024/03/13 10:15:49 ✗ lua_run_65943717: lua: main.lua:2: <name> expected near '1' (exit status 1)
+2024/03/13 10:16:03 ✓ lua_run_f12c3556: took 454 ms
+2024/03/13 10:16:14 ✓ lua_run_bba631b5: took 340 ms
+2024/03/13 10:18:21 ✓ python_run_05952270: took 385 ms
+2024/03/13 10:22:05 ✓ caddy_run_c58a20fe: took 406 ms
+2024/03/13 10:27:47 ✓ zig_run_2effbd2e: took 3648 ms
+2024/03/13 10:28:41 ✓ sqlite_run_00ed3c21: took 343 ms
+2024/03/13 10:31:30 ✓ chdb-python_run_88bc86eb: took 741 ms
+2024/03/13 10:31:35 ✓ chdb-python_run_c21dbbd6: took 1062 ms
+2024/03/13 10:41:05 ✓ sqlite_run_66381367: took 337 ms
+2024/03/13 10:43:52 ✓ shell_run_5713d786: took 416 ms
+2024/03/13 11:03:21 ✓ go_run_acb04cfa: took 1874 ms
+2024/03/13 11:03:34 ✓ go_run_0f4da3ac: took 1589 ms
+2024/03/13 11:03:44 ✓ go_run_d905680f: took 1593 ms
+2024/03/13 11:06:17 ✓ mssql_run_38c94b82: took 1429 ms
+2024/03/13 11:08:05 ✓ mssql_run_e326f5ed: took 1326 ms
+2024/03/13 11:09:23 ✓ mssql_run_e1766563: took 1223 ms
+2024/03/13 11:10:06 ✓ gcc_run_b6069e52: took 401 ms
+2024/03/13 11:10:12 ✓ shell_run_bada37a0: took 324 ms
+2024/03/13 11:10:27 ✓ rust_run_e2ea4857: took 2673 ms
+2024/03/13 11:10:41 ✓ rust_run_af6468d9: took 1695 ms
+2024/03/13 11:16:15 ✓ python_run_6fcb2162: took 410 ms
+2024/03/13 11:17:00 ✓ net-tools_curl_b29ab05b: took 532 ms
+2024/03/13 11:17:16 ✓ net-tools_curl_aee01248: took 515 ms
+2024/03/13 11:17:20 ✓ net-tools_curl_2cc1fb1f: took 506 ms
+2024/03/13 11:17:26 ✓ net-tools_curl_1688f0d4: took 502 ms
+2024/03/13 11:17:29 ✓ net-tools_curl_ebd06b79: took 505 ms
+2024/03/13 11:18:37 ✓ python_run_271aa55f: took 1945 ms
+2024/03/13 11:19:18 ✓ python_run_9dd90ef6: took 1618 ms
+2024/03/13 11:19:31 ✓ python_run_73b74dfc: took 1571 ms
+2024/03/13 11:20:03 ✓ python_run_d3ed09ed: took 1975 ms
+2024/03/13 11:20:16 ✓ python_run_da817393: took 1318 ms
+2024/03/13 11:20:24 ✓ python_run_4cf474f8: took 1651 ms
+2024/03/13 11:20:31 ✓ python_run_f1c9ce1d: took 1699 ms
+2024/03/13 11:20:40 ✓ python_run_5b8c2162: took 1529 ms
+2024/03/13 11:20:45 ✓ python_run_c505a34a: took 1554 ms
+2024/03/13 11:20:51 ✓ python_run_83bc9ea7: took 3288 ms
+2024/03/13 11:23:44 ✓ lua_run_9ac73692: took 357 ms
+2024/03/13 11:23:53 ✗ lua_run_f52fc153: lua: main.lua:3: syntax error near '&' (exit status 1)
+2024/03/13 11:24:01 ✗ lua_run_82979c54: lua: main.lua:3: unexpected symbol near '&' (exit status 1)
+2024/03/13 11:24:10 ✓ lua_run_c3645dad: took 351 ms
+2024/03/13 11:24:19 ✓ lua_run_590b6244: took 342 ms
+2024/03/13 11:25:06 ✓ python_run_ab13abd5: took 367 ms
+2024/03/13 11:30:12 ✓ net-tools_curl_8a9b2c67: took 541 ms
+2024/03/13 11:30:16 ✓ net-tools_curl_b5f04c52: took 475 ms
+2024/03/13 11:30:23 ✗ lua_run_dbd1629a: lua: main.lua:3: attempt to call a table value (for iterator 'for iterator') sta [truncated]
+2024/03/13 11:31:35 ✓ lua_run_e9e4ff74: took 349 ms
+2024/03/13 11:31:49 ✓ lua_run_dcd95248: took 347 ms
+2024/03/13 11:31:56 ✓ lua_run_611292dd: took 335 ms
+2024/03/13 11:32:19 ✓ zig_run_54d38f63: took 4131 ms
+2024/03/13 11:35:07 ✗ zig_run_01ff9d0f: main.zig:14:28: error: unused function parameter main.zig:14:19: error: unused f [truncated]
+2024/03/13 11:35:38 ✓ chdb-python_run_8682c281: took 796 ms
+2024/03/13 11:36:29 ✓ zig_run_ab4d5613: took 3767 ms
+2024/03/13 11:39:48 ✓ lua_run_1d34ae05: took 314 ms
+2024/03/13 11:40:27 ✓ lua_run_1e226fc7: took 320 ms
+2024/03/13 11:41:37 ✗ zig_run_f15c07fa: main.zig:20:27: error: expected ',' after parameter (exit status 1)
+2024/03/13 11:42:24 ✓ lua_run_eeaf882d: took 342 ms
+2024/03/13 11:42:28 ✗ zig_run_9b95cd81: main.zig:20:9: error: tuple declarations cannot contain declarations main.zig:18 [truncated]
+2024/03/13 11:42:50 ✗ zig_run_6a91a02c: main.zig:20:27: error: expected ',' after parameter (exit status 1)
+2024/03/13 11:43:09 ✓ lua_run_8148e68c: took 324 ms
+2024/03/13 11:43:17 ✗ lua_run_f14280de: v1lua: main.lua:20: k2 is required stack traceback: [C]: in function 'error' m [truncated]
+2024/03/13 11:43:44 ✗ zig_run_ccbfee1d: main.zig:25:10: error: expected type expression, found ',' (exit status 1)
+2024/03/13 11:44:07 ✗ zig_run_b3359e43: main.zig:20:9: error: tuple declarations cannot contain declarations main.zig:18 [truncated]
+2024/03/13 11:44:24 ✗ lua_run_c9b3431f: lua: main.lua:20: 'end' expected (to close 'if' at line 19) near ')' (exit statu [truncated]
+2024/03/13 11:44:28 ✗ zig_run_ac3d0677: main.zig:18:27: error: expected ',' after field (exit status 1)
+2024/03/13 11:44:38 ✓ lua_run_ad02c124: took 329 ms
+2024/03/13 11:45:01 ✗ zig_run_199f1257: main.zig:17:19: error: expected '{', found '.' (exit status 1)
+2024/03/13 11:45:04 ✓ lua_run_367c35ad: took 597 ms
+2024/03/13 11:45:15 ✓ lua_run_6e8a0cf9: took 338 ms
+2024/03/13 11:49:26 ✗ zig_run_2e0cab71: main.zig:20:9: error: tuple declarations cannot contain declarations main.zig:18 [truncated]
+2024/03/13 11:50:40 ✗ zig_run_c0b76188: main.zig:18:16: error: expected ',' after field (exit status 1)
+2024/03/13 11:51:07 ✗ zig_run_111c69f5: main.zig:18:16: error: expected ',' after field (exit status 1)
+2024/03/13 11:51:35 ✗ zig_run_71eaf325: main.zig:18:28: error: expected ',' after field (exit status 1)
+2024/03/13 11:51:40 ✗ zig_run_a2a3d5f1: main.zig:20:9: error: tuple declarations cannot contain declarations main.zig:18 [truncated]
+2024/03/13 11:52:39 ✗ zig_run_6e8ebc8b: main.zig:20:9: error: tuple declarations cannot contain declarations main.zig:18 [truncated]
+2024/03/13 11:52:51 ✗ zig_run_906841e5: main.zig:20:9: error: tuple declarations cannot contain declarations main.zig:18 [truncated]
+2024/03/13 11:53:18 ✗ zig_run_f5c5c686: main.zig:20:9: error: tuple declarations cannot contain declarations main.zig:18 [truncated]
+2024/03/13 11:53:28 ✗ zig_run_2c244518: main.zig:20:27: error: expected ',' after parameter (exit status 1)
+2024/03/13 11:54:45 ✓ zig_run_b9f5849d: took 3623 ms
+2024/03/13 12:00:59 ✓ zig_run_9138216a: took 3675 ms
+2024/03/13 12:04:02 ✓ php_run_8d8a7657: took 472 ms
+2024/03/13 12:04:19 ✗ zig_run_029f3d4e: main.zig:15:8: error: 'struct Array' is invalid main.zig:15:8: note: to declare [truncated]
+2024/03/13 12:04:33 ✗ zig_run_32baa6ec: main.zig:15:8: error: 'struct Array' is invalid main.zig:15:8: note: to declare [truncated]
+2024/03/13 12:04:57 ✗ zig_run_a305b5a1: main.zig:20:10: error: expected ';' after statement (exit status 1)
+2024/03/13 12:05:05 ✗ zig_run_a6e20619: main.zig:20:10: error: expected ';' after statement (exit status 1)
+2024/03/13 12:05:26 ✗ zig_run_8f686c80: main.zig:21:6: error: expected type expression, found ',' (exit status 1)
+2024/03/13 12:05:45 ✗ zig_run_fcc0c3a0: main.zig:22:23: error: expected ',' after parameter (exit status 1)
+2024/03/13 12:06:00 ✗ zig_run_22d3be13: main.zig:22:61: error: use of undeclared identifier 'T' (exit status 1)
+2024/03/13 12:15:42 ✓ sqlite_run_7c2c5147: took 368 ms
+2024/03/13 12:19:06 ✓ python_run_a2db5407: took 376 ms
+2024/03/13 12:19:56 ✗ zig_run_5c8ab711: main.zig:22:60: error: use of undeclared identifier 'T' (exit status 1)
+2024/03/13 12:20:59 ✗ zig_run_8187dd76: main.zig:22:61: error: use of undeclared identifier 'T' (exit status 1)
+2024/03/13 12:23:05 ✗ zig_run_ca9d8546: main.zig:22:61: error: use of undeclared identifier 'T' (exit status 1)
+2024/03/13 12:23:50 ✗ zig_run_45ccc831: main.zig:17:61: error: use of undeclared identifier 'T' (exit status 1)
+2024/03/13 12:25:26 ✓ zig_run_8af62854: took 4566 ms
+2024/03/13 12:26:37 ✗ zig_run_c8d2656e: main.zig:7:27: error: no field or member function named 'init' in 'fn(comptime t [truncated]
+2024/03/13 12:27:04 ✗ zig_run_e14358ac: main.zig:4:43: error: no field or member function named 'init' in 'fn(comptime h [truncated]
+2024/03/13 12:27:42 ✗ zig_run_bb09e639: main.zig:4:43: error: no field or member function named 'init' in 'fn(comptime h [truncated]
+2024/03/13 12:27:54 ✗ zig_run_7c6eb815: main.zig:4:43: error: no field or member function named 'init' in 'fn(comptime h [truncated]
+2024/03/13 12:30:02 ✗ zig_run_c1934d62: main.zig:4:43: error: no field or member function named 'init' in 'fn(comptime h [truncated]
+2024/03/13 12:30:12 ✓ python_run_a92118b3: took 412 ms
+2024/03/13 12:30:22 ✓ python_run_1f949401: took 364 ms
+2024/03/13 12:30:28 ✗ zig_run_e844e88b: main.zig:4:44: error: expected pointer dereference, optional unwrap, or field ac [truncated]
+2024/03/13 12:30:35 ✓ python_run_f16bafcf: took 378 ms
+2024/03/13 12:30:41 ✗ zig_run_17abefc1: main.zig:4:5: error: variable of type 'type' must be const or comptime main.zig: [truncated]
+2024/03/13 12:30:43 ✓ python_run_e54bf10e: took 358 ms
+2024/03/13 12:30:59 ✓ zig_run_9cb9628c: took 4031 ms
+2024/03/13 12:31:37 ✓ python_run_0edf0946: took 411 ms
+2024/03/13 12:31:40 ✓ python_run_93ffa71a: took 351 ms
+2024/03/13 12:33:13 ✗ zig_run_20f821a3: main.zig:17:6: error: expected ';' after statement (exit status 1)
+2024/03/13 12:33:23 ✓ zig_run_70365c9f: took 4854 ms
+2024/03/13 12:33:58 ✓ zig_run_0e79b4df: took 3888 ms
+2024/03/13 12:36:08 ✗ zig_run_4cb7bc44: main.zig:19:30: error: expected ']', found '}' (exit status 1)
+2024/03/13 12:36:14 ✗ zig_run_bac36472: main.zig:18:9: error: tuple declarations cannot contain declarations main.zig:16 [truncated]
+2024/03/13 12:39:44 ✓ zig_run_e4ec18e8: took 4724 ms
+2024/03/13 12:41:19 ✗ zig_run_2c18d3c1: main.zig:14:45: error: expected '}', found ')' (exit status 1)
+2024/03/13 12:41:29 ✗ zig_run_2865ccb4: main.zig:18:41: error: function with comptime-only return type 'type' requires a [truncated]
+2024/03/13 12:41:59 ✗ zig_run_4aa9c947: main.zig:12:9: error: variable of type 'type' must be const or comptime main.zig [truncated]
+2024/03/13 12:43:06 ✗ zig_run_ed9c4bba: main.zig:12:9: error: variable of type 'type' must be const or comptime main.zig [truncated]
+2024/03/13 12:48:30 ✗ zig_run_8507523e: main.zig:12:9: error: variable of type 'type' must be const or comptime main.zig [truncated]
+2024/03/13 12:48:58 ✗ zig_run_7e4795b6: main.zig:19:19: error: expected '{', found '.' (exit status 1)
+2024/03/13 12:49:39 ✗ zig_run_82aab7cd: main.zig:12:9: error: variable of type 'type' must be const or comptime main.zig [truncated]
+2024/03/13 12:49:46 ✗ zig_run_97e8a2fb: main.zig:20:20: error: use of undeclared identifier 'size' (exit status 1)
+2024/03/13 12:50:14 ✗ zig_run_01eb6f8e: main.zig:12:9: error: variable of type 'type' must be const or comptime main.zig [truncated]
+2024/03/13 12:50:48 ✗ zig_run_cd6e56eb: main.zig:13:9: error: struct 'main.Array(u8,5)' has no member named 'm_Data' mai [truncated]
+2024/03/13 12:52:36 ✗ zig_run_cd0311ad: main.zig:20:9: error: use of undeclared identifier 'm_Data' (exit status 1)
+2024/03/13 12:53:01 ✗ zig_run_13316b16: main.zig:20:9: error: tuple field has a name (exit status 1)
+2024/03/13 12:53:27 ✗ zig_run_d450f127: main.zig:13:9: error: struct 'main.Array(u8,5)' has no member named 'm_Data' mai [truncated]
+2024/03/13 12:53:57 ✗ zig_run_1f33df82: main.zig:20:13: error: expected function or variable declaration after pub (exit [truncated]
+2024/03/13 12:54:27 ✗ zig_run_3cefe258: main.zig:20:13: error: expected function or variable declaration after pub (exit [truncated]
+2024/03/13 12:54:38 ✗ zig_run_36a1194e: main.zig:21:13: error: expected function or variable declaration after pub (exit [truncated]
+2024/03/13 12:54:50 ✗ zig_run_893ecb74: main.zig:20:9: error: use of undeclared identifier 'm_Data' (exit status 1)
+2024/03/13 12:55:59 ✓ caddy_run_0e87736a: took 1293 ms
+2024/03/13 12:56:18 ✗ zig_run_4e7afd0f: main.zig:26:12: error: struct 'main.Array__struct_4370' has no member named 'm_S [truncated]
+2024/03/13 12:58:12 ✓ sqlite_run_23143adc: took 545 ms
+2024/03/13 12:58:48 ✓ sqlite_run_7f473740: took 540 ms
+2024/03/13 12:59:23 ✓ caddy_run_6d2e0e49: took 513 ms
+2024/03/13 13:01:01 ✗ zig_run_af08a183: main.zig:26:12: error: struct 'main.Array.output' has no member named 'm_Size' m [truncated]
+2024/03/13 13:01:51 ✓ lua_run_7cbde5e6: took 324 ms
+2024/03/13 13:02:43 ✗ lua_run_8a8bcb88: lua: main.lua:3: attempt to concatenate a table value (local 'dmo') stack traceb [truncated]
+2024/03/13 13:02:55 ✓ lua_run_0c526700: took 324 ms
+2024/03/13 13:03:06 ✓ lua_run_e6d71f7c: took 306 ms
+2024/03/13 13:03:16 ✓ lua_run_d0694c13: took 314 ms
+2024/03/13 13:03:19 ✓ lua_run_37f79dba: took 321 ms
+2024/03/13 13:03:36 ✓ lua_run_fa587613: took 317 ms
+2024/03/13 13:03:40 ✓ lua_run_c6f13c2c: took 317 ms
+2024/03/13 13:03:43 ✓ lua_run_6ab30f9b: took 327 ms
+2024/03/13 13:03:47 ✓ lua_run_a72c9a00: took 317 ms
+2024/03/13 13:03:52 ✓ lua_run_accda588: took 314 ms
+2024/03/13 13:03:56 ✓ lua_run_055f6fbf: took 319 ms
+2024/03/13 13:03:59 ✓ lua_run_6aee4ec0: took 337 ms
+2024/03/13 13:06:08 ✗ zig_run_4884acb9: main.zig:12:11: error: unused local constant (exit status 1)
+2024/03/13 13:06:55 ✓ lua_run_676f9bee: took 356 ms
+2024/03/13 13:07:22 ✗ lua_run_ef142ea9: lua: main.lua:15: syntax error near 'end' (exit status 1)
+2024/03/13 13:08:55 ✗ lua_run_4fee92f6: lua: main.lua:13: 'then' expected near '!' (exit status 1)
+2024/03/13 13:09:45 ✓ lua_run_09260a38: took 315 ms
+2024/03/13 13:10:46 ✓ python_run_6d16e79f: took 372 ms
+2024/03/13 13:11:01 ✗ zig_run_326dbe20: main.zig:20:27: error: expected parameter list, found ',' (exit status 1)
+2024/03/13 13:11:17 ✗ zig_run_39ae5865: main.zig:20:27: error: expected parameter list, found ';' (exit status 1)
+2024/03/13 13:11:53 ✗ zig_run_72f7f729: main.zig:21:19: error: expected type expression, found ',' (exit status 1)
+2024/03/13 13:12:05 ✗ zig_run_7a4a2c1e: main.zig:12:11: error: unused local constant (exit status 1)
+2024/03/13 13:12:38 ✓ zig_run_2373f963: took 3615 ms
+2024/03/13 13:13:12 ✗ zig_run_d8e97076: main.zig:9:5: error: expected 1 argument(s), found 0 main.zig:3:5: note: functio [truncated]
+2024/03/13 13:13:56 ✗ zig_run_5a93bc17: main.zig:12:11: error: unused local constant (exit status 1)
+2024/03/13 13:14:03 ✗ zig_run_d8b5af55: main.zig:13:9: error: struct 'main.Array(u8)' has no member named 'm_Data' main. [truncated]
+2024/03/13 13:14:32 ✗ zig_run_7f0a687f: main.zig:25:28: error: unable to resolve comptime value main.zig:25:28: note: ar [truncated]
+2024/03/13 13:14:41 ✓ shell_run_2c7ef604: took 360 ms
+2024/03/13 13:14:53 ✓ shell_run_1bd65471: took 414 ms
+2024/03/13 13:14:53 ✗ zig_run_3003e694: main.zig:25:27: error: expected type '[]u8', found 'type' (exit status 1)
+2024/03/13 13:15:12 ✓ shell_run_9248e888: took 344 ms
+2024/03/13 13:15:22 ✗ zig_run_1a2584c3: main.zig:1:21: error: expected expression, found 'invalid bytes' main.zig:1:23: [truncated]
+2024/03/13 13:15:29 ✓ shell_run_1a890b8f: took 433 ms
+2024/03/13 13:15:29 ✗ zig_run_cd23ad92: main.zig:1:21: error: expected expression, found 'invalid bytes' main.zig:1:23: [truncated]
+2024/03/13 13:15:39 ✓ shell_run_1caf4670: took 359 ms
+2024/03/13 13:15:49 ✗ zig_run_c9b4ae52: main.zig:25:36: error: expected 5 array elements; found 0 (exit status 1)
+2024/03/13 13:16:04 ✗ zig_run_30ee57b0: main.zig:10:11: error: expected expression, found 'invalid bytes' main.zig:10:13 [truncated]
+2024/03/13 13:16:07 ✓ shell_run_78b78d66: took 315 ms
+2024/03/13 13:16:19 ✓ zig_run_b6a7ef55: took 3601 ms
+2024/03/13 13:16:22 ✗ shell_run_09c29157: main.sh: line 5: unexpected EOF while looking for matching `"' (exit status 2)
+2024/03/13 13:16:39 ✓ shell_run_ef139d64: took 441 ms
+2024/03/13 13:16:41 ✓ zig_run_fd199c26: took 3815 ms
+2024/03/13 13:16:44 ✗ zig_run_83a18ccf: main.zig:25:37: error: expected 5 array elements; found 0 (exit status 1)
+2024/03/13 13:16:51 ✓ shell_run_aad5544f: took 338 ms
+2024/03/13 13:17:06 ✗ zig_run_12c71209: main.zig:25:36: error: expected 5 array elements; found 0 (exit status 1)
+2024/03/13 13:17:08 ✓ zig_run_e8f09812: took 4709 ms
+2024/03/13 13:17:14 ✗ zig_run_d4806025: main.zig:25:36: error: expected 5 array elements; found 1 (exit status 1)
+2024/03/13 13:17:22 ✗ zig_run_c4566653: main.zig:11:14: error: expected 2 argument(s), found 1 /usr/lib/zig/std/debug.zi [truncated]
+2024/03/13 13:17:26 ✗ zig_run_dfe33385: main.zig:25:27: error: type '[]u8' does not support array initialization syntax [truncated]
+2024/03/13 13:17:32 ✓ shell_run_4d5c1c06: took 353 ms
+2024/03/13 13:17:38 ✗ zig_run_bbfa13df: main.zig:25:37: error: array literal requires address-of operator (&) to coerce [truncated]
+2024/03/13 13:17:46 ✓ shell_run_81035622: took 330 ms
+2024/03/13 13:17:50 ✗ zig_run_fe00375b: main.zig:21:18: error: unable to infer array size (exit status 1)
+2024/03/13 13:18:01 ✗ zig_run_2ab9c9b6: main.zig:25:38: error: expected type '[]u8', found '*const [5]u8' main.zig:25:38 [truncated]
+2024/03/13 13:18:26 ✓ postgres_run_fb2ba754: took 388 ms
+2024/03/13 13:18:31 ✓ shell_run_8749663c: took 481 ms
+2024/03/13 13:18:32 ✗ zig_run_bf49b165: main.zig:25:33: error: type '[]u8' does not support array initialization syntax [truncated]
+2024/03/13 13:18:42 ✓ postgres_run_e851263d: took 440 ms
+2024/03/13 13:18:43 ✗ zig_run_b81469ae: main.zig:25:27: error: expected type '[]u8', found '*const type' main.zig:25:27: [truncated]
+2024/03/13 13:19:07 ✓ go.dev_run_0771dfff: took 2159 ms
+2024/03/13 13:20:16 ✓ postgres_run_50616bda: took 375 ms
+2024/03/13 13:20:35 ✓ postgres_run_e079dabc: took 366 ms
+2024/03/13 13:20:40 ✓ postgres_run_1e755770: took 364 ms
+2024/03/13 13:21:01 ✓ mysql_run_c060e194: took 2562 ms
+2024/03/13 13:21:10 ✓ sqlite_run_1b8a83ad: took 355 ms
+2024/03/13 13:21:27 ✗ sqlite_run_cd51a20f: Parse error near line 71: no such window: w (exit status 1)
+2024/03/13 13:21:38 ✓ net-tools_run_539b8318: took 526 ms
+2024/03/13 13:22:00 ✓ http_run_405e4286: took 9 ms
+2024/03/13 13:22:00 http_run_405e4286: POST http://127.0.0.1:4201/dump/request
+2024/03/13 13:22:20 ✓ http_run_53ac6c9e: took 1 ms
+2024/03/13 13:22:20 http_run_53ac6c9e: POST http://127.0.0.1:4201/dump/request
+2024/03/13 13:24:32 ✗ zig_run_178b013b: main.zig:25:31: error: no field named 'allocator' in struct 'heap.general_purpos [truncated]
+2024/03/13 13:25:55 ✗ zig_run_a9543dad: main.zig:25:42: error: member function expected 2 argument(s), found 1 /usr/lib/ [truncated]
+2024/03/13 13:26:13 ✗ zig_run_25b04af9: main.zig:25:48: error: expected type '[*]u8', found 'error{OutOfMemory}![]u8' (e [truncated]
+2024/03/13 13:26:30 ✗ zig_run_a4f00f3d: main.zig:25:27: error: expected type 'main.Array(u8)', found 'error{OutOfMemory} [truncated]
+2024/03/13 13:27:29 ✗ zig_run_00a24ff7: main.zig:13:16: error: error union type '@typeInfo(@typeInfo(@TypeOf(main.Array( [truncated]
+2024/03/13 13:27:44 ✗ zig_run_8c219980: main.zig:13:5: error: invalid left-hand side to assignment (exit status 1)
+2024/03/13 13:29:50 ✓ zig_run_0616d031: took 3753 ms
+2024/03/13 13:30:06 ✗ zig_run_32793fdc: code execution timeout
+2024/03/13 13:30:06 zig_run_32793fdc: docker kill failed: exit status 1
+2024/03/13 13:30:06 zig_run_32793fdc: execution timeout, killed process=3402056, err=<nil>
+2024/03/13 13:30:10 ✓ go_run_b6a70f26: took 1965 ms
+2024/03/13 13:30:18 ✓ zig_run_5f2150a6: took 3684 ms
+2024/03/13 13:31:09 ✓ zig_run_bdf4092f: took 3589 ms
+2024/03/13 13:31:59 ✓ zig_run_0cc35f2e: took 3437 ms
+2024/03/13 13:32:21 ✓ zig_run_6738d01b: took 3498 ms
+2024/03/13 13:42:24 ✗ zig_run_994d2666: main.zig:6:9: error: unused local variable main.zig:5:11: error: unused local co [truncated]
+2024/03/13 13:42:51 ✗ zig_run_1e038060: main.zig:6:9: error: variable of type 'comptime_int' must be const or comptime m [truncated]
+2024/03/13 13:43:22 ✗ zig_run_426b15e9: main.zig:7:21: error: expected type '[]const u8', found 'i32' /usr/lib/zig/std/d [truncated]
+2024/03/13 13:43:45 ✗ zig_run_60dcc6e6: main.zig:6:9: error: unused local variable main.zig:5:11: error: unused local co [truncated]
+2024/03/13 13:43:54 ✗ zig_run_52d82270: main.zig:8:5: error: cannot assign to constant (exit status 1)
+2024/03/13 13:44:06 ✓ zig_run_b9397231: took 3542 ms
+2024/03/13 13:45:19 ✗ zig_run_e3f1ec6b: main.zig:11:11: error: unused local constant (exit status 1)
+2024/03/13 13:46:14 ✓ zig_run_63b4ec67: took 3710 ms
+2024/03/13 13:46:53 ✗ zig_run_a1ef0e39: main.zig:15:13: error: expected expression, found '||' (exit status 1)
+2024/03/13 13:48:08 ✗ zig_run_9996aa46: main.zig:15:5: error: expected 1 argument(s), found 0 main.zig:37:1: note: funct [truncated]
+2024/03/13 13:48:23 ✗ zig_run_0a51cfa0: main.zig:34:41: error: incompatible types: 'void' and 'comptime_int' main.zig:34 [truncated]
+2024/03/13 13:48:59 ✓ zig_run_92acbb35: took 3818 ms
+2024/03/13 13:49:11 ✗ zig_run_ba0f3eb1: main.zig:34:41: error: value of type '?void' ignored main.zig:34:41: note: all n [truncated]
+2024/03/13 13:49:26 ✓ net-tools_run_5479af33: took 541 ms
+2024/03/13 13:49:30 ✓ zig_run_0902555d: took 3716 ms
+2024/03/13 13:49:39 ✓ postgres_run_3d6141cc: took 369 ms
+2024/03/13 13:50:06 ✓ python_run_0672d1cd: took 400 ms
+2024/03/13 13:50:42 ✓ sqlite_run_3573ccc7: took 348 ms
+2024/03/13 13:50:57 ✓ sqlite_run_085baa27: took 313 ms
+2024/03/13 13:51:04 ✓ sqlite_run_092a73cf: took 319 ms
+2024/03/13 13:51:49 ✓ sqlite_run_fa1f61ea: took 334 ms
+2024/03/13 13:52:22 ✓ sqlite_run_449e534d: took 318 ms
+2024/03/13 13:52:50 ✓ sqlite_run_b526d2ce: took 336 ms
+2024/03/13 13:53:03 ✗ zig_run_d0592857: main.zig:16:35: error: expected ',' after initializer (exit status 1)
+2024/03/13 13:53:08 ✗ sqlite_run_1cdde6d1: Parse error near line 81: near "FOREIGN": syntax error id INTEGER NOT NULL, [truncated]
+2024/03/13 13:53:39 ✗ zig_run_6db4fbc9: /usr/lib/zig/std/os/linux.zig:619:67: error: unable to evaluate comptime express [truncated]
+2024/03/13 13:54:02 ✗ zig_run_abd2343e: /usr/lib/zig/std/fmt.zig:459:5: error: invalid format string 'd' for type '*cons [truncated]
+2024/03/13 13:54:13 ✓ zig_run_b30420c5: took 3693 ms
+2024/03/13 13:56:36 ✗ zig_run_a25fa698: main.zig:10:31: error: expected type '[]const u8', found 'u8' /usr/lib/zig/std/i [truncated]
+2024/03/13 13:57:32 ✗ python_run_571abd6b: Traceback (most recent call last): File "/sandbox/main.py", line 2, in <module [truncated]
+2024/03/13 13:57:43 ✗ python_run_6c49081d: Traceback (most recent call last): File "/sandbox/main.py", line 2, in <module [truncated]
+2024/03/13 13:58:11 ✗ python_run_4fae44e5: Traceback (most recent call last): File "/sandbox/main.py", line 23, in <modul [truncated]
+2024/03/13 13:58:20 ✗ python_run_05a71768: Traceback (most recent call last): File "/sandbox/main.py", line 23, in <modul [truncated]
+2024/03/13 13:58:31 ✗ zig_run_39ce25b5: /usr/lib/zig/std/fmt.zig:87:9: error: expected tuple or struct argument, found u [truncated]
+2024/03/13 13:58:43 ✗ python_run_fcec2623: Traceback (most recent call last): File "/sandbox/main.py", line 23, in <modul [truncated]
+2024/03/13 13:58:49 ✓ zig_run_1e658923: took 3840 ms
+2024/03/13 13:58:50 ✗ python_run_254028c1: Traceback (most recent call last): File "/sandbox/main.py", line 23, in <modul [truncated]
+2024/03/13 13:59:30 ✗ zig_run_8d135074: main.zig:10:19: error: type 'u8' cannot represent integer value '666' (exit stat [truncated]
+2024/03/13 13:59:36 ✗ zig_test_41c786c5: main.zig:11:11: error: unused local constant main.zig:21:9: error: use of undecl [truncated]
+2024/03/13 13:59:43 ✗ python_run_2c90a36f: Traceback (most recent call last): File "/sandbox/main.py", line 23, in <modul [truncated]
+2024/03/13 13:59:44 ✗ zig_run_eb2e7e53: main.zig:20:9: error: use of undeclared identifier 'expect' (exit status 1)
+2024/03/13 13:59:46 ✓ zig_run_c00812df: took 4456 ms
+2024/03/13 13:59:51 ✗ zig_test_6309b6d6: main.zig:20:9: error: use of undeclared identifier 'expect' (exit status 1)
+2024/03/13 13:59:57 ✗ python_run_7d5b2969: Traceback (most recent call last): File "/sandbox/main.py", line 22, in <modul [truncated]
+2024/03/13 14:00:10 ✗ python_run_bd5612bd: Traceback (most recent call last): File "/sandbox/main.py", line 22, in <modul [truncated]
+2024/03/13 14:00:21 ✓ zig_run_e6754cd6: took 3421 ms
+2024/03/13 14:00:26 ✓ python_run_375a4b75: took 501 ms
+2024/03/13 14:00:27 ✓ zig_test_6caf5bd7: took 4303 ms
+2024/03/13 14:00:40 ✗ python_run_8f2efe31: Traceback (most recent call last): File "/sandbox/main.py", line 2, in <module [truncated]
+2024/03/13 14:00:48 ✗ python_run_05e303e5: Traceback (most recent call last): File "/sandbox/main.py", line 24, in <modul [truncated]
+2024/03/13 14:01:52 ✗ zig_test_897458e1: /usr/lib/zig/std/fmt.zig:202:18: error: unused argument in 'd' (exit status 1)
+2024/03/13 14:02:06 ✓ zig_test_7dd05070: took 4168 ms
+2024/03/13 14:02:27 ✗ python_run_dac855a5: Traceback (most recent call last): File "/sandbox/main.py", line 24, in <modul [truncated]
+2024/03/13 14:02:51 ✗ python_run_2794f890: Traceback (most recent call last): File "/sandbox/main.py", line 24, in <modul [truncated]
+2024/03/13 14:03:06 ✓ sqlite_run_0b5ec2d9: took 353 ms
+2024/03/13 14:03:11 ✗ zig_test_bcec2f16: 1/1 test.while... 410224694190FAIL (TestUnexpectedResult) /usr/lib/zig/std/testi [truncated]
+2024/03/13 14:03:39 ✗ zig_test_812591be: 1/1 test.while... 4 10 22 46 94 190FAIL (TestUnexpectedResult) /usr/lib/z [truncated]
+2024/03/13 14:06:30 ✓ zig_run_bdd2fefe: took 3663 ms
+2024/03/13 14:06:40 ✗ zig_run_0fb7bd93: thread 1 panic: index out of bounds: index 0, len 0 /sandbox/src/main.zig:10:13: [truncated]
+2024/03/13 14:06:57 ✓ zig_run_74080373: took 3918 ms
+2024/03/13 14:07:12 ✗ zig_test_6342dfea: main.zig:17:5: error: variables must be initialized (exit status 1)
+2024/03/13 14:07:27 ✓ zig_run_09c18ad9: took 3541 ms
+2024/03/13 14:07:33 ✗ zig_test_a7d4dd68: main.zig:17:9: error: variable of type 'comptime_int' must be const or comptime [truncated]
+2024/03/13 14:07:57 ✗ zig_test_d75ad08e: code execution timeout
+2024/03/13 14:07:57 zig_test_d75ad08e: docker kill ok
+2024/03/13 14:07:57 zig_test_d75ad08e: execution timeout, killed process=3420511, err=<nil>
+2024/03/13 14:08:14 ✓ zig_run_6edc952c: took 3589 ms
+2024/03/13 14:12:08 ✓ zig_run_36c3b073: took 3400 ms
+2024/03/13 14:12:39 ✗ zig_run_a086a2f0: /usr/lib/zig/std/fmt.zig:202:18: error: unused argument in 'd' (exit status 1)
+2024/03/13 14:12:53 ✓ zig_run_dddd865d: took 3539 ms
+2024/03/13 14:14:50 ✓ zig_run_762c1b6e: took 3589 ms
+2024/03/13 14:15:16 ✓ zig_run_d9d1fbda: took 3721 ms
+2024/03/13 14:15:36 ✓ zig_run_eb031d34: took 3619 ms
+2024/03/13 14:15:41 ✓ go_run_68846a29: took 1738 ms
+2024/03/13 14:17:00 ✗ zig_run_e0b40eed: main.zig:11:55: error: error union type 'error{OutOfMemory}!array_list.ArrayList [truncated]
+2024/03/13 14:17:46 ✗ zig_run_642b2a8b: main.zig:9:15: error: expected 2 argument(s), found 3 /usr/lib/zig/std/debug.zig [truncated]
+2024/03/13 14:17:49 ✓ zig_run_3d4c87f0: took 3986 ms
+2024/03/13 14:17:59 ✓ zig_run_f8c1e632: took 4008 ms
+2024/03/13 14:18:16 ✗ zig_run_57809f66: main.zig:9:39: error: expected ',' after initializer (exit status 1)
+2024/03/13 14:18:26 ✓ zig_run_e37a9da4: took 3524 ms
+2024/03/13 14:18:44 ✓ zig_run_79dc31f8: took 3527 ms
+2024/03/13 14:18:49 ✓ zig_run_c2c3e1b5: took 3775 ms
+2024/03/13 14:18:59 ✓ zig_run_8c8312b3: took 3525 ms
+2024/03/13 14:19:07 ✓ zig_run_91b7b42e: took 4303 ms
+2024/03/13 14:19:07 ✗ zig_run_7884dadf: code execution timeout
+2024/03/13 14:19:07 zig_run_7884dadf: docker kill ok
+2024/03/13 14:19:07 zig_run_7884dadf: execution timeout, killed process=3425860, err=<nil>
+2024/03/13 14:19:22 ✓ zig_run_ec540996: took 3806 ms
+2024/03/13 14:19:55 ✗ zig_run_1ee5ce3e: Arraylist capacity: 8thread 1 panic: index out of bounds: index 0, len 0 /sandbo [truncated]
+2024/03/13 14:20:20 ✓ zig_run_aeb62e44: took 3849 ms
+2024/03/13 14:20:30 ✓ zig_run_b39b0a44: took 3829 ms
+2024/03/13 14:20:43 ✗ zig_run_a0175f29: main.zig:7:10: error: for input is not captured (exit status 1)
+2024/03/13 14:20:55 ✗ zig_run_4d1fdf4e: main.zig:7:10: error: for input is not captured (exit status 1)
+2024/03/13 14:21:02 ✓ python_run_ec4b4e0a: took 594 ms
+2024/03/13 14:21:16 ✗ zig_run_7fded069: main.zig:8:22: error: expected expression, found 'invalid bytes' main.zig:8:24: [truncated]
+2024/03/13 14:21:18 ✓ python_run_b7026bc9: took 363 ms
+2024/03/13 14:21:54 ✓ python_run_120e2e3b: took 342 ms
+2024/03/13 14:21:59 ✗ python_run_54348de3: Traceback (most recent call last): File "/sandbox/main.py", line 13, in <modul [truncated]
+2024/03/13 14:21:59 ✗ zig_run_06c07029: main.zig:8:22: error: expected expression, found 'invalid bytes' main.zig:8:24: [truncated]
+2024/03/13 14:22:06 ✗ zig_run_1541a84b: main.zig:8:22: error: expected expression, found 'invalid bytes' main.zig:8:24: [truncated]
+2024/03/13 14:22:39 ✓ zig_run_4d8f4fce: took 3635 ms
+2024/03/13 14:23:04 ✓ zig_run_1771f67a: took 4395 ms
+2024/03/13 14:23:31 ✗ zig_run_8c6f0700: main.zig:7:9: error: expected loop payload, found '{' (exit status 1)
+2024/03/13 14:23:40 ✗ zig_run_da7e40ad: main.zig:7:9: error: expected loop payload, found '{' (exit status 1)
+2024/03/13 14:23:50 ✗ zig_run_91864a9c: main.zig:7:9: error: expected loop payload, found '||' (exit status 1)
+2024/03/13 14:23:56 ✓ zig_run_31bbffe1: took 3529 ms
+2024/03/13 14:24:02 ✗ zig_run_bcce3d07: main.zig:8:15: error: expected 2 argument(s), found 1 /usr/lib/zig/std/debug.zig [truncated]
+2024/03/13 14:24:19 ✗ zig_run_c8e30584: /usr/lib/zig/std/fmt.zig:459:5: error: invalid format string 'c' for type '*cons [truncated]
+2024/03/13 14:24:32 ✗ zig_run_55bd4ba9: /usr/lib/zig/std/fmt.zig:459:5: error: invalid format string 'c' for type '*cons [truncated]
+2024/03/13 14:24:42 ✓ zig_run_ac94a9a9: took 3638 ms
+2024/03/13 14:25:17 ✗ zig_run_e6955a08: main.zig:7:19: error: expected return type expression, found '{' (exit status 1)
+2024/03/13 14:26:18 ✓ mssql_run_f8d4fb22: took 1485 ms
+2024/03/13 14:26:28 ✓ mssql_run_e867ca44: took 1208 ms
+2024/03/13 14:26:36 ✓ mssql_run_458e109d: took 1177 ms
+2024/03/13 14:26:55 ✓ mssql_run_7671ab72: took 1144 ms
+2024/03/13 14:27:07 ✓ mssql_run_f70c437f: took 1171 ms
+2024/03/13 14:27:31 ✓ mssql_run_185ac060: took 1091 ms
+2024/03/13 14:28:13 ✓ mssql_run_94fe9a48: took 1146 ms
+2024/03/13 14:28:40 ✓ mssql_run_731134ad: took 1198 ms
+2024/03/13 14:28:42 ✗ odin_run_f9467a47: /sandbox/main.odin(13:1) Syntax Error: Missing variable type or initialization ( [truncated]
+2024/03/13 14:28:48 ✓ mssql_run_8445d7a1: took 1138 ms
+2024/03/13 14:28:51 ✗ odin_run_a44866dd: /sandbox/main.odin(11:9) Syntax Error: Expected ';', got identifier /sandbox/mai [truncated]
+2024/03/13 14:28:52 ✓ mssql_run_0826c9db: took 1251 ms
+2024/03/13 14:28:59 ✗ odin_run_5c2281f9: /sandbox/main.odin(11:9) Syntax Error: Expected ';', got identifier (exit status [truncated]
+2024/03/13 14:29:00 ✓ mssql_run_a0da86dd: took 1176 ms
+2024/03/13 14:29:31 ✓ mssql_run_de6c9178: took 1175 ms
+2024/03/13 14:29:44 ✓ mssql_run_76513d3a: took 1126 ms
+2024/03/13 14:30:19 ✓ mssql_run_0f8b4e40: took 1129 ms
+2024/03/13 14:30:25 ✓ mssql_run_27b80d9b: took 1200 ms
+2024/03/13 14:30:33 ✓ mssql_run_44c0355d: took 1242 ms
+2024/03/13 14:30:49 ✓ sqlglot_run_4dfaadb0: took 750 ms
+2024/03/13 14:31:05 ✗ sqlglot_run_534aa297: Traceback (most recent call last): File "/usr/lib/python3.11/site-packages/sql [truncated]
+2024/03/13 14:31:52 ✗ sqlglot_run_64745c50: Traceback (most recent call last): File "/usr/lib/python3.11/site-packages/sql [truncated]
+2024/03/13 14:32:10 ✗ sqlglot_run_bfee266c: File "/sandbox/main.py", line 22 """ ^ SyntaxError: unterminated triple- [truncated]
+2024/03/13 14:32:18 ✓ sqlglot_run_4649faec: took 519 ms
+2024/03/13 14:33:12 ✗ sqlglot_run_aef76af3: Traceback (most recent call last): File "/usr/lib/python3.11/site-packages/sql [truncated]
+2024/03/13 14:34:35 ✗ sqlglot_run_17e6a68e: Traceback (most recent call last): File "/usr/lib/python3.11/site-packages/sql [truncated]
+2024/03/13 14:34:41 ✓ sqlglot_run_04746b4e: took 549 ms
+2024/03/13 14:34:46 ✗ sqlglot_run_7c493adb: Traceback (most recent call last): File "/sandbox/main.py", line 21, in <modul [truncated]
+2024/03/13 14:35:06 ✓ zig_run_6a13f6c9: took 4630 ms
+2024/03/13 14:36:20 ✗ zig_test_cec3527e: main.zig:48:39: error: unable to resolve comptime value main.zig:48:39: note: ar [truncated]
+2024/03/13 14:36:34 ✓ zig_test_125c008c: took 4385 ms
+2024/03/13 14:38:46 ✗ zig_test_dcdf89bf: main.zig:30:17: error: expected field initializer (exit status 1)
+2024/03/13 14:43:19 ✓ zig_test_83997f8c: took 4085 ms
+2024/03/13 14:43:28 ✓ mssql_run_72b90521: took 1344 ms
+2024/03/13 14:43:48 ✓ mssql_run_94319963: took 1319 ms
+2024/03/13 14:43:58 ✓ mssql_run_58cabffc: took 1333 ms
+2024/03/13 14:44:11 ✓ mssql_run_33e34fce: took 1364 ms
+2024/03/13 14:44:18 ✓ mssql_run_6a46597e: took 1093 ms
+2024/03/13 14:44:46 ✓ mssql_run_42952190: took 1119 ms
+2024/03/13 14:44:50 ✓ mssql_run_9b3c9514: took 1163 ms
+2024/03/13 14:45:15 ✓ mssql_run_b86ae593: took 1132 ms
+2024/03/13 14:45:30 ✓ mssql_run_9414cd71: took 1168 ms
+2024/03/13 14:45:39 ✓ mssql_run_735a3b22: took 1100 ms
+2024/03/13 14:45:56 ✓ mssql_run_2fcf1c9f: took 1303 ms
+2024/03/13 14:49:36 ✓ http_run_629a5ccf: took 1 ms
+2024/03/13 14:49:36 http_run_629a5ccf: POST http://127.0.0.1:4201/dump/request
+2024/03/13 14:52:47 ✓ mssql_run_863b1f0e: took 1186 ms
+2024/03/13 14:52:57 ✓ mssql_run_a599a428: took 1107 ms
+2024/03/13 14:53:06 ✓ python_run_7df6678f: took 393 ms
+2024/03/13 14:53:32 ✓ mssql_run_6f5026e2: took 1175 ms
+2024/03/13 14:53:55 ✓ mssql_run_3072273b: took 1163 ms
+2024/03/13 14:55:04 ✓ mssql_run_92e1ab8c: took 1825 ms
+2024/03/13 14:55:20 ✓ mssql_run_44f0713b: took 1239 ms
+2024/03/13 14:55:35 ✓ mssql_run_70b337f1: took 1222 ms
+2024/03/13 14:55:46 ✓ mssql_run_bc812fa8: took 1130 ms
+2024/03/13 14:56:09 ✓ mssql_run_fce85001: took 1344 ms
+2024/03/13 14:58:25 ✓ zig_run_aa9071ac: took 4022 ms
+2024/03/13 14:58:50 ✓ zig_run_ce94a627: took 4024 ms
+2024/03/13 14:59:04 ✗ python_run_998a2599: Traceback (most recent call last): File "/sandbox/main.py", line 13, in <modul [truncated]
+2024/03/13 14:59:07 ✗ python_run_3dab5828: Traceback (most recent call last): File "/sandbox/main.py", line 13, in <modul [truncated]
+2024/03/13 14:59:07 ✗ zig_run_5bb1b622: code execution timeout
+2024/03/13 14:59:07 zig_run_5bb1b622: docker kill ok
+2024/03/13 14:59:07 zig_run_5bb1b622: execution timeout, killed process=3448961, err=<nil>
+2024/03/13 14:59:17 ✗ zig_run_4b412f4f: code execution timeout
+2024/03/13 14:59:17 zig_run_4b412f4f: docker kill ok
+2024/03/13 14:59:17 zig_run_4b412f4f: execution timeout, killed process=3449347, err=<nil>
+2024/03/13 14:59:30 ✗ zig_run_1abbf7cf: code execution timeout
+2024/03/13 14:59:30 zig_run_1abbf7cf: docker kill ok
+2024/03/13 14:59:30 zig_run_1abbf7cf: execution timeout, killed process=3449445, err=<nil>
+2024/03/13 15:00:01 ✗ zig_run_7aa146d3: code execution timeout
+2024/03/13 15:00:01 zig_run_7aa146d3: docker kill ok
+2024/03/13 15:00:01 zig_run_7aa146d3: execution timeout, killed process=3449543, err=<nil>
+2024/03/13 15:00:16 ✗ zig_run_15c8b801: code execution timeout
+2024/03/13 15:00:16 zig_run_15c8b801: docker kill ok
+2024/03/13 15:00:16 zig_run_15c8b801: execution timeout, killed process=3450183, err=<nil>
+2024/03/13 15:00:29 ✗ zig_run_67784459: code execution timeout
+2024/03/13 15:00:29 zig_run_67784459: docker kill ok
+2024/03/13 15:00:29 zig_run_67784459: execution timeout, killed process=3450277, err=<nil>
+2024/03/13 15:00:46 ✗ zig_run_bce9c2d9: code execution timeout
+2024/03/13 15:00:46 zig_run_bce9c2d9: docker kill ok
+2024/03/13 15:00:46 zig_run_bce9c2d9: execution timeout, killed process=3450372, err=<nil>
+2024/03/13 15:01:05 ✗ zig_run_41cd6248: code execution timeout
+2024/03/13 15:01:05 zig_run_41cd6248: docker kill ok
+2024/03/13 15:01:05 zig_run_41cd6248: execution timeout, killed process=3450466, err=<nil>
+2024/03/13 15:01:15 ✗ zig_test_1240c4f2: code execution timeout
+2024/03/13 15:01:15 zig_test_1240c4f2: docker kill ok
+2024/03/13 15:01:15 zig_test_1240c4f2: execution timeout, killed process=3450811, err=<nil>
+2024/03/13 15:01:44 ✗ zig_run_e53c0029: code execution timeout
+2024/03/13 15:01:44 zig_run_e53c0029: docker kill ok
+2024/03/13 15:01:44 zig_run_e53c0029: execution timeout, killed process=3450911, err=<nil>
+2024/03/13 15:06:55 ✓ zig_test_b18f2ba7: took 4293 ms
+2024/03/13 15:07:14 ✓ go_run_820ae170: took 2286 ms
+2024/03/13 15:07:15 ✓ zig_run_75b31e05: took 4801 ms
+2024/03/13 15:07:24 ✗ http_run_5a77a770: host not allowed: news.ycombinator.com
+2024/03/13 15:07:34 ✗ http_run_c2b7f589: host not allowed: news.ycombinator.com
+2024/03/13 15:07:43 ✗ http_run_57e250e4: host not allowed: www.ycombinator.com
+2024/03/13 15:07:46 ✓ zig_run_01fb0243: took 4064 ms
+2024/03/13 15:07:48 ✗ http_run_5053bc12: host not allowed: www.ycombinator.com
+2024/03/13 15:07:57 ✗ zig_run_b8568a77: code execution timeout
+2024/03/13 15:07:57 zig_run_b8568a77: execution timeout, killed process=3453643, err=<nil>
+2024/03/13 15:07:58 zig_run_b8568a77: docker kill ok
+2024/03/13 15:07:59 ✓ go_run_11e640cf: took 3079 ms
+2024/03/13 15:08:10 ✓ zig_run_2ad613c8: took 4030 ms
+2024/03/13 15:08:35 ✓ zig_run_9e9e59e7: took 4021 ms
+2024/03/13 15:08:43 ✓ zig_run_92349cce: took 3899 ms
+2024/03/13 15:11:26 ✓ python_run_5d1aa7ac: took 437 ms
+2024/03/13 15:12:55 ✓ shell_run_1db1e533: took 346 ms
+2024/03/13 15:13:53 ✓ mssql_run_10f591ff: took 1369 ms
+2024/03/13 15:14:10 ✓ mssql_run_c3214383: took 1175 ms
+2024/03/13 15:14:11 ✓ python_run_1a1ac4c1: took 380 ms
+2024/03/13 15:14:19 ✓ python_run_e843070b: took 367 ms
+2024/03/13 15:14:59 ✓ python_run_5539142e: took 350 ms
+2024/03/13 15:17:42 ✗ go.dev_run_e8ac83d1: panic: runtime error: slice bounds out of range [4:3] goroutine 1 [running]: sl [truncated]
+2024/03/13 15:21:17 ✓ mssql_run_8b162352: took 1359 ms
+2024/03/13 15:30:13 ✓ mssql_run_3c12d526: took 1138 ms
+2024/03/13 15:38:29 ✗ python_run_9465232d: File "/sandbox/main.py", line 3 else: ^ IndentationError: unindent [truncated]
+2024/03/13 15:38:59 ✓ python_run_c22a2824: took 345 ms
+2024/03/13 15:39:09 ✓ python_run_eaa8c50a: took 427 ms
+2024/03/13 15:39:15 ✗ python_run_97997418: Traceback (most recent call last): File "/sandbox/main.py", line 2, in <module [truncated]
+2024/03/13 15:39:26 ✓ chdb_run_0e22b9fb: took 1574 ms
+2024/03/13 15:39:27 ✗ python_run_5b42b6c1: Traceback (most recent call last): File "/sandbox/main.py", line 2, in <module [truncated]
+2024/03/13 15:39:54 ✓ python_run_fcd3a03b: took 366 ms
+2024/03/13 15:55:39 ✓ postgres_run_7e1e80f1: took 412 ms
+2024/03/13 16:01:47 ✓ http_run_d08e03d6: took 1 ms
+2024/03/13 16:01:47 http_run_d08e03d6: POST http://127.0.0.1:4201/dump/request
+2024/03/13 16:08:49 ✓ shell_run_b55aebf8: took 334 ms
+2024/03/13 16:10:42 ✓ sqlite_run_be4c3b17: took 351 ms
+2024/03/13 16:11:22 ✓ sqlite_run_ce871967: took 318 ms
+2024/03/13 16:18:23 ✗ shell_run_097a87c9: main.sh: line 1: lscpu: command not found (exit status 127)
+2024/03/13 16:18:35 ✓ shell_run_b7d077b4: took 357 ms
+2024/03/13 16:18:43 ✗ shell_run_e92fd9bf: code execution timeout
+2024/03/13 16:18:43 shell_run_e92fd9bf: execution timeout, killed process=3480422, err=<nil>
+2024/03/13 16:18:44 shell_run_e92fd9bf: docker kill ok
+2024/03/13 16:19:34 ✗ shell_run_d4471382: fatal: could not create work tree dir 'xmrig-6.21.1-linux-x64.tar.gz': Read-only [truncated]
+2024/03/13 16:19:53 ✗ shell_run_a15d9ddf: fatal: could not create work tree dir 'xmrig-6.21.1-linux-x64.tar.gz': Read-only [truncated]
+2024/03/13 16:23:09 ✓ go_run_b14e10fd: took 1834 ms
+2024/03/13 16:35:23 ✓ php_run_2fb5a0c3: took 386 ms
+2024/03/13 16:52:52 ✓ zig_test_5e95c42f: took 4716 ms
+2024/03/13 16:54:27 ✗ zig_run_2a1781eb: main.zig:8:53: error: use of undeclared identifier 'al' (exit status 1)
+2024/03/13 16:54:40 ✓ zig_run_223fef0a: took 3694 ms
+2024/03/13 16:59:23 ✓ zig_run_3861dee9: took 3746 ms
+2024/03/13 17:00:36 ✗ mysql_run_8ea9f5f8: ERROR 1064 (42000) at line 71: You have an error in your SQL syntax; check the m [truncated]
+2024/03/13 17:00:51 ✗ mysql_run_3f9b81f6: ERROR 1064 (42000) at line 71: You have an error in your SQL syntax; check the m [truncated]
+2024/03/13 17:01:54 ✓ go.dev_run_41e45212: took 1975 ms
+2024/03/13 17:02:20 ✓ zig_run_6e626f9d: took 3736 ms
+2024/03/13 17:02:51 ✓ go_run_d951c564: took 2006 ms
+2024/03/13 17:05:42 ✗ zig_run_d9e70359: main.zig:30:13: error: use of undeclared identifier 'NameError' (exit status 1)
+2024/03/13 17:06:02 ✗ zig_run_d329f966: main.zig:30:39: error: unused capture (exit status 1)
+2024/03/13 17:06:10 ✗ zig_run_08befe11: main.zig:17:37: error: expected error set type, found 'main.PersonError' (exit s [truncated]
+2024/03/13 17:06:43 ✗ zig_run_33cbbd67: main.zig:17:37: error: expected error set type, found 'main.PersonError' (exit s [truncated]
+2024/03/13 17:07:39 ✗ zig_run_0eb4993c: main.zig:11:26: error: expected '.', found '(' (exit status 1)
+2024/03/13 17:08:02 ✗ zig_run_ed8e3265: main.zig:17:37: error: expected error set type, found 'main.PersonError' (exit s [truncated]
+2024/03/13 17:08:16 ✗ python_run_7d57c1b2: A1Traceback (most recent call last): File "/sandbox/main.py", line 8, in <modu [truncated]
+2024/03/13 17:08:19 ✗ zig_run_2afa85ff: main.zig:12:14: error: expected '}', found ':' (exit status 1)
+2024/03/13 17:08:25 ✗ python_run_bd6520d8: A1Traceback (most recent call last): File "/sandbox/main.py", line 8, in <modu [truncated]
+2024/03/13 17:08:42 ✓ python_run_25469659: took 435 ms
+2024/03/13 17:08:43 ✗ zig_run_aaafe021: main.zig:12:14: error: expected '}', found ':' (exit status 1)
+2024/03/13 17:09:05 ✗ zig_run_4ec8fd87: main.zig:11:26: error: expected '.', found '(' (exit status 1)
+2024/03/13 17:09:41 ✓ python_run_83d285cb: took 345 ms
+2024/03/13 17:09:47 ✓ postgres_run_7c943535: took 368 ms
+2024/03/13 17:09:51 ✓ postgres_run_13dd81bc: took 360 ms
+2024/03/13 17:10:39 ✗ python_run_085bff8b: File "/sandbox/main.py", line 5 __init__(self): ^ SyntaxEr [truncated]
+2024/03/13 17:10:58 ✗ python_run_add9363d: A1Traceback (most recent call last): File "/sandbox/main.py", line 12, in <mod [truncated]
+2024/03/13 17:11:25 ✗ python_run_33a43f6f: A1Traceback (most recent call last): File "/sandbox/main.py", line 12, in <mod [truncated]
+2024/03/13 17:11:39 ✗ python_run_5b418476: A1 A3 a1 a2Traceback (most recent call last): File "/sandbox/main.py", line 15 [truncated]
+2024/03/13 17:11:57 ✓ python_run_7ce892d3: took 334 ms
+2024/03/13 17:12:02 ✓ http_run_ee6f15bb: took 1 ms
+2024/03/13 17:12:02 http_run_ee6f15bb: POST http://127.0.0.1:4201/dump/request
+2024/03/13 17:16:19 ✗ zig_run_23291664: main.zig:18:38: error: expected return type expression, found '{' (exit status 1 [truncated]
+2024/03/13 17:16:43 ✗ zig_run_2fcc3329: main.zig:30:38: error: expected expression or assignment, found '||' (exit statu [truncated]
+2024/03/13 17:17:11 ✗ zig_run_b4eafa6e: main.zig:33:6: error: expected 'EOF', found '}' (exit status 1)
+2024/03/13 17:18:17 ✗ zig_run_0ae17787: main.zig:20:33: error: use of undeclared identifier 'PersonError' main.zig:29:13 [truncated]
+2024/03/13 17:18:36 ✓ shell_run_36c9fe49: took 381 ms
+2024/03/13 17:18:58 ✓ shell_run_5e134bc1: took 338 ms
+2024/03/13 17:19:08 ✗ zig_run_a33c8859: main.zig:20:33: error: use of undeclared identifier 'NameError' main.zig:30:13: [truncated]
+2024/03/13 17:19:38 ✗ zig_run_229daff8: main.zig:12:9: error: no field named 'Ok' in enum 'main.PersonErrors' main.zig:6 [truncated]
+2024/03/13 17:20:00 ✗ zig_run_d3f5ac7a: main.zig:31:30: error: union 'main.ValidationResult' has no member named 'Person [truncated]
+2024/03/13 17:27:14 ✓ mssql_run_b44b820c: took 1424 ms
+2024/03/13 17:27:51 ✓ mssql_run_b7bdbcf4: took 1239 ms
+2024/03/13 17:28:11 ✓ mssql_run_94779aaa: took 1226 ms
+2024/03/13 17:30:02 ✓ shell_run_d271c799: took 660 ms
+2024/03/13 17:30:07 ✓ mssql_run_3f369604: took 1262 ms
+2024/03/13 17:30:43 ✓ mssql_run_c4139118: took 1207 ms
+2024/03/13 17:31:09 ✓ mssql_run_0a7f69fa: took 1464 ms
+2024/03/13 17:31:13 ✓ mssql_run_11a3bb63: took 1222 ms
+2024/03/13 17:31:28 ✓ mssql_run_5ea3ae25: took 1214 ms
+2024/03/13 17:31:49 ✓ mssql_run_e001dda0: took 1275 ms
+2024/03/13 17:32:04 ✗ cpp_run_a45394e6: main.cpp: In function 'int main()': main.cpp:6:8: error: no match for 'operator< [truncated]
+2024/03/13 17:33:27 ✗ cpp_run_1e4dafa4: main.cpp: In function 'int main()': main.cpp:6:8: error: no match for 'operator< [truncated]
+2024/03/13 17:36:11 ✗ cpp_run_34db8ee3: main.cpp: In function 'int main()': main.cpp:8:8: error: no match for 'operator< [truncated]
+2024/03/13 17:36:51 ✓ go_run_6daa6187: took 1712 ms
+2024/03/13 17:37:09 ✓ sqlite_run_61261607: took 361 ms
+2024/03/13 17:37:22 ✗ zig_run_fb86595d: main.zig:21:16: error: type 'main.ValidationResult' does not support array initi [truncated]
+2024/03/13 17:37:53 ✓ zig_run_1163b0be: took 3745 ms
+2024/03/13 17:38:34 ✗ zig_run_e18e4a37: main.zig:27:25: error: expected ';' after declaration (exit status 1)
+2024/03/13 17:38:42 ✓ zig_run_11804047: took 3553 ms
+2024/03/13 17:38:51 ✓ zig_run_b70d3efc: took 3464 ms
+2024/03/13 17:39:07 ✗ zig_run_3217bdc5: thread 1 panic: reached unreachable code /sandbox/src/main.zig:33:42: 0x21e689 i [truncated]
+2024/03/13 17:39:19 ✗ zig_run_11785998: main.zig:30:9: error: switch must handle all possibilities main.zig:9:5: note: u [truncated]
+2024/03/13 17:40:07 ✓ zig_run_fec10436: took 3927 ms
+2024/03/13 17:42:10 ✗ zig_test_8fa4da61: main.zig:39:33: error: use of undeclared identifier 'orig' (exit status 1)
+2024/03/13 17:42:24 ✗ zig_test_e2c258fc: main.zig:40:20: error: root struct of file 'testing' has no member named 'expect [truncated]
+2024/03/13 17:42:41 ✓ zig_test_214c9d6c: took 3897 ms
+2024/03/13 17:43:41 ✓ zig_test_0b334254: took 4158 ms
+2024/03/13 17:49:06 ✓ caddy_run_ecacce20: took 711 ms
+2024/03/13 17:49:09 ✓ caddy_run_a1ab3f21: took 420 ms
+2024/03/13 17:49:13 ✓ caddy_exec_9e60a710: took 713 ms
+2024/03/13 17:49:17 ✓ caddy_exec_f558144d: took 709 ms
+2024/03/13 17:49:21 ✓ caddy_exec_b448a733: took 664 ms
+2024/03/13 17:49:24 ✓ caddy_exec_64741155: took 918 ms
+2024/03/13 17:53:47 ✓ sqlite_run_259fb0f5: took 381 ms
+2024/03/13 17:57:27 ✗ python_run_9f800e07: Traceback (most recent call last): File "/sandbox/main.py", line 17, in <modul [truncated]
+2024/03/13 17:57:42 ✓ python_run_52a5a55d: took 366 ms
+2024/03/13 17:58:24 ✓ python_run_e9d52e9e: took 348 ms
+2024/03/13 17:58:45 ✓ python_run_dc8671aa: took 340 ms
+2024/03/13 18:00:02 ✓ go_run_45a2d5ab: took 2349 ms
+2024/03/13 18:01:24 ✓ python_run_fc3736ae: took 347 ms
+2024/03/13 18:06:01 ✓ python_run_98cd9c3a: took 514 ms
+2024/03/13 18:06:10 ✓ python_run_190e3987: took 346 ms
+2024/03/13 18:06:15 ✓ python_run_17c86d45: took 339 ms
+2024/03/13 18:09:45 ✓ r_run_c20bd1a2: took 1684 ms
+2024/03/13 18:10:00 ✓ r_run_d89a85f0: took 1182 ms
+2024/03/13 18:10:10 ✓ r_run_b5834a79: took 1252 ms
+2024/03/13 18:10:41 ✓ r_run_4f771f67: took 1376 ms
+2024/03/13 18:11:03 ✓ python_run_8f96a5d2: took 369 ms
+2024/03/13 18:11:10 ✓ r_run_d8aa1fec: took 651 ms
+2024/03/13 18:11:12 ✓ python_run_40d7c43a: took 341 ms
+2024/03/13 18:11:19 ✓ python_run_38a69c1c: took 328 ms
+2024/03/13 18:14:59 ✗ python_run_d3072fbe: Traceback (most recent call last): File "/sandbox/main.py", line 21, in <modul [truncated]
+2024/03/13 18:26:12 ✓ chdb-python_run_2965bff5: took 2786 ms
+2024/03/13 18:27:35 ✗ python_run_e3dd6005: File "/sandbox/main.py", line 25 // Person.my_function() ^^ SyntaxError: [truncated]
+2024/03/13 18:27:42 ✓ python_run_cb462101: took 340 ms
+2024/03/13 18:28:29 ✗ python_run_6d46e0f5: 3 0 0Traceback (most recent call last): File "/sandbox/main.py", line 29, in < [truncated]
+2024/03/13 18:28:36 ✓ http_run_43906c3f: took 1 ms
+2024/03/13 18:28:36 http_run_43906c3f: POST http://127.0.0.1:4201/dump/request
+2024/03/13 18:29:57 ✓ python_run_fe4ce61f: took 341 ms
+2024/03/13 18:30:10 ✓ python_run_09981d1a: took 360 ms
+2024/03/13 18:30:31 ✓ python_run_8cfff595: took 343 ms
+2024/03/13 18:30:51 ✓ python_run_c014e540: took 350 ms
+2024/03/13 18:32:25 ✗ python_run_2537168c: [{'SELF_N_OBJECT': 1, 'name': 'name-1', 'age': 1}, {'SELF_N_OBJECT': 1, 'name': [truncated]
+2024/03/13 18:32:41 ✓ python_run_6ed37dae: took 400 ms
+2024/03/13 18:32:42 ✓ chdb_run_a5f52351: took 1156 ms
+2024/03/13 18:33:07 ✓ python_run_d41ddb90: took 378 ms
+2024/03/13 18:33:57 ✗ chdb_run_ecc09f21: Traceback (most recent call last): File "/opt/query.py", line 34, in <module> [truncated]
+2024/03/13 18:34:32 ✗ chdb_run_0c365ef9: Traceback (most recent call last): File "/opt/query.py", line 34, in <module> [truncated]
+2024/03/13 18:39:00 ✗ chdb_run_ebeb22fb: Traceback (most recent call last): File "/opt/query.py", line 34, in <module> [truncated]
+2024/03/13 18:39:44 ✓ chdb_run_30981c9a: took 942 ms
+2024/03/13 18:40:18 ✗ chdb_run_74b10492: Traceback (most recent call last): File "/opt/query.py", line 34, in <module> [truncated]
+2024/03/13 18:41:16 ✓ mssql_run_777fe9e2: took 1456 ms
+2024/03/13 18:41:33 ✓ mssql_run_7a4c8681: took 1270 ms
+2024/03/13 18:43:07 ✗ chdb_run_be016f97: Traceback (most recent call last): File "/opt/query.py", line 34, in <module> [truncated]
+2024/03/13 18:46:11 ✓ chdb-python_run_5d15d07e: took 2163 ms
+2024/03/13 18:46:18 ✗ chdb_run_d4168f14: Traceback (most recent call last): File "/opt/query.py", line 34, in <module> [truncated]
+2024/03/13 18:46:52 ✗ chdb-python_run_acc08c0a: emp_id first_name dep_name salary 0 25 b'Frank' b'IT' 120 1 [truncated]
+2024/03/13 18:47:07 ✗ chdb-python_run_d420ccb1: emp_id first_name dep_name salary 0 25 b'Frank' b'IT' 120 1 [truncated]
+2024/03/13 18:56:20 ✓ shell_run_87e8f2f9: took 405 ms
+2024/03/13 18:56:33 ✓ caddy_exec-validate_449f2838: took 1062 ms
+2024/03/13 19:04:27 ✓ postgres_run_31d6d148: took 636 ms
+2024/03/13 19:04:27 ✓ sqlite_run_19346ee8: took 714 ms
+2024/03/13 19:04:29 ✓ mysql_run_020e53bf: took 2871 ms
+2024/03/13 19:05:04 ✓ sqlite_run_19afc914: took 466 ms
+2024/03/13 19:05:12 ✓ sqlite_run_7335c8c0: took 356 ms
+2024/03/13 19:05:19 ✓ net-tools_run_c4187f71: took 529 ms
+2024/03/13 19:06:21 ✓ python_run_1be6818d: took 395 ms
+2024/03/13 19:06:27 ✓ python_run_2a151eb1: took 357 ms
+2024/03/13 19:06:35 ✓ python_run_396e4f22: took 342 ms
+2024/03/13 19:09:48 ✓ shell_run_b2253d2a: took 347 ms
+2024/03/13 19:16:20 ✓ shell_run_ff3aaf57: took 356 ms
+2024/03/13 19:16:26 ✓ shell_run_4dd17a85: took 329 ms
+2024/03/13 19:16:32 ✓ shell_run_a0a97852: took 353 ms
+2024/03/13 19:17:58 ✓ shell_run_397567af: took 347 ms
+2024/03/13 19:18:09 ✓ shell_run_7253f16c: took 336 ms
+2024/03/13 19:22:08 ✓ shell_run_1cf8b6dc: took 340 ms
+2024/03/13 19:22:10 ✓ shell_run_ede16723: took 339 ms
+2024/03/13 19:22:15 ✓ shell_run_c08b08c1: took 373 ms
+2024/03/13 19:22:18 ✓ shell_run_6aa52a0c: took 361 ms
+2024/03/13 19:22:29 ✗ python_run_fe2d5f44: File "/sandbox/main.py", line 3 class Animal(ABC): IndentationError: unexpe [truncated]
+2024/03/13 19:22:57 ✗ python_run_7d0600bf: I can walk and run I can crawlTraceback (most recent call last): File "/sandbo [truncated]
+2024/03/13 19:23:41 ✓ python_run_08996d01: took 380 ms
+2024/03/13 19:23:55 ✓ go_run_a4d8a6d1: took 2142 ms
+2024/03/13 19:24:12 ✓ shell_run_f2d7be55: took 354 ms
+2024/03/13 19:24:35 ✓ shell_run_f90d8b9c: took 328 ms
+2024/03/13 19:25:07 ✓ go_run_43752ec6: took 1895 ms
+2024/03/13 19:25:39 ✓ go_run_8d6c2742: took 1719 ms
+2024/03/13 19:26:18 ✓ go_run_818aa3ee: took 1665 ms
+2024/03/13 19:26:59 ✓ go_run_55af8b8c: took 1617 ms
+2024/03/13 19:27:01 ✓ shell_run_06f8ccea: took 455 ms
+2024/03/13 19:27:03 ✗ go_run_8a2fe382: panic: runtime error: slice bounds out of range [4:3] goroutine 1 [running]: sl [truncated]
+2024/03/13 19:27:06 ✓ shell_run_dff1d608: took 364 ms
+2024/03/13 19:27:14 ✓ shell_run_4a5dbda2: took 495 ms
+2024/03/13 19:27:15 ✓ go_run_755ae5cf: took 1768 ms
+2024/03/13 19:27:16 ✓ shell_run_6a7e38fe: took 344 ms
+2024/03/13 19:27:18 ✓ shell_run_3a4256df: took 357 ms
+2024/03/13 19:31:22 ✓ shell_run_149cca49: took 361 ms
+2024/03/13 19:31:26 ✓ shell_run_34a6ab14: took 355 ms
+2024/03/13 19:34:19 ✓ shell_run_c6eb1333: took 349 ms
+2024/03/13 19:34:43 ✓ shell_run_43e1be0c: took 379 ms
+2024/03/13 19:34:47 ✓ shell_run_c62724c3: took 377 ms
+2024/03/13 19:35:17 ✗ mssql_run_bea72234: code execution timeout
+2024/03/13 19:35:17 mssql_run_bea72234: execution timeout, killed process=3565845, err=<nil>
+2024/03/13 19:35:34 ✗ mssql_run_910c1747: code execution timeout
+2024/03/13 19:35:34 mssql_run_910c1747: execution timeout, killed process=3565882, err=<nil>
+2024/03/13 19:38:01 ✗ mssql_run_7e5f5cbc: Error response from daemon: No such container: mssql (exit status 1)
+2024/03/13 19:38:24 ✓ shell_run_69043a5c: took 336 ms
+2024/03/13 19:38:26 ✓ shell_run_ee460e71: took 382 ms
+2024/03/13 19:38:30 ✓ shell_run_a2f3b552: took 351 ms
+2024/03/13 19:40:39 ✓ shell_run_e37f4f78: took 354 ms
+2024/03/13 19:41:02 ✓ shell_run_33f1b4c3: took 441 ms
+2024/03/13 19:42:42 ✓ shell_run_1c3cdd7d: took 378 ms
+2024/03/13 19:46:02 ✓ shell_run_24c35d3e: took 502 ms
+2024/03/13 19:46:06 ✓ shell_run_b60abb2b: took 376 ms
+2024/03/13 19:46:08 ✓ shell_run_dcbb9337: took 341 ms
+2024/03/13 19:46:11 ✓ shell_run_a218bf81: took 353 ms
+2024/03/13 19:48:09 ✓ python_run_1004a8b4: took 414 ms
+2024/03/13 19:48:22 ✓ shell_run_4517606f: took 362 ms
+2024/03/13 19:48:25 ✓ shell_run_39694b07: took 363 ms
+2024/03/13 19:51:00 ✓ shell_run_d70a173f: took 355 ms
+2024/03/13 19:51:03 ✓ shell_run_623d4f4c: took 364 ms
+2024/03/13 19:51:09 ✓ shell_run_8d4e6f15: took 361 ms
+2024/03/13 19:51:12 ✓ shell_run_9bbea391: took 373 ms
+2024/03/13 19:56:49 ✓ zig_run_9259a875: took 4179 ms
+2024/03/13 20:02:32 ✓ http_run_51392ea0: took 1 ms
+2024/03/13 20:02:32 http_run_51392ea0: POST http://127.0.0.1:4201/dump/request
+2024/03/13 20:14:52 ✓ sqlite_run_79a533c5: took 358 ms
+2024/03/13 20:15:21 ✓ sqlite_run_6c400ada: took 357 ms
+2024/03/13 20:40:44 ✓ go_run_69ce128c: took 1908 ms
+2024/03/13 20:41:14 ✗ go_run_e0e14710: # main ./main.go:10:13: val (variable of type int) is not a type (exit status 1)
+2024/03/13 20:41:33 ✗ go_run_ae7d6831: # main ./main.go:10:13: undefined: i ./main.go:11:27: undefined: i (exit status [truncated]
+2024/03/13 20:41:49 ✓ go_run_471ca582: took 1627 ms
+2024/03/13 20:42:15 ✓ go_run_7d872301: took 1739 ms
+2024/03/13 20:43:23 ✓ go_run_8a0a2772: took 1623 ms
+2024/03/13 20:49:04 ✓ odin_run_56119edf: took 3218 ms
+2024/03/13 20:49:11 ✓ odin_run_5e0e3d12: took 1935 ms
+2024/03/13 20:49:13 ✓ go_run_745dc428: took 2228 ms
+2024/03/13 20:49:24 ✓ odin_run_cd1235a8: took 1493 ms
+2024/03/13 20:49:39 ✓ odin_run_23ada74d: took 1480 ms
+2024/03/13 20:49:52 ✓ odin_run_2a17fb01: took 1449 ms
+2024/03/13 20:51:00 ✓ odin_run_3c432dcc: took 1472 ms
+2024/03/13 20:51:15 ✓ odin_run_66e81a9f: took 1507 ms
+2024/03/13 20:51:21 ✓ odin_run_7eba516e: took 1414 ms
+2024/03/13 20:51:40 ✓ odin_run_896138eb: took 1418 ms
+2024/03/13 20:52:26 ✓ zig_run_46887ab7: took 4057 ms
+2024/03/13 20:53:25 ✗ zig_run_76ca07a8: main.zig:8:13: error: local constant shadows declaration of 'buf' main.zig:3:1: [truncated]
+2024/03/13 20:53:46 ✗ zig_run_8fb71573: main.zig:8:13: error: unused local constant (exit status 1)
+2024/03/13 20:54:54 ✓ zig_run_29a2d559: took 3674 ms
+2024/03/13 20:56:08 ✓ odin_run_9d74f4fd: took 1715 ms
+2024/03/13 20:56:08 ✗ zig_run_c8180d06: main.zig:16:10: error: type 'fn() []u8' is not indexable and not a range main.zi [truncated]
+2024/03/13 20:56:23 ✓ odin_run_239f1ce7: took 1433 ms
+2024/03/13 20:56:34 ✗ zig_run_b4ae148b: main.zig:8:28: error: expected 10 array elements; found 0 (exit status 1)
+2024/03/13 20:56:35 ✓ odin_run_cd76b631: took 1557 ms
+2024/03/13 20:56:44 ✓ odin_run_5b0f42e7: took 1411 ms
+2024/03/13 20:56:51 ✗ zig_run_dc76afbf: main.zig:5:5: error: variable of type 'type' must be const or comptime main.zig: [truncated]
+2024/03/13 20:57:12 ✗ zig_run_95cabfd5: main.zig:5:5: error: variable of type 'type' must be const or comptime main.zig: [truncated]
+2024/03/13 20:57:34 ✗ zig_run_838f3dc4: main.zig:5:25: error: type 'type' not a function (exit status 1)
+2024/03/13 20:59:50 ✗ zig_run_60ed0fca: main.zig:9:35: error: expected type '[]u8', found '*const [10]u8' main.zig:9:35: [truncated]
+2024/03/13 21:01:18 ✗ zig_run_df506741: main.zig:10:14: error: expected type '[]u8', found 'heap.FixedBufferAllocator' / [truncated]
+2024/03/13 21:02:03 ✗ zig_run_c39fdc33: main.zig:9:43: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:02:20 ✗ zig_run_17e884fa: main.zig:9:41: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:02:43 ✗ zig_run_e0709c56: main.zig:9:33: error: expected type '[]u8', found '*const [10]u8' main.zig:9:33: [truncated]
+2024/03/13 21:03:30 ✗ zig_run_c6d12efa: main.zig:5:5: error: variable of type 'type' must be const or comptime main.zig: [truncated]
+2024/03/13 21:04:10 ✗ zig_run_75a32401: main.zig:9:41: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:04:30 ✗ zig_run_94ee5c7a: main.zig:9:41: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:04:43 ✗ zig_run_d8f0910a: main.zig:8:23: error: pointer modifier 'const' not allowed on array child type ( [truncated]
+2024/03/13 21:04:58 ✗ zig_run_107995a7: main.zig:9:41: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:05:34 ✗ zig_run_b7b38e4c: main.zig:8:11: error: variable of type 'type' must be const or comptime main.zig [truncated]
+2024/03/13 21:07:16 ✓ postgres_run_e901ebea: took 391 ms
+2024/03/13 21:07:57 ✗ zig_run_cf4da2c2: main.zig:10:61: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:08:18 ✓ go_run_86ba1afc: took 1855 ms
+2024/03/13 21:08:23 ✓ go_run_8ce2e6d8: took 1660 ms
+2024/03/13 21:08:45 ✓ go_run_59f79f9d: took 1599 ms
+2024/03/13 21:09:04 ✗ zig_run_7318311c: main.zig:10:53: error: array literal requires address-of operator (&) to coerce [truncated]
+2024/03/13 21:12:48 ✗ zig_run_7c99b9bc: main.zig:13:14: error: expected type '[]u8', found '*const mem.Allocator' main.z [truncated]
+2024/03/13 21:13:23 ✗ zig_run_2f833882: main.zig:9:26: error: expected ';' after declaration (exit status 1)
+2024/03/13 21:13:56 ✗ zig_run_602fe97a: main.zig:13:14: error: expected type '[]u8', found '*const mem.Allocator' main.z [truncated]
+2024/03/13 21:15:32 ✗ zig_run_0d9ea6a2: main.zig:10:55: error: expected type '[]u8', found '*[]u8' /usr/lib/zig/std/heap [truncated]
+2024/03/13 21:15:51 ✗ zig_run_1a2ea0bf: main.zig:13:14: error: expected type '[]u8', found '*const mem.Allocator' main.z [truncated]
+2024/03/13 21:16:26 ✓ http_run_a79e380d: took 1 ms
+2024/03/13 21:16:26 http_run_a79e380d: POST http://127.0.0.1:4201/dump/request
+2024/03/13 21:18:51 ✗ zig_run_f7797a54: main.zig:18:10: error: type '@typeInfo(@typeInfo(@TypeOf(main.getNums)).Fn.retur [truncated]
+2024/03/13 21:19:06 ✗ zig_run_8e6d9d1d: main.zig:10:62: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:19:54 ✓ chdb-python_run_a058554c: took 819 ms
+2024/03/13 21:20:57 ✓ python_run_873846c8: took 458 ms
+2024/03/13 21:24:19 ✗ zig_run_488f6dab: main.zig:10:62: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:24:29 ✗ zig_run_48fd3683: main.zig:10:64: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:25:33 ✗ zig_run_9bc9cb50: main.zig:10:64: error: expected ';' after declaration (exit status 1)
+2024/03/13 21:25:42 ✗ zig_run_3fe565dc: main.zig:10:13: error: unused local constant (exit status 1)
+2024/03/13 21:26:00 ✗ zig_run_7ace8daa: main.zig:14:14: error: expected type '@typeInfo(@typeInfo(@TypeOf(main.getNums)) [truncated]
+2024/03/13 21:27:01 ✗ zig_run_ee25623e: main.zig:10:64: error: expected ';' after declaration (exit status 1)
+2024/03/13 21:27:10 ✗ zig_run_bab5811c: main.zig:11:30: error: 'alloc' is not marked 'pub' /usr/lib/zig/std/heap.zig:423 [truncated]
+2024/03/13 21:28:33 ✗ zig_run_f6d3d1dc: main.zig:10:57: error: expected type '[]u8', found '*const [10]u8' main.zig:10:5 [truncated]
+2024/03/13 21:28:56 ✗ zig_run_9a7388fd: main.zig:9:26: error: pointer modifier 'const' not allowed on array child type ( [truncated]
+2024/03/13 21:29:19 ✗ zig_run_1b3cc675: main.zig:9:28: error: expected ';' after declaration (exit status 1)
+2024/03/13 21:30:23 ✗ zig_run_3ff84910: main.zig:10:63: error: expected type '[]u8', found '*const [10]u8' main.zig:10:6 [truncated]
+2024/03/13 21:30:28 ✓ python_run_db841512: took 364 ms
+2024/03/13 21:31:01 ✗ zig_run_a77cb350: main.zig:1:1: error: use of undefined value here causes undefined behavior (exit [truncated]
+2024/03/13 21:31:23 ✗ zig_run_7231eea0: main.zig:10:64: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:32:13 ✗ zig_run_772ed28f: main.zig:18:13: error: use of undeclared identifier 'stdout' (exit status 1)
+2024/03/13 21:32:39 ✗ zig_run_87bcfbfa: main.zig:10:64: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:33:04 ✗ zig_run_8b90b7dc: main.zig:10:62: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:35:58 ✓ zig_run_0ed7f2a5: took 3821 ms
+2024/03/13 21:36:33 ✗ zig_run_32faf82d: main.zig:10:63: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:37:43 ✗ zig_run_54656e01: main.zig:7:21: error: missing parameter name or type main.zig:7:21: note: if thi [truncated]
+2024/03/13 21:37:59 ✗ zig_run_4dad0bd0: error: OutOfMemory /usr/lib/zig/std/mem/Allocator.zig:225:89: 0x24d806 in allocB [truncated]
+2024/03/13 21:38:18 ✗ zig_run_4ab06580: error: OutOfMemory /usr/lib/zig/std/mem/Allocator.zig:225:89: 0x24d806 in allocB [truncated]
+2024/03/13 21:39:02 ✓ zig_run_72787a6e: took 3961 ms
+2024/03/13 21:40:56 ✓ zig_run_1db40195: took 3688 ms
+2024/03/13 21:42:14 ✗ zig_run_d325628b: main.zig:18:18: error: use of undeclared identifier 'sz' (exit status 1)
+2024/03/13 21:43:10 ✗ zig_run_ea34396d: main.zig:18:17: error: expected ';' after declaration (exit status 1)
+2024/03/13 21:43:29 ✗ zig_run_18752699: main.zig:8:26: error: root struct of file 'std' has no member named 'Allocator' [truncated]
+2024/03/13 21:43:39 ✓ zig_run_83a679dc: took 3700 ms
+2024/03/13 21:44:10 ✓ zig_run_3344bb30: took 3697 ms
+2024/03/13 21:44:25 ✓ zig_run_53aced6e: took 3672 ms
+2024/03/13 21:44:38 ✗ zig_run_cbb2d93c: main.zig:20:27: error: expected type '[]u8', found '*const [5]u8' main.zig:20:27 [truncated]
+2024/03/13 21:44:55 ✗ zig_run_28faa24d: main.zig:21:29: error: expected type '*heap.FixedBufferAllocator', found '*const [truncated]
+2024/03/13 21:45:21 ✓ zig_run_f9987315: took 3668 ms
+2024/03/13 21:45:44 ✗ zig_run_4c272f67: thread 1 panic: index out of bounds: index 5, len 5 /sandbox/src/main.zig:23:9: [truncated]
+2024/03/13 21:45:53 ✓ zig_run_357141af: took 3662 ms
+2024/03/13 21:52:04 ✗ zig_run_079b5794: main.zig:27:11: error: unused local constant (exit status 1)
+2024/03/13 21:53:13 ✓ zig_run_9f02315c: took 3637 ms
+2024/03/13 21:53:38 ✗ zig_run_a0c3ae6c: main.zig:28:11: error: expected type '*array_list.ArrayListAligned(u8,null)', fo [truncated]
+2024/03/13 21:53:56 ✗ zig_run_efcfdcca: 170 170 170 170 42error: OutOfMemory /usr/lib/zig/std/mem/Allocator.zig:225:89: [truncated]
+2024/03/13 21:54:41 ✓ zig_run_70922abf: took 3661 ms
+2024/03/13 21:54:53 ✓ mssql_run_5518439f: took 1454 ms
+2024/03/13 21:55:29 ✓ mssql_run_6fa50450: took 1207 ms
+2024/03/13 21:55:31 ✗ zig_run_765bdcdf: main.zig:28:11: error: no field or member function named 'append' in 'error{OutO [truncated]
+2024/03/13 21:55:50 ✓ zig_run_205655fa: took 3789 ms
+2024/03/13 21:55:51 ✓ mssql_run_2d6c8dde: took 1229 ms
+2024/03/13 21:56:03 mssql_run_c5017c08: execution timeout, killed process=3624495, err=<nil>
+2024/03/13 21:56:04 ✗ mssql_run_c5017c08: code execution timeout
+2024/03/13 21:56:04 mssql_run_c5017c08: docker kill ok
+2024/03/13 21:56:10 ✗ zig_run_52591537: main.zig:28:11: error: member function expected 2 argument(s), found 1 /usr/lib/ [truncated]
+2024/03/13 21:56:22 ✓ zig_run_2d750a3c: took 3812 ms
+2024/03/13 21:56:37 ✗ zig_run_0a628ed3: 170 170 170 170 42error: OutOfMemory /usr/lib/zig/std/mem/Allocator.zig:225:89: [truncated]
+2024/03/13 21:56:41 ✓ mssql_run_08135a20: took 1242 ms
+2024/03/13 21:56:46 ✓ mssql_run_9279b2b8: took 1394 ms
+2024/03/13 21:56:53 ✗ zig_run_7af433e5: 170 170 170 170 42error: OutOfMemory /usr/lib/zig/std/mem/Allocator.zig:225:89: [truncated]
+2024/03/13 21:57:16 ✓ mssql_run_e49fc149: took 1452 ms
+2024/03/13 21:57:25 ✓ mssql_run_d12ae210: took 3448 ms
+2024/03/13 21:57:38 ✓ mssql_run_3fcc73b0: took 1217 ms
+2024/03/13 21:58:02 ✗ zig_run_3d37536a: 170 170 170 170 42error: OutOfMemory /usr/lib/zig/std/mem/Allocator.zig:225:89: [truncated]
+2024/03/13 21:58:16 ✗ zig_run_195efe12: 170 170 170 170 42error: OutOfMemory /usr/lib/zig/std/mem/Allocator.zig:225:89: [truncated]
+2024/03/13 21:58:29 ✗ zig_run_89a09faa: 170 170 170 170 42error: OutOfMemory /usr/lib/zig/std/mem/Allocator.zig:225:89: [truncated]
+2024/03/13 21:58:33 ✓ mssql_run_8707fc77: took 1180 ms
+2024/03/13 21:58:48 ✓ zig_run_e4d21ca2: took 3736 ms
+2024/03/13 21:59:06 ✓ zig_run_25501c86: took 4014 ms
+2024/03/13 21:59:50 ✓ zig_run_a5cb0a61: took 3717 ms
+2024/03/13 22:00:32 ✓ zig_run_8dd500a5: took 3653 ms
+2024/03/13 22:00:50 ✓ mssql_run_671aac21: took 1230 ms
+2024/03/13 22:01:04 ✓ zig_run_a0295cea: took 4393 ms
+2024/03/13 22:01:21 ✓ mssql_run_5b5fbad8: took 1205 ms
+2024/03/13 22:01:28 ✓ mssql_run_7918d5ee: took 1182 ms
+2024/03/13 22:01:41 ✓ mssql_run_e3622bdf: took 1311 ms
+2024/03/13 22:02:19 ✓ mssql_run_9fc69c21: took 1099 ms
+2024/03/13 22:03:23 ✗ zig_run_be78ff2f: main.zig:26:14: error: error is ignored main.zig:26:14: note: consider using 'tr [truncated]
+2024/03/13 22:03:39 ✗ zig_run_4133029d: ArrayList capacity: 29 170 22 170 170 42 ArrayList 0: 123thread 1 panic: index o [truncated]
+2024/03/13 22:03:50 ✗ zig_run_30d871ec: ArrayList capacity: 29 170 22 170 170 42 ArrayList 0: 123thread 1 panic: index o [truncated]
+2024/03/13 22:04:22 ✗ zig_run_b356a2c5: ArrayList capacity: 29 170 22 170 170 42 ArrayList 0: 123thread 1 panic: index o [truncated]
+2024/03/13 22:04:25 ✓ mssql_run_69dc34ab: took 1234 ms
+2024/03/13 22:04:32 ✗ zig_run_c1063a47: ArrayList capacity: 29 170 22 170 170 42 ArrayList 0: 123thread 1 panic: index o [truncated]
+2024/03/13 22:04:41 ✗ zig_run_3ae9b1c6: ArrayList capacity: 29 170 22 170 170 42 ArrayList 0: 123thread 1 panic: index o [truncated]
+2024/03/13 22:05:00 ✓ mssql_run_54c5bb40: took 3575 ms
+2024/03/13 22:05:01 ✗ zig_run_4344f0ff: ArrayList capacity: 29 170 22 170 170 42 ArrayList 0: 123thread 1 panic: index o [truncated]
+2024/03/13 22:05:19 ✓ mssql_run_6337572f: took 4407 ms
+2024/03/13 22:05:25 ✓ zig_run_8351140b: took 3692 ms
+2024/03/13 22:05:31 ✓ mssql_run_d2cc2b87: took 1204 ms
+2024/03/13 22:05:46 ✗ mssql_run_9c6f0c38: code execution timeout
+2024/03/13 22:05:46 mssql_run_9c6f0c38: execution timeout, killed process=3632252, err=<nil>
+2024/03/13 22:05:47 mssql_run_9c6f0c38: docker kill ok
+2024/03/13 22:06:15 ✗ mssql_run_7030efcd: code execution timeout
+2024/03/13 22:06:15 mssql_run_7030efcd: docker kill ok
+2024/03/13 22:06:15 mssql_run_7030efcd: execution timeout, killed process=3632706, err=<nil>
+2024/03/13 22:06:19 ✓ zig_run_ebacfa06: took 3694 ms
+2024/03/13 22:06:21 ✓ mssql_run_9b1f239c: took 1447 ms
+2024/03/13 22:08:17 mssql_run_d1ba6c13: execution timeout, killed process=3633707, err=<nil>
+2024/03/13 22:08:18 ✗ mssql_run_d1ba6c13: code execution timeout
+2024/03/13 22:08:18 mssql_run_d1ba6c13: docker kill ok
+2024/03/13 22:08:33 ✓ mssql_run_187eb561: took 1507 ms
+2024/03/13 22:08:42 ✓ mssql_run_54b8b22c: took 1458 ms
+2024/03/13 22:10:03 ✓ mssql_run_91eb5bdf: took 2255 ms
+2024/03/13 22:10:13 ✓ mssql_run_be01b869: took 1468 ms
+2024/03/13 22:18:57 ✓ zig_run_8cecb031: took 3898 ms
+2024/03/13 22:19:10 ✓ zig_run_93ad3a77: took 3709 ms
+2024/03/13 22:19:23 ✓ zig_run_5dfbc76c: took 3693 ms
+2024/03/13 22:19:46 ✗ zig_run_e2f8530a: main.zig:10:11: error: Max 10 numbers. (exit status 1)
+2024/03/13 22:29:12 ✗ zig_run_c97f9ebd: main.zig:13:11: error: unused local constant (exit status 1)
+2024/03/13 22:29:39 ✗ zig_run_190ba818: main.zig:14:19: error: expected expression, found 'invalid bytes' main.zig:14:27 [truncated]
+2024/03/13 22:29:55 ✗ zig_run_ee8cbba0: main.zig:13:19: error: expected 4 argument(s), found 2 /usr/lib/zig/std/hash_map [truncated]
+2024/03/13 22:31:36 ✗ zig_run_131d2e11: main.zig:9:19: error: expected 4 argument(s), found 2 /usr/lib/zig/std/hash_map. [truncated]
+2024/03/13 22:34:25 ✗ zig_run_cf83a33d: main.zig:9:44: error: expected type 'type', found 'void' /usr/lib/zig/std/hash_m [truncated]
+2024/03/13 22:34:44 ✓ r_run_ea79fac5: took 1808 ms
+2024/03/13 22:34:48 ✓ r_run_abf7dd64: took 1494 ms
+2024/03/13 22:34:55 ✗ r_run_bcbe93d6: [1] ""Error in `summarise()`: i In argument: `average_weight = mean()`. Caused b [truncated]
+2024/03/13 22:35:04 ✓ r_run_f8d05eae: took 2155 ms
+2024/03/13 22:35:17 ✓ r_run_37e2fd60: took 1422 ms
+2024/03/13 22:35:22 ✓ r_run_8dc5c624: took 1392 ms
+2024/03/13 22:35:35 ✓ r_run_c298516d: took 1399 ms
+2024/03/13 22:35:55 ✗ zig_run_4a466bf4: main.zig:9:45: error: expected type 'type', found '@TypeOf(.{})' /usr/lib/zig/st [truncated]
+2024/03/13 22:44:14 ✓ python_run_0b035e1d: took 371 ms
+2024/03/13 22:44:28 ✓ python_run_b815fb0c: took 351 ms
+2024/03/13 22:45:59 ✗ zig_run_7f133022: main.zig:9:53: error: expected type 'mem.Allocator', found 'heap.general_purpose [truncated]
+2024/03/13 22:47:31 ✗ zig_run_1565b634: main.zig:10:7: error: no field or member function named 'insert' in 'hash_map.Ha [truncated]
+2024/03/13 22:49:06 ✗ zig_run_a24547f7: main.zig:10:7: error: expected type '*hash_map.HashMap(u8,[]const u8,hash_map.Au [truncated]
+2024/03/13 22:49:26 ✗ zig_run_3812b62b: main.zig:10:11: error: expected type '*hash_map.HashMap(u8,[]const u8,hash_map.A [truncated]
+2024/03/13 22:49:39 ✗ zig_run_7c20b0d1: main.zig:11:17: error: error is ignored main.zig:11:17: note: consider using 'tr [truncated]
+2024/03/13 22:49:50 ✗ zig_run_2c2003b9: /usr/lib/zig/std/fmt.zig:648:21: error: cannot format slice without a specifier [truncated]
+2024/03/13 22:50:03 ✗ zig_run_01746ff5: code execution timeout
+2024/03/13 22:50:03 zig_run_01746ff5: docker kill ok
+2024/03/13 22:50:03 zig_run_01746ff5: execution timeout, killed process=3650659, err=<nil>
+2024/03/13 22:50:21 ✓ zig_run_33b43c44: took 3926 ms
+2024/03/13 22:50:32 ✓ zig_run_a53f21c5: took 3992 ms
+2024/03/13 22:50:46 ✗ zig_run_7e903344: thread 1 panic: attempt to use null value /sandbox/src/main.zig:11:50: 0x221438 [truncated]
+2024/03/13 22:51:04 ✓ zig_run_1f5d9616: took 4636 ms
+2024/03/13 23:03:08 ✓ http_run_9963983b: took 1 ms
+2024/03/13 23:03:08 http_run_9963983b: POST http://127.0.0.1:4201/dump/request
+2024/03/13 23:06:28 ✓ shell_run_f1836cde: took 414 ms
+2024/03/14 00:04:21 ✓ go_run_6d9ae20c: took 1938 ms
+2024/03/14 00:04:55 ✓ go_run_629cc4ec: took 2583 ms
+2024/03/14 00:04:55 ✓ go_run_b434c30d: took 2180 ms
+2024/03/14 00:04:59 ✓ go_run_9c8ad3e2: took 1651 ms
+2024/03/14 00:17:25 ✓ shell_run_4b758693: took 394 ms
+2024/03/14 00:17:27 ✓ shell_run_94e6c97b: took 335 ms
+2024/03/14 00:17:29 ✓ shell_run_01c956e5: took 345 ms
+2024/03/14 00:17:34 ✓ shell_run_899bdd59: took 357 ms
+2024/03/14 00:17:36 ✓ shell_run_37871308: took 364 ms
+2024/03/14 00:17:39 ✓ shell_run_e7677315: took 350 ms
+2024/03/14 00:17:41 ✓ shell_run_09332132: took 346 ms
+2024/03/14 00:17:44 ✓ shell_run_d8e25422: took 338 ms
+2024/03/14 00:18:30 ✓ shell_run_b7a574d0: took 335 ms
+2024/03/14 00:18:35 ✓ shell_run_79e41265: took 356 ms
+2024/03/14 00:18:49 ✓ shell_run_d5d12e24: took 360 ms
+2024/03/14 00:18:51 ✓ shell_run_04f1c5da: took 361 ms
+2024/03/14 00:18:54 ✓ shell_run_c76b931d: took 372 ms
+2024/03/14 00:18:55 ✓ shell_run_ee97f4ed: took 365 ms
+2024/03/14 00:18:58 ✓ shell_run_b2ec0075: took 336 ms
+2024/03/14 00:19:00 ✓ shell_run_979aab56: took 386 ms
+2024/03/14 00:19:07 ✓ shell_run_bf85199c: took 348 ms
+2024/03/14 00:19:15 ✓ shell_run_91ac0acc: took 343 ms
+2024/03/14 00:19:19 ✓ shell_run_a4884011: took 339 ms
+2024/03/14 00:19:23 ✓ shell_run_72f23007: took 349 ms
+2024/03/14 00:19:52 ✓ shell_run_0d1adf8d: took 362 ms
+2024/03/14 00:19:55 ✓ shell_run_e6f2f464: took 372 ms
+2024/03/14 00:19:58 ✓ shell_run_e755742b: took 352 ms
+2024/03/14 00:20:00 ✓ shell_run_5c49d4fb: took 367 ms
+2024/03/14 00:20:03 ✓ shell_run_27a4899c: took 743 ms
+2024/03/14 00:20:05 ✓ shell_run_996e2725: took 452 ms
+2024/03/14 00:20:17 ✓ shell_run_0312a6ad: took 396 ms
+2024/03/14 00:20:20 ✓ shell_run_68e71d0e: took 380 ms
+2024/03/14 00:25:56 ✓ shell_run_178b4670: took 345 ms
+2024/03/14 00:25:59 ✓ shell_run_4b350382: took 330 ms
+2024/03/14 00:26:02 ✓ shell_run_46c71ef3: took 530 ms
+2024/03/14 00:26:05 ✓ shell_run_db8e9c71: took 343 ms
+2024/03/14 00:26:08 ✓ shell_run_e74e169b: took 359 ms
+2024/03/14 00:27:05 ✓ shell_run_095a64b0: took 936 ms
+2024/03/14 00:31:47 ✓ http_run_ceae2da3: took 1 ms
+2024/03/14 00:31:47 http_run_ceae2da3: POST http://127.0.0.1:4201/dump/request
+2024/03/14 00:31:49 ✓ shell_run_96f17101: took 366 ms
+2024/03/14 00:31:53 ✓ shell_run_18c57dd1: took 371 ms
+2024/03/14 00:31:56 ✓ shell_run_ce6da95a: took 371 ms
+2024/03/14 00:32:25 ✓ shell_run_0110d47d: took 389 ms
+2024/03/14 00:32:56 ✓ shell_run_e7435cfa: took 341 ms
+2024/03/14 00:33:16 ✓ shell_run_f6274392: took 348 ms
+2024/03/14 00:33:51 ✓ shell_run_05f36b13: took 346 ms
+2024/03/14 00:36:12 ✓ shell_run_b0fc4466: took 361 ms
+2024/03/14 00:36:15 ✓ shell_run_0783eccd: took 372 ms
+2024/03/14 00:40:52 ✓ shell_run_26cba71d: took 370 ms
+2024/03/14 00:41:08 ✓ shell_run_98e3859c: took 397 ms
+2024/03/14 00:41:11 ✓ shell_run_c1c9104b: took 383 ms
+2024/03/14 00:41:16 ✓ shell_run_4c4cd7fc: took 386 ms
+2024/03/14 00:41:31 ✓ shell_run_faaa2184: took 388 ms
+2024/03/14 00:41:33 ✓ shell_run_8613c7eb: took 413 ms
+2024/03/14 00:42:02 ✓ shell_run_ddf06fa3: took 613 ms
+2024/03/14 00:42:11 ✓ shell_run_350c0a89: took 396 ms
+2024/03/14 00:42:20 ✓ shell_run_9ec2afde: took 390 ms
+2024/03/14 00:42:27 ✓ shell_run_929e16ba: took 411 ms
+2024/03/14 00:48:07 ✓ shell_run_8ffa9d0e: took 382 ms
+2024/03/14 00:48:09 ✓ shell_run_f289e862: took 380 ms
+2024/03/14 00:48:19 ✓ duckdb_run_715fe22f: took 551 ms
+2024/03/14 00:48:25 ✓ shell_run_5af60b75: took 408 ms
+2024/03/14 00:48:33 ✓ duckdb_run_149625c3: took 335 ms
+2024/03/14 00:48:43 ✓ duckdb_run_2dc16744: took 330 ms
+2024/03/14 00:48:44 ✓ shell_run_10b5a286: took 404 ms
+2024/03/14 00:48:53 ✓ duckdb_run_5e75fe85: took 352 ms
+2024/03/14 00:48:55 ✓ shell_run_df2f400c: took 383 ms
+2024/03/14 00:48:58 ✓ duckdb_run_bdc6e434: took 336 ms
+2024/03/14 00:49:07 ✓ shell_run_ccec5541: took 396 ms
+2024/03/14 00:49:12 ✓ duckdb_run_60d26899: took 340 ms
+2024/03/14 00:49:26 ✓ shell_run_23af0dc7: took 389 ms
+2024/03/14 00:50:31 ✓ duckdb_run_122d3596: took 337 ms
+2024/03/14 00:55:34 ✓ shell_run_d63dfa74: took 357 ms
+2024/03/14 00:55:52 ✓ shell_run_be34e1dd: took 347 ms
+2024/03/14 00:56:54 ✓ shell_run_6c24fb76: took 373 ms
+2024/03/14 00:56:58 ✓ shell_run_213e4550: took 388 ms
+2024/03/14 00:57:26 ✓ shell_run_b9883775: took 357 ms
+2024/03/14 00:57:33 ✓ shell_run_e5852b17: took 345 ms
+2024/03/14 00:57:41 ✓ shell_run_0b333b64: took 359 ms
+2024/03/14 00:57:48 ✗ shell_run_a13fe482: Cloning into '/tmp/alice'... done. main.sh: line 16: return: can only `return' f [truncated]
+2024/03/14 00:57:56 ✓ shell_run_44596d41: took 362 ms
+2024/03/14 00:59:28 ✓ shell_run_6f867aa8: took 381 ms
+2024/03/14 00:59:31 ✓ shell_run_bb0248f6: took 419 ms
+2024/03/14 00:59:33 ✓ shell_run_cc1336d2: took 404 ms
+2024/03/14 00:59:43 ✓ shell_run_37ff61c3: took 400 ms
+2024/03/14 01:03:14 ✗ shell_run_cbe3c8b0: Auto-merging message.txt CONFLICT (content): Merge conflict in message.txt Autom [truncated]
+2024/03/14 01:03:19 ✓ shell_run_c8429978: took 431 ms
+2024/03/14 01:03:27 ✓ shell_run_aab237a7: took 441 ms
+2024/03/14 01:03:43 ✓ shell_run_0ea6b6d8: took 445 ms
+2024/03/14 01:04:15 ✓ shell_run_f810cae7: took 430 ms
+2024/03/14 01:04:57 ✓ shell_run_ef7e26f8: took 443 ms
+2024/03/14 01:05:15 ✓ shell_run_7516a589: took 446 ms
+2024/03/14 01:05:29 ✓ shell_run_7b4f3a9f: took 420 ms
+2024/03/14 01:05:32 ✓ shell_run_e7e26ad3: took 429 ms
+2024/03/14 01:06:12 ✓ shell_run_822a7a67: took 412 ms
+2024/03/14 01:07:35 ✓ shell_run_ea811250: took 418 ms
+2024/03/14 01:07:50 ✓ shell_run_bcce1abf: took 444 ms
+2024/03/14 01:08:24 ✓ shell_run_dbabcd26: took 451 ms
+2024/03/14 01:08:53 ✓ shell_run_06a2e2b7: took 399 ms
+2024/03/14 01:09:14 ✗ shell_run_4f3c8a24: -- pull -- Auto-merging message.txt CONFLICT (content): Merge conflict in messag [truncated]
+2024/03/14 01:09:19 ✓ shell_run_dc6c500c: took 432 ms
+2024/03/14 01:09:23 ✓ shell_run_c9e0d979: took 428 ms
+2024/03/14 01:10:22 ✓ shell_run_145f483b: took 343 ms
+2024/03/14 01:10:24 ✓ shell_run_d97d0682: took 334 ms
+2024/03/14 01:10:26 ✓ shell_run_ad97d615: took 371 ms
+2024/03/14 01:10:55 ✓ shell_run_02154740: took 358 ms
+2024/03/14 01:10:57 ✓ shell_run_571a11f8: took 349 ms
+2024/03/14 01:11:01 ✓ shell_run_2d989e6c: took 348 ms
+2024/03/14 01:11:47 ✓ shell_run_4cbcfee0: took 380 ms
+2024/03/14 01:11:49 ✓ shell_run_e279280e: took 368 ms
+2024/03/14 01:12:16 ✓ shell_run_10feafa2: took 350 ms
+2024/03/14 01:12:18 ✓ shell_run_ca7d545b: took 367 ms
+2024/03/14 01:13:02 ✓ shell_run_5e7638c8: took 469 ms
+2024/03/14 01:13:05 ✓ shell_run_905794ef: took 386 ms
+2024/03/14 01:13:07 ✓ shell_run_5394a393: took 389 ms
+2024/03/14 01:13:10 ✓ shell_run_ab284d9d: took 419 ms
+2024/03/14 01:13:13 ✓ shell_run_d7ca7f6a: took 417 ms
+2024/03/14 01:13:59 ✓ shell_run_45ab65f1: took 371 ms
+2024/03/14 01:14:02 ✓ shell_run_0bdf2e17: took 551 ms
+2024/03/14 01:14:05 ✓ shell_run_0e44fedf: took 392 ms
+2024/03/14 01:14:34 ✓ shell_run_decb7eee: took 422 ms
+2024/03/14 01:14:38 ✓ shell_run_efdafd5f: took 416 ms
+2024/03/14 01:14:51 ✓ shell_run_0e8b9307: took 434 ms
+2024/03/14 01:15:07 ✓ shell_run_9a31842b: took 409 ms
+2024/03/14 01:15:30 ✗ shell_run_f9b848f6: -- pull (conflict) -- Auto-merging message.txt CONFLICT (content): Merge conflic [truncated]
+2024/03/14 01:15:32 ✓ shell_run_dc8d8552: took 407 ms
+2024/03/14 01:15:38 ✓ shell_run_f949ec34: took 431 ms
+2024/03/14 01:16:33 ✓ mssql_run_90afca8a: took 1464 ms
+2024/03/14 01:16:50 ✓ mssql_run_9116534b: took 1203 ms
+2024/03/14 01:17:23 ✓ shell_run_228941d3: took 385 ms
+2024/03/14 01:17:24 ✓ shell_run_bd9c7135: took 379 ms
+2024/03/14 01:17:30 ✓ shell_run_f6b7b4c0: took 392 ms
+2024/03/14 01:17:33 ✓ shell_run_d8e10d99: took 388 ms
+2024/03/14 01:19:44 ✓ shell_run_7f3929ac: took 409 ms
+2024/03/14 01:19:59 ✓ shell_run_53e23941: took 397 ms
+2024/03/14 01:20:02 ✓ shell_run_b27da7fa: took 866 ms
+2024/03/14 01:20:06 ✓ shell_run_f20ee687: took 417 ms
+2024/03/14 01:25:30 ✓ shell_run_578c38e3: took 378 ms
+2024/03/14 01:25:59 ✓ shell_run_c020edb8: took 355 ms
+2024/03/14 01:26:06 ✓ shell_run_c167e58b: took 373 ms
+2024/03/14 01:26:09 ✓ shell_run_f08f3828: took 362 ms
+2024/03/14 01:26:11 ✓ shell_run_5e966724: took 371 ms
+2024/03/14 01:26:14 ✓ shell_run_fa74994f: took 399 ms
+2024/03/14 01:26:22 ✓ mssql_run_903a678e: took 1300 ms
+2024/03/14 01:27:06 ✓ shell_run_08c3e6eb: took 369 ms
+2024/03/14 01:27:08 ✓ shell_run_cf84902a: took 367 ms
+2024/03/14 01:27:13 ✓ shell_run_0b14376d: took 373 ms
+2024/03/14 01:27:15 ✓ shell_run_af1fca76: took 377 ms
+2024/03/14 01:51:14 ✓ python_run_405de6d9: took 378 ms
+2024/03/14 01:51:36 ✓ rust_run_80d03b84: took 2497 ms
+2024/03/14 02:05:50 ✓ python_run_445a0464: took 374 ms
+2024/03/14 02:10:46 ✓ caddy_run_1da1dbe1: took 668 ms
+2024/03/14 02:10:54 ✓ caddy_run_9fdcc420: took 337 ms
+2024/03/14 02:11:00 ✓ caddy_exec_e502b49b: took 715 ms
+2024/03/14 02:11:09 ✗ lua_run_35eef704: lua: main.lua:17: '}' expected (to close '{' at line 16) near '=' (exit status 1 [truncated]
+2024/03/14 02:11:28 ✓ caddy_exec_b08496f7: took 676 ms
+2024/03/14 02:11:35 ✓ caddy_exec_5eead738: took 688 ms
+2024/03/14 02:11:39 ✓ caddy_validate_511af40a: took 375 ms
+2024/03/14 02:11:54 ✗ lua_run_d51d1505: lua: main.lua:17: '}' expected (to close '{' at line 16) near '=' (exit status 1 [truncated]
+2024/03/14 02:12:44 ✓ caddy_exec_6bfb3edc: took 711 ms
+2024/03/14 02:12:56 ✗ lua_run_848113c9: lua: main.lua:17: '}' expected (to close '{' at line 16) near ':' (exit status 1 [truncated]
+2024/03/14 02:13:13 ✓ lua_run_9a791a9a: took 323 ms
+2024/03/14 02:14:23 ✓ lua_run_470282d6: took 337 ms
+2024/03/14 02:15:18 ✓ lua_run_c19cc785: took 326 ms
+2024/03/14 02:16:00 ✓ lua_run_e14a3aaf: took 337 ms
+2024/03/14 02:16:05 ✓ lua_run_72dbb7de: took 345 ms
+2024/03/14 02:16:17 ✓ lua_run_7aa80005: took 336 ms
+2024/03/14 02:16:55 ✓ lua_run_dcc0a9bf: took 324 ms
+2024/03/14 02:17:00 ✓ lua_run_775938e5: took 339 ms
+2024/03/14 02:17:33 ✓ lua_run_22e80086: took 326 ms
+2024/03/14 02:17:42 ✓ lua_run_1b0e1f23: took 328 ms
+2024/03/14 02:17:47 ✓ lua_run_fe9fdbdb: took 345 ms
+2024/03/14 02:18:04 ✓ lua_run_5fa60f43: took 343 ms
+2024/03/14 02:18:10 ✓ lua_run_cabcba7d: took 335 ms
+2024/03/14 02:18:15 ✓ lua_run_b5a535e6: took 351 ms
+2024/03/14 02:18:23 ✓ lua_run_ec241512: took 341 ms
+2024/03/14 02:18:47 ✓ lua_run_88e389e1: took 328 ms
+2024/03/14 02:22:18 ✓ odin_run_a66390a4: took 1755 ms
+2024/03/14 02:23:36 ✓ odin_run_c8e61dcc: took 1499 ms
+2024/03/14 02:26:10 ✓ go_run_7f2a8ff4: took 1947 ms
+2024/03/14 02:26:14 ✓ go_run_77169297: took 1589 ms
+2024/03/14 02:28:32 ✓ go_run_18e492ba: took 1890 ms
+2024/03/14 02:30:03 ✓ go_run_ffd6f493: took 2529 ms
+2024/03/14 02:30:18 ✓ sqlite_run_540c8ca6: took 352 ms
+2024/03/14 02:31:24 ✓ odin_run_8f468d64: took 1510 ms
+2024/03/14 02:35:09 ✓ mssql_run_4af56a70: took 1287 ms
+2024/03/14 02:35:29 ✓ mssql_run_27133f49: took 1131 ms
+2024/03/14 02:35:51 ✓ mssql_run_d3217a39: took 1197 ms
+2024/03/14 02:36:23 ✓ go_run_8f5981d1: took 1654 ms
+2024/03/14 02:47:39 ✓ mssql_run_39e19a7d: took 1920 ms
+2024/03/14 02:48:08 ✓ mssql_run_5e962d2c: took 1785 ms
+2024/03/14 02:49:30 ✓ mssql_run_44126b92: took 1807 ms
+2024/03/14 02:50:27 ✓ mssql_run_617e78e8: took 1810 ms
+2024/03/14 02:50:43 ✓ mssql_run_f754e327: took 1875 ms
+2024/03/14 02:51:21 ✓ mssql_run_84c7e9eb: took 1840 ms
+2024/03/14 02:51:39 ✓ mssql_run_785346a4: took 1234 ms
+2024/03/14 02:52:30 ✓ mssql_run_27900c92: took 1847 ms
+2024/03/14 02:53:15 ✓ mssql_run_3888ecba: took 1887 ms
+2024/03/14 02:53:50 ✓ mssql_run_1d9756b4: took 1870 ms
+2024/03/14 02:54:26 ✓ python_run_4cd44ef0: took 403 ms
+2024/03/14 02:55:10 ✓ go_run_94513f34: took 1654 ms
+2024/03/14 02:56:46 ✓ go_run_f8b5f0b7: took 1566 ms
+2024/03/14 02:57:43 ✓ go_run_9e8f30c7: took 3296 ms
+2024/03/14 02:58:41 ✓ go_run_10821eb1: took 3098 ms
+2024/03/14 03:04:04 ✗ mssql_run_765bf8b1: code execution timeout
+2024/03/14 03:04:04 mssql_run_765bf8b1: execution timeout, killed process=3758472, err=<nil>
+2024/03/14 03:04:15 ✗ mssql_run_efbd6c71: Sqlcmd: Error: Microsoft ODBC Driver 17 for SQL Server : Client unable to establ [truncated]
+2024/03/14 03:04:30 ✗ mssql_run_6121c254: Error response from daemon: No such container: mssql (exit status 1)
+2024/03/14 03:04:42 ✗ mssql_run_e8a19df4: Error response from daemon: No such container: mssql (exit status 1)
+2024/03/14 03:04:57 ✗ mssql_run_1e49c168: Error response from daemon: No such container: mssql (exit status 1)
+2024/03/14 03:05:17 ✗ mssql_run_1507edb4: code execution timeout
+2024/03/14 03:05:17 mssql_run_1507edb4: execution timeout, killed process=3759579, err=<nil>
+2024/03/14 03:05:42 ✓ mssql_run_342a648b: took 1952 ms
+2024/03/14 03:05:54 ✓ mssql_run_cc5ceaa9: took 1848 ms
+2024/03/14 03:07:06 ✓ mssql_run_87c28f35: took 1827 ms
+2024/03/14 03:07:45 ✓ mssql_run_80b3b8f1: took 2001 ms
+2024/03/14 03:07:55 ✓ python_run_70cc039d: took 679 ms
+2024/03/14 03:14:04 ✗ lua_run_9c00ff81: lua: main.lua:14: ')' expected near 'result' (exit status 1)
+2024/03/14 03:14:24 ✗ lua_run_474c061e: lua: main.lua:14: attempt to concatenate a nil value (field 'message') stack tra [truncated]
+2024/03/14 03:15:29 ✓ lua_run_20b18940: took 336 ms
+2024/03/14 03:15:48 ✗ lua_run_71bb43af: lua: main.lua:14: attempt to concatenate a table value (local 'result') stack tr [truncated]
+2024/03/14 03:15:58 ✓ lua_run_9b341c6d: took 314 ms
+2024/03/14 03:16:47 ✓ lua_run_c09bcb17: took 405 ms
+2024/03/14 03:17:00 ✓ lua_run_c6e72a36: took 316 ms
+2024/03/14 03:18:08 ✓ lua_run_019ca97c: took 324 ms
+2024/03/14 03:18:21 ✓ lua_run_917a18b6: took 315 ms
+2024/03/14 03:22:44 ✓ lua_run_86232747: took 335 ms
+2024/03/14 03:23:23 ✗ lua_run_968b7928: lua: main.lua:2: Error retrieving fullname stack traceback: [C]: in function 'e [truncated]
+2024/03/14 03:25:00 ✓ lua_run_aded9ee7: took 327 ms
+2024/03/14 03:25:07 ✓ lua_run_e609dc19: took 322 ms
+2024/03/14 03:25:40 ✓ lua_run_19041086: took 331 ms
+2024/03/14 03:25:51 ✓ lua_run_a7ceda60: took 334 ms
+2024/03/14 03:26:00 ✓ lua_run_8e03c2de: took 325 ms
+2024/03/14 03:26:42 ✓ http_run_6b62df24: took 1 ms
+2024/03/14 03:26:42 http_run_6b62df24: POST http://127.0.0.1:4201/dump/request
+2024/03/14 03:42:20 ✓ lua_run_5cbeed1a: took 319 ms
+2024/03/14 03:42:32 ✓ lua_run_865ce011: took 438 ms
+2024/03/14 03:42:45 ✓ lua_run_10e53c2d: took 330 ms
+2024/03/14 03:42:57 ✓ lua_run_3844d191: took 326 ms
+2024/03/14 03:43:01 ✓ lua_run_5dc21944: took 527 ms
+2024/03/14 03:43:11 ✓ lua_run_5080e6f7: took 328 ms
+2024/03/14 03:43:43 ✓ lua_run_d9293575: took 332 ms
+2024/03/14 03:43:56 ✓ lua_run_de17acad: took 327 ms
+2024/03/14 03:44:55 ✓ lua_run_d2c61b9d: took 353 ms
+2024/03/14 03:45:03 ✓ lua_run_0dd1164b: took 568 ms
+2024/03/14 03:45:10 ✓ lua_run_bc88168b: took 351 ms
+2024/03/14 03:45:33 ✓ lua_run_c7af9fd0: took 319 ms
+2024/03/14 03:46:00 ✓ lua_run_3e117f01: took 336 ms
+2024/03/14 03:46:08 ✓ lua_run_93759021: took 300 ms
+2024/03/14 04:02:48 ✓ cpp_run_cebe84d5: took 1545 ms
+2024/03/14 04:12:06 ✓ shell_run_e3c23f62: took 419 ms
+2024/03/14 04:12:09 ✓ shell_run_53c2a059: took 342 ms
+2024/03/14 04:12:17 ✓ shell_run_26820b15: took 347 ms
+2024/03/14 04:12:25 ✓ shell_run_acfeea36: took 341 ms
+2024/03/14 04:15:33 ✓ shell_run_9a8b3b84: took 343 ms
+2024/03/14 04:15:36 ✓ shell_run_13e73b0d: took 349 ms
+2024/03/14 04:15:43 ✓ shell_run_9f836333: took 327 ms
+2024/03/14 04:15:47 ✓ shell_run_d0f88da4: took 331 ms
+2024/03/14 04:15:59 ✓ shell_run_89513f67: took 325 ms
+2024/03/14 04:16:13 ✓ shell_run_33503e4c: took 355 ms
+2024/03/14 04:16:42 ✓ shell_run_b9dcb3de: took 349 ms
+2024/03/14 04:16:50 ✓ shell_run_4bce492b: took 319 ms
+2024/03/14 04:17:18 ✓ shell_run_2f53cbcb: took 328 ms
+2024/03/14 04:17:22 ✓ shell_run_deddc751: took 325 ms
+2024/03/14 04:17:43 ✓ shell_run_9a4c58e1: took 337 ms
+2024/03/14 04:17:46 ✓ shell_run_f67f9314: took 351 ms
+2024/03/14 04:17:51 ✓ shell_run_c3fa2f79: took 359 ms
+2024/03/14 04:18:15 ✓ shell_run_9f3f56d0: took 335 ms
+2024/03/14 04:18:19 ✓ shell_run_59bb2373: took 352 ms
+2024/03/14 04:19:10 ✓ shell_run_5f133f83: took 335 ms
+2024/03/14 04:19:13 ✓ shell_run_ee46fc9c: took 318 ms
+2024/03/14 04:19:16 ✓ shell_run_61c0c361: took 341 ms
+2024/03/14 04:19:31 ✓ shell_run_c353b4a4: took 338 ms
+2024/03/14 04:20:13 ✓ shell_run_49f591e4: took 327 ms
+2024/03/14 04:20:22 ✓ shell_run_128d2879: took 303 ms
+2024/03/14 04:20:25 ✓ shell_run_0ce599da: took 314 ms
+2024/03/14 04:20:31 ✓ shell_run_d3fef452: took 358 ms
+2024/03/14 04:21:16 ✓ shell_run_700cede4: took 331 ms
+2024/03/14 04:21:18 ✓ shell_run_5bc4eaea: took 333 ms
+2024/03/14 04:21:23 ✓ shell_run_188e85d4: took 333 ms
+2024/03/14 04:22:03 ✓ shell_run_7a5d4cbc: took 635 ms
+2024/03/14 04:22:07 ✓ shell_run_6a790b57: took 365 ms
+2024/03/14 04:22:09 ✓ shell_run_ba84facc: took 327 ms
+2024/03/14 04:22:24 ✓ shell_run_a951400e: took 348 ms
+2024/03/14 04:23:44 ✓ shell_run_0a791098: took 317 ms
+2024/03/14 04:23:47 ✓ shell_run_4aa875aa: took 338 ms
+2024/03/14 04:23:50 ✓ shell_run_7fa1a95e: took 370 ms
+2024/03/14 04:25:25 ✓ shell_run_9cbe2cb9: took 348 ms
+2024/03/14 04:25:27 ✓ shell_run_031a9d05: took 348 ms
+2024/03/14 04:25:29 ✓ shell_run_612bf61f: took 327 ms
+2024/03/14 04:25:32 ✓ shell_run_b8225adf: took 326 ms
+2024/03/14 04:25:36 ✓ shell_run_dddff33c: took 339 ms
+2024/03/14 04:25:50 ✓ shell_run_1ecb9f8e: took 347 ms
+2024/03/14 04:25:52 ✓ shell_run_63cded67: took 387 ms
+2024/03/14 04:25:58 ✓ shell_run_54dc7998: took 371 ms
+2024/03/14 04:26:01 ✓ shell_run_46d40f74: took 513 ms
+2024/03/14 04:26:14 ✓ shell_run_a2624c37: took 378 ms
+2024/03/14 04:26:16 ✓ shell_run_0959fe44: took 363 ms
+2024/03/14 04:26:19 ✓ shell_run_676f7a5d: took 397 ms
+2024/03/14 04:26:23 ✓ shell_run_e286b1eb: took 403 ms
+2024/03/14 04:26:27 ✓ shell_run_aa9c1d01: took 397 ms
+2024/03/14 04:26:31 ✓ shell_run_5101173a: took 409 ms
+2024/03/14 04:26:45 ✓ shell_run_4b6be5d3: took 368 ms
+2024/03/14 04:26:48 ✓ shell_run_87a7b066: took 373 ms
+2024/03/14 04:26:51 ✓ shell_run_9c137c23: took 377 ms
+2024/03/14 04:27:34 ✓ shell_run_8fe7d546: took 374 ms
+2024/03/14 04:27:38 ✓ shell_run_529132e6: took 347 ms
+2024/03/14 04:27:42 ✓ shell_run_43201429: took 391 ms
+2024/03/14 04:27:45 ✓ shell_run_cc3566e3: took 424 ms
+2024/03/14 04:28:26 ✓ shell_run_a9583c2f: took 411 ms
+2024/03/14 04:28:28 ✓ shell_run_cbf198fb: took 409 ms
+2024/03/14 04:28:31 ✓ shell_run_fa3f73cb: took 403 ms
+2024/03/14 04:28:34 ✓ shell_run_e9a751bd: took 415 ms
+2024/03/14 04:29:53 ✗ lua_run_3728fa15: lua: main.lua:7: function arguments expected near ')' (exit status 1)
+2024/03/14 04:29:58 ✓ shell_run_9fb609eb: took 373 ms
+2024/03/14 04:30:03 ✓ shell_run_2f42862c: took 718 ms
+2024/03/14 04:30:06 ✓ shell_run_092033a7: took 375 ms
+2024/03/14 04:30:07 ✗ lua_run_e982b760: lua: main.lua:13: 'end' expected (to close 'if' at line 8) near <eof> (exit stat [truncated]
+2024/03/14 04:30:09 ✓ shell_run_8caf248e: took 400 ms
+2024/03/14 04:30:12 ✓ shell_run_0e380a61: took 398 ms
+2024/03/14 04:30:15 ✓ shell_run_9de25012: took 371 ms
+2024/03/14 04:30:29 ✗ lua_run_de9702c8: lua: main.lua:3: Error retrieving fullname stack traceback: [C]: in function 'e [truncated]
+2024/03/14 04:32:44 ✗ lua_run_86c12ecf: lua: main.lua:3: Error retrieving fullname stack traceback: [C]: in function 'e [truncated]
+2024/03/14 04:33:03 ✓ lua_run_23d2b156: took 360 ms
+2024/03/14 04:33:11 ✗ lua_run_bc4aa7b8: lua: main.lua:7: function arguments expected near ')' (exit status 1)
+2024/03/14 04:34:42 ✓ shell_run_05c3e87e: took 346 ms
+2024/03/14 04:34:45 ✓ shell_run_d41d3722: took 331 ms
+2024/03/14 04:34:56 ✓ shell_run_7835e153: took 331 ms
+2024/03/14 04:34:58 ✓ shell_run_b76315cf: took 336 ms
+2024/03/14 04:35:02 ✓ lua_run_aa676c42: took 660 ms
+2024/03/14 04:35:20 ✓ shell_run_8e79f0d0: took 361 ms
+2024/03/14 04:35:26 ✓ shell_run_32012c95: took 353 ms
+2024/03/14 04:36:20 ✗ lua_run_e82b83c1: lua: main.lua:11: function arguments expected near ')' (exit status 1)
+2024/03/14 04:36:56 ✗ lua_run_28cacaef: lua: main.lua:11: function arguments expected near 'end' (exit status 1)
+2024/03/14 04:37:56 ✓ shell_run_f931392f: took 352 ms
+2024/03/14 04:37:58 ✓ shell_run_2dbd79d9: took 380 ms
+2024/03/14 04:38:08 ✓ shell_run_13965191: took 354 ms
+2024/03/14 04:38:12 ✓ shell_run_83e125ae: took 383 ms
+2024/03/14 04:38:26 ✓ shell_run_945bd85a: took 392 ms
+2024/03/14 04:41:55 ✓ lua_run_6a0962be: took 317 ms
+2024/03/14 04:42:33 ✓ shell_run_b62b93a5: took 343 ms
+2024/03/14 04:42:37 ✓ shell_run_1fcd5b36: took 366 ms
+2024/03/14 04:42:52 ✓ shell_run_a3c69c26: took 362 ms
+2024/03/14 04:42:57 ✓ shell_run_d382b7d1: took 355 ms
+2024/03/14 04:43:05 ✓ shell_run_93dc7027: took 450 ms
+2024/03/14 04:43:10 ✓ shell_run_df9f44b1: took 359 ms
+2024/03/14 04:46:51 ✓ mssql_run_144605b7: took 1359 ms
+2024/03/14 04:47:02 ✓ mssql_run_45cae187: took 1242 ms
+2024/03/14 04:47:29 ✗ shell_run_5ab72436: -- edit & add --fatal: pathspec 'praise.txt' did not match any files (exit statu [truncated]
+2024/03/14 04:48:05 ✓ shell_run_6563078b: took 350 ms
+2024/03/14 04:48:15 ✓ shell_run_b351d571: took 373 ms
+2024/03/14 04:48:44 ✓ shell_run_7aef585b: took 347 ms
+2024/03/14 04:48:46 ✓ shell_run_7a39c319: took 353 ms
+2024/03/14 04:48:54 ✓ shell_run_27c1ca4b: took 351 ms
+2024/03/14 04:49:02 ✓ shell_run_98e18ee5: took 478 ms
+2024/03/14 04:49:21 ✓ shell_run_ce2eb4d3: took 401 ms
+2024/03/14 04:49:36 ✓ shell_run_dac7dd76: took 348 ms
+2024/03/14 04:49:53 ✓ shell_run_4ec7ae01: took 354 ms
+2024/03/14 04:50:05 ✓ shell_run_b6cd959b: took 373 ms
+2024/03/14 04:50:13 ✓ shell_run_e63e3918: took 376 ms
+2024/03/14 04:50:34 ✓ shell_run_0f3a33ab: took 336 ms
+2024/03/14 04:50:45 ✓ shell_run_5bf02319: took 349 ms
+2024/03/14 04:50:59 ✓ shell_run_160ba15f: took 359 ms
+2024/03/14 04:51:35 ✓ shell_run_e7e8b87e: took 367 ms
+2024/03/14 04:52:06 ✓ shell_run_4bc3706e: took 385 ms
+2024/03/14 04:54:31 ✓ python_run_11b98b8e: took 431 ms
+2024/03/14 04:58:52 ✓ python_run_bf6e715d: took 331 ms
+2024/03/14 04:59:20 ✓ lua_run_253a01eb: took 305 ms
+2024/03/14 04:59:30 ✓ lua_run_c70997dd: took 313 ms
+2024/03/14 04:59:41 ✓ lua_run_6ac1eaaf: took 335 ms
+2024/03/14 05:00:22 ✓ shell_run_8aca5e01: took 400 ms
+2024/03/14 05:00:36 ✓ shell_run_8a8dbac6: took 332 ms
+2024/03/14 05:00:47 ✓ shell_run_53f05129: took 344 ms
+2024/03/14 05:00:51 ✓ shell_run_a1ea4d1b: took 376 ms
+2024/03/14 05:01:58 ✓ sqlite_run_03b0d74f: took 336 ms
+2024/03/14 05:02:49 ✓ sqlite_run_4a16aea0: took 312 ms
+2024/03/14 05:03:08 ✓ sqlite_run_7d8b9da6: took 308 ms
+2024/03/14 05:03:22 ✓ sqlite_run_9a940912: took 343 ms
+2024/03/14 05:03:30 ✓ net-tools_run_d9984ebc: took 534 ms
+2024/03/14 05:03:35 ✓ net-tools_run_9a7fd891: took 514 ms
+2024/03/14 05:03:40 ✓ net-tools_run_131149e3: took 493 ms
+2024/03/14 05:03:47 ✓ python_run_905943d3: took 1189 ms
+2024/03/14 05:03:55 ✓ python_run_bd89dd1e: took 1517 ms
+2024/03/14 05:04:02 ✓ postgres_run_e175d0c6: took 446 ms
+2024/03/14 05:04:11 ✓ python_run_9b897f4d: took 354 ms
+2024/03/14 05:04:57 ✓ python_run_1e0dbb5c: took 320 ms
+2024/03/14 05:05:43 ✗ shell_run_23e7d65d: -- log -- -- test -- -- bisect -- -- test -- -- bisect -- -- test -- -- show --f [truncated]
+2024/03/14 05:06:26 ✓ shell_run_aa5ae8f6: took 380 ms
+2024/03/14 05:06:29 ✗ shell_run_aecea184: FAIL (exit status 1)
+2024/03/14 05:06:33 ✓ shell_run_b232cbc2: took 363 ms
+2024/03/14 05:06:40 ✓ shell_run_18073c91: took 359 ms
+2024/03/14 05:07:14 ✓ shell_run_34197847: took 371 ms
+2024/03/14 05:07:20 ✓ shell_run_a67466a4: took 369 ms
+2024/03/14 05:07:26 ✓ shell_run_1cc7f14f: took 374 ms
+2024/03/14 05:07:43 ✓ shell_run_76723346: took 366 ms
+2024/03/14 05:07:49 ✗ shell_run_a4f041bd: -- bisect -- status: waiting for both good and bad commits status: waiting for g [truncated]
+2024/03/14 05:07:54 ✓ shell_run_e35fab32: took 607 ms
+2024/03/14 05:10:42 ✓ shell_run_4aa76030: took 393 ms
+2024/03/14 05:10:45 ✓ shell_run_95de3188: took 350 ms
+2024/03/14 05:11:33 ✓ shell_run_1bcc7759: took 358 ms
+2024/03/14 05:11:38 ✓ shell_run_c84d2264: took 369 ms
+2024/03/14 05:11:51 ✓ shell_run_71dda561: took 350 ms
+2024/03/14 05:11:54 ✓ shell_run_08086a1f: took 371 ms
+2024/03/14 05:11:56 ✓ shell_run_a7a3f4e9: took 353 ms
+2024/03/14 05:12:00 ✓ shell_run_a15146a0: took 367 ms
+2024/03/14 05:24:39 ✓ shell_run_32c6eac5: took 336 ms
+2024/03/14 05:24:47 ✓ shell_run_ea44cec3: took 344 ms
+2024/03/14 05:28:56 ✓ python_run_b4557784: took 397 ms
+2024/03/14 05:29:00 ✓ sqlite_run_d32cc161: took 333 ms
+2024/03/14 05:29:58 ✓ shell_run_4627489e: took 360 ms
+2024/03/14 05:30:03 ✓ shell_run_a8bb117e: took 588 ms
+2024/03/14 05:30:12 ✓ shell_run_60eda85e: took 336 ms
+2024/03/14 05:30:20 ✓ shell_run_fdc4c728: took 340 ms
+2024/03/14 05:30:23 ✓ shell_run_fb810e84: took 310 ms
+2024/03/14 05:30:32 ✓ shell_run_f5a4b872: took 334 ms
+2024/03/14 05:30:41 ✓ shell_run_bf767da1: took 326 ms
+2024/03/14 05:30:43 ✓ shell_run_dbc803bf: took 325 ms
+2024/03/14 05:31:33 ✓ shell_run_d2ca1d15: took 338 ms
+2024/03/14 05:31:38 ✓ shell_run_b0cbe9ac: took 322 ms
+2024/03/14 05:31:43 ✓ shell_run_03a1c87c: took 330 ms
+2024/03/14 05:31:56 ✓ shell_run_4a627f53: took 334 ms
+2024/03/14 05:32:00 ✓ shell_run_e361c2bf: took 334 ms
+2024/03/14 05:32:03 ✓ shell_run_e4a73cc7: took 514 ms
+2024/03/14 05:32:08 ✓ shell_run_320ab62f: took 440 ms
+2024/03/14 05:32:17 ✓ shell_run_2421d648: took 332 ms
+2024/03/14 05:32:22 ✓ shell_run_7f7e796d: took 329 ms
+2024/03/14 05:32:45 ✓ shell_run_12adda5f: took 306 ms
+2024/03/14 05:32:53 ✓ shell_run_c2a61ec7: took 350 ms
+2024/03/14 05:32:57 ✓ shell_run_c009c65d: took 329 ms
+2024/03/14 05:33:00 ✓ shell_run_83aa5880: took 332 ms
+2024/03/14 05:33:03 ✓ shell_run_d142fb0e: took 335 ms
+2024/03/14 05:33:06 ✓ shell_run_5118ffcb: took 316 ms
+2024/03/14 05:33:11 ✓ shell_run_4cbfc266: took 330 ms
+2024/03/14 05:33:21 ✓ shell_run_1ae953ff: took 357 ms
+2024/03/14 05:33:25 ✓ shell_run_96efc65b: took 325 ms
+2024/03/14 05:33:30 ✓ shell_run_6eda68fb: took 331 ms
+2024/03/14 05:33:35 ✓ shell_run_9c6a5be0: took 316 ms
+2024/03/14 05:33:48 ✓ shell_run_0a184596: took 339 ms
+2024/03/14 05:33:51 ✓ shell_run_f769cee3: took 327 ms
+2024/03/14 05:33:57 ✓ shell_run_73372e36: took 341 ms
+2024/03/14 05:34:05 ✓ shell_run_2f4a774c: took 341 ms
+2024/03/14 05:34:12 ✓ shell_run_91cafe10: took 338 ms
+2024/03/14 05:34:33 ✓ shell_run_70d6ea9e: took 345 ms
+2024/03/14 05:34:41 ✓ shell_run_49c5cfab: took 344 ms
+2024/03/14 05:34:49 ✓ shell_run_77147a55: took 341 ms
+2024/03/14 05:34:54 ✓ shell_run_f155b89f: took 408 ms
+2024/03/14 05:35:09 ✓ shell_run_afec575a: took 358 ms
+2024/03/14 05:35:13 ✓ shell_run_d042f514: took 370 ms
+2024/03/14 05:35:23 ✓ shell_run_e340aa65: took 367 ms
+2024/03/14 05:35:41 ✓ shell_run_fab7f65f: took 353 ms
+2024/03/14 05:35:44 ✓ shell_run_e1a05d73: took 364 ms
+2024/03/14 05:35:51 ✓ shell_run_e697566c: took 393 ms
+2024/03/14 05:35:56 ✓ shell_run_f7a2fc28: took 395 ms
+2024/03/14 05:36:00 ✓ shell_run_b36b68c3: took 398 ms
+2024/03/14 05:36:07 ✓ shell_run_454e0fb9: took 394 ms
+2024/03/14 05:36:56 ✓ shell_run_2e88267e: took 371 ms
+2024/03/14 05:36:59 ✓ shell_run_c3b470e8: took 357 ms
+2024/03/14 05:37:06 ✓ shell_run_8675509a: took 368 ms
+2024/03/14 05:37:22 ✓ shell_run_607aae21: took 389 ms
+2024/03/14 05:37:27 ✓ shell_run_8fcefa22: took 372 ms
+2024/03/14 05:37:38 ✓ shell_run_12ff1593: took 355 ms
+2024/03/14 05:37:48 ✓ shell_run_75babe6c: took 342 ms
+2024/03/14 05:37:50 ✓ shell_run_e5c5d2e8: took 347 ms
+2024/03/14 05:38:01 ✓ shell_run_e1b20a51: took 411 ms
+2024/03/14 05:38:06 ✓ shell_run_293dad9b: took 363 ms
+2024/03/14 05:38:09 ✓ shell_run_68517246: took 393 ms
+2024/03/14 05:38:14 ✓ shell_run_e22ed6a1: took 398 ms
+2024/03/14 05:38:29 ✗ shell_run_b79391f5: -- pull (conflict) -- Auto-merging message.txt CONFLICT (content): Merge conflic [truncated]
+2024/03/14 05:38:46 ✓ shell_run_25b3d403: took 399 ms
+2024/03/14 05:39:00 ✓ shell_run_8b03179c: took 413 ms
+2024/03/14 05:39:07 ✓ shell_run_99731df8: took 345 ms
+2024/03/14 05:39:10 ✓ shell_run_a7b78073: took 367 ms
+2024/03/14 05:39:13 ✓ shell_run_640fddb3: took 374 ms
+2024/03/14 05:39:17 ✓ shell_run_aabf7e97: took 385 ms
+2024/03/14 05:39:23 ✓ shell_run_7da7140d: took 420 ms
+2024/03/14 05:39:28 ✓ shell_run_cf7fa718: took 405 ms
+2024/03/14 05:39:31 ✓ shell_run_81ebc59c: took 407 ms
+2024/03/14 05:39:34 ✓ shell_run_630636d5: took 401 ms
+2024/03/14 05:39:39 ✓ shell_run_7bfbee5d: took 358 ms
+2024/03/14 05:39:44 ✓ shell_run_e9baf0c5: took 375 ms
+2024/03/14 05:39:49 ✓ shell_run_23315095: took 366 ms
+2024/03/14 05:39:53 ✓ shell_run_88d57fc0: took 351 ms
+2024/03/14 05:40:04 ✓ shell_run_ba1279a5: took 528 ms
+2024/03/14 05:40:08 ✓ shell_run_ac846724: took 393 ms
+2024/03/14 05:40:29 ✓ shell_run_e1fb4794: took 319 ms
+2024/03/14 05:40:33 ✓ shell_run_b8bc9243: took 417 ms
+2024/03/14 05:40:39 ✓ shell_run_a05cea35: took 329 ms
+2024/03/14 05:40:46 ✓ shell_run_d94a745b: took 352 ms
+2024/03/14 05:41:30 ✓ shell_run_bcd7b0c1: took 332 ms
+2024/03/14 05:41:33 ✓ shell_run_17f99253: took 339 ms
+2024/03/14 05:41:38 ✓ shell_run_d32119be: took 326 ms
+2024/03/14 05:41:42 ✓ shell_run_6c2faf32: took 333 ms
+2024/03/14 05:41:52 ✓ shell_run_fa14bff8: took 354 ms
+2024/03/14 05:41:56 ✓ shell_run_c3b81123: took 340 ms
+2024/03/14 05:42:19 ✓ shell_run_963b27fd: took 332 ms
+2024/03/14 05:42:21 ✓ shell_run_428fbb3e: took 339 ms
+2024/03/14 05:42:24 ✓ shell_run_98a2be78: took 365 ms
+2024/03/14 05:42:27 ✓ shell_run_1b273956: took 334 ms
+2024/03/14 05:42:37 ✓ shell_run_0a9c5fc5: took 347 ms
+2024/03/14 05:42:52 ✓ shell_run_e799bdb7: took 461 ms
+2024/03/14 05:42:54 ✓ python_run_5f3302a7: took 3081 ms
+2024/03/14 05:42:55 ✓ shell_run_4f48b2a4: took 365 ms
+2024/03/14 05:43:07 ✓ shell_run_c3e9fea9: took 409 ms
+2024/03/14 05:43:13 ✓ shell_run_f2741115: took 370 ms
+2024/03/14 05:43:18 ✓ shell_run_f7634a1e: took 386 ms
+2024/03/14 05:43:21 ✓ shell_run_9ac0c107: took 344 ms
+2024/03/14 05:44:00 ✓ shell_run_86eb780c: took 373 ms
+2024/03/14 05:44:06 ✓ shell_run_34512b89: took 385 ms
+2024/03/14 05:46:13 ✓ shell_run_6b5c60de: took 393 ms
+2024/03/14 05:57:09 ✓ shell_run_9b5eecc8: took 340 ms
+2024/03/14 06:00:31 ✗ lua_run_727b5503: lua: main.lua:7: function arguments expected near ')' (exit status 1)
+2024/03/14 06:00:48 ✓ lua_run_d633bd34: took 304 ms
+2024/03/14 06:01:18 ✓ lua_run_0d90e036: took 316 ms
+2024/03/14 06:01:35 ✓ lua_run_3e16abfd: took 303 ms
+2024/03/14 06:09:00 ✓ go_run_c2a1e8d7: took 3821 ms
+2024/03/14 06:10:05 ✓ go_run_dca1c1c6: took 4377 ms
+2024/03/14 06:10:44 ✓ go_run_bb7493d2: took 3179 ms
+2024/03/14 06:14:47 ✓ postgres_run_ace6150f: took 603 ms
+2024/03/14 06:14:47 ✓ sqlite_run_9abff6b3: took 568 ms
+2024/03/14 06:14:49 ✓ mysql_run_28f1bcf9: took 2585 ms
+2024/03/14 06:15:02 ✓ postgres_run_5f52564e: took 1141 ms
+2024/03/14 06:15:02 ✓ sqlite_run_9a49139f: took 1256 ms
+2024/03/14 06:15:04 ✓ mysql_run_718c724b: took 3637 ms
+2024/03/14 06:36:10 ✗ caddy_exec_a6040ba6: exit status 7
+2024/03/14 06:36:12 ✓ caddy_run_79c09b58: took 347 ms
+2024/03/14 06:37:27 ✓ net-tools_run_9e0a98ad: took 503 ms
+2024/03/14 06:37:33 ✓ python_run_3d40db26: took 966 ms
+2024/03/14 06:37:38 ✓ postgres_run_8282af51: took 367 ms
+2024/03/14 06:46:56 ✗ zig_run_360201b5: main.zig:11:27: error: expected ';' after statement (exit status 1)
+2024/03/14 06:47:06 ✓ zig_run_b4c86b70: took 4367 ms
+2024/03/14 06:47:56 ✗ zig_run_1a994560: main.zig:13:18: error: extra capture in for loop main.zig:13:18: note: run 'zig [truncated]
+2024/03/14 06:48:22 ✗ zig_run_26d5e93f: main.zig:13:10: error: type 'hash_map.HashMap(u8,[]const u8,hash_map.AutoContext [truncated]
+2024/03/14 06:48:51 ✗ zig_run_47a0a53a: main.zig:13:24: error: extra capture in for loop main.zig:13:24: note: run 'zig [truncated]
+2024/03/14 06:49:58 ✗ zig_run_0b328c34: main.zig:13:29: error: extra capture in for loop main.zig:13:29: note: run 'zig [truncated]
+2024/03/14 06:50:15 ✗ zig_run_4570ead7: main.zig:13:21: error: type 'hash_map.HashMapUnmanaged(u8,[]const u8,hash_map.Au [truncated]
+2024/03/14 06:51:42 ✗ duckdb_run_e5da738e: Error: near line 71: Catalog Error: Table with name t does not exist! Did you me [truncated]
+2024/03/14 06:51:58 ✓ duckdb_run_139b1f59: took 371 ms
+2024/03/14 06:52:08 ✓ duckdb_run_bb8442e4: took 339 ms
+2024/03/14 06:52:45 ✗ zig_run_53f5d693: main.zig:13:12: error: expected expression, found 'var' (exit status 1)
+2024/03/14 06:52:52 ✗ zig_run_df1dcdca: main.zig:13:15: error: expected ')', found '=' (exit status 1)
+2024/03/14 06:58:39 ✓ go_run_0fe5be61: took 1825 ms
+2024/03/14 06:58:44 ✓ go_run_13017333: took 1555 ms
+2024/03/14 07:01:55 ✓ go_run_39261a74: took 1560 ms
+2024/03/14 07:03:48 ✓ python_run_3d766883: took 376 ms
+2024/03/14 07:03:49 ✓ sqlite_run_6d94c98b: took 335 ms
+2024/03/14 07:04:18 ✓ sqlite_run_2fd468d5: took 316 ms
+2024/03/14 07:04:27 ✓ sqlite_run_d70a34ca: took 307 ms
+2024/03/14 07:04:29 ✗ sqlite_run_7949eff6: Parse error near line 71: no such column: emp_i window w as (order by salary d [truncated]
+2024/03/14 07:05:47 ✓ sqlite_run_8374c431: took 323 ms
+2024/03/14 07:07:10 ✓ go_run_a0cc799a: took 1517 ms
+2024/03/14 07:08:24 ✓ go_run_fef3f321: took 1616 ms
+2024/03/14 07:09:59 ✓ go_run_ad8886b6: took 1568 ms
+2024/03/14 07:14:04 ✗ mono_run_823a31c6: main.cs(13,33): error CS0246: The type or namespace name 'HttpClient' could not [truncated]
+2024/03/14 07:15:55 ✗ mono_run_76723f81: main.cs(4,7): warning CS0105: The using directive for 'System.Net.Http' appeared [truncated]
+2024/03/14 07:16:29 ✗ go_run_fb18c079: panic: runtime error: slice bounds out of range [4:3] goroutine 1 [running]: sl [truncated]
+2024/03/14 07:17:47 ✓ go.dev_run_4f50b61d: took 2295 ms
+2024/03/14 07:19:12 ✓ sqlite_run_8458be55: took 354 ms
+2024/03/14 07:20:30 ✓ python_run_8954d996: took 1626 ms
+2024/03/14 07:23:09 ✓ chdb-python_run_70be736c: took 711 ms
+2024/03/14 07:23:35 ✓ chdb-python_run_1c55b441: took 682 ms
+2024/03/14 07:26:30 ✗ chdb-python_run_5ba602b8: Traceback (most recent call last): File "/sandbox/main.py", line 19, in <modul [truncated]
+2024/03/14 07:28:04 ✓ zig_run_071e992c: took 4134 ms
+2024/03/14 07:28:10 ✗ chdb-python_run_19d1cc94: Traceback (most recent call last): File "/sandbox/main.py", line 19, in <modul [truncated]
+2024/03/14 07:29:02 ✗ chdb-python_run_95042e8b: File "/sandbox/main.py", line 17 res = cdf.query(sql=query_sql, emp=employee [truncated]
+2024/03/14 07:29:33 ✗ chdb-python_run_22e6d113: File "/sandbox/main.py", line 17 res = cdf.query(sql=query_sql, emp=employee [truncated]
+2024/03/14 07:32:16 ✗ zig_run_13cea38a: main.zig:9:38: error: expected ';' after declaration (exit status 1)
+2024/03/14 07:32:23 ✗ zig_run_80d3b0f3: main.zig:2:29: error: root struct of file 'std' has no member named 'debuge' (ex [truncated]
+2024/03/14 07:32:33 ✗ zig_run_0b91e991: main.zig:10:5: error: expected 2 argument(s), found 1 /usr/lib/zig/std/debug.zig [truncated]
+2024/03/14 07:32:50 ✓ zig_run_27efec69: took 3394 ms
+2024/03/14 07:33:54 ✓ http_run_9d6ff598: took 3 ms
+2024/03/14 07:33:54 http_run_9d6ff598: POST http://127.0.0.1:4201/dump/request
+2024/03/14 07:34:26 ✓ http_run_08c1d0f3: took 1 ms
+2024/03/14 07:34:26 http_run_08c1d0f3: POST http://127.0.0.1:4201/dump/request
+2024/03/14 07:38:02 ✗ chdb-python_run_23606c49: File "/sandbox/main.py", line 17 res = cdf.query(sql=query_sql, emp=employee [truncated]
+2024/03/14 07:38:14 ✓ go_run_ddc0c764: took 1817 ms
+2024/03/14 07:39:09 ✗ chdb-python_run_7db0609e: File "/sandbox/main.py", line 17 res = cdf.query(sql=query_sql, "dataframe", [truncated]
+2024/03/14 07:39:30 ✗ chdb-python_run_50858cfb: Traceback (most recent call last): File "/sandbox/main.py", line 20, in <modul [truncated]
+2024/03/14 07:40:18 ✗ chdb-python_run_6cccbaa5: Traceback (most recent call last): File "/sandbox/main.py", line 20, in <modul [truncated]
+2024/03/14 07:47:24 ✗ chdb-python_run_21f7aed3: emp_id first_name dep_name salary 0 25 b'Frank' b'IT' 120 1 [truncated]
+2024/03/14 07:47:53 ✗ chdb-python_run_8d0caa8a: emp_id first_name dep_name salary 0 25 b'Frank' b'IT' 120 1 [truncated]
+2024/03/14 07:49:42 ✗ chdb-python_run_b36f11ab: Traceback (most recent call last): File "/sandbox/main.py", line 18, in <modul [truncated]
+2024/03/14 07:51:06 ✗ chdb-python_run_3a047389: Traceback (most recent call last): File "/sandbox/main.py", line 19, in <modul [truncated]
+2024/03/14 07:51:30 ✗ chdb-python_run_e7424c00: Traceback (most recent call last): File "/sandbox/main.py", line 19, in <modul [truncated]
+2024/03/14 07:53:35 ✓ python_run_e40087c8: took 405 ms
+2024/03/14 07:53:48 ✓ python_run_0fc61955: took 325 ms
+2024/03/14 07:58:18 ✓ chdb-python_run_a16c5c7c: took 1578 ms
+2024/03/14 07:59:56 ✗ chdb-python_run_3e562083: Traceback (most recent call last): File "/sandbox/main.py", line 19, in <modul [truncated]
+2024/03/14 08:05:50 ✗ chdb-python_run_5aac73d2: Traceback (most recent call last): File "/sandbox/main.py", line 18, in <modul [truncated]
+2024/03/14 08:06:05 ✗ chdb-python_run_1d2bfd6a: File "/sandbox/main.py", line 18 print(res.class) ^^^^^ Syntax [truncated]
+2024/03/14 08:06:24 ✗ chdb-python_run_554abc88: emp_id first_name dep_name salary 0 25 b'Frank' b'IT' 120 1 [truncated]
+2024/03/14 08:07:15 ✗ chdb-python_run_067b91e5: <class 'chdb.dataframe.query.Table'>Traceback (most recent call last): File "/ [truncated]
+2024/03/14 08:07:29 ✓ chdb-python_run_b57f7aa1: took 1603 ms
+2024/03/14 08:08:29 ✗ chdb-python_run_54cda587: <class 'chdb.dataframe.query.Table'>Traceback (most recent call last): File "/ [truncated]
+2024/03/14 08:18:45 ✓ python_run_ae9866dc: took 367 ms
+2024/03/14 08:19:02 ✓ python_run_c38102e3: took 3170 ms
+2024/03/14 08:24:22 ✓ python_run_ef8e8e94: took 335 ms
+2024/03/14 08:24:27 ✓ typescript_run_385de772: took 763 ms
+2024/03/14 08:24:31 ✓ sqlite_run_879cbe44: took 317 ms
+2024/03/14 08:24:35 ✓ shell_run_be460e81: took 313 ms
+2024/03/14 08:24:39 ✓ gcc_run_4305b716: took 647 ms
+2024/03/14 08:28:25 ✓ sqlite_run_ccd6a30d: took 321 ms
+2024/03/14 08:29:07 ✓ caddy_exec-validate_deb1865e: took 1163 ms
+2024/03/14 08:36:53 ✗ chdb-python_run_aa9bcfa3: Traceback (most recent call last): File "/sandbox/main.py", line 18, in <modul [truncated]
+2024/03/14 08:39:07 ✓ go_run_52c69865: took 1781 ms
+2024/03/14 09:05:58 ✓ go_run_90648285: took 1686 ms
+2024/03/14 09:06:00 ✓ go_run_7d4736d8: took 1549 ms
+2024/03/14 09:08:30 ✓ go_run_e8f7725f: took 1609 ms
+2024/03/14 09:08:41 ✓ go_run_42c26f52: took 1625 ms
+2024/03/14 09:10:57 ✓ postgres_run_7b3304ba: took 371 ms
+2024/03/14 09:12:13 ✓ postgres_run_f7d01441: took 378 ms
+2024/03/14 09:12:33 ✓ postgres_run_94939469: took 343 ms
+2024/03/14 09:13:03 ✓ go_run_7c2e24c3: took 2109 ms
+2024/03/14 09:13:46 ✓ go_run_7e688da8: took 1630 ms
+2024/03/14 09:17:39 ✓ cpp_run_356f0090: took 1617 ms
+2024/03/14 09:20:55 ✓ http_run_164a7b1a: took 2 ms
+2024/03/14 09:20:55 http_run_164a7b1a: POST http://127.0.0.1:4201/dump/request
+2024/03/14 09:31:43 ✓ sqlite_run_200b44a2: took 350 ms
+2024/03/14 09:34:50 ✓ postgres_run_62474f40: took 361 ms
+2024/03/14 09:35:35 ✓ postgres_run_a3ca526e: took 352 ms
+2024/03/14 09:35:48 ✓ postgres_run_406b0327: took 357 ms
+2024/03/14 09:36:13 ✓ postgres_run_4b03829b: took 347 ms
+2024/03/14 09:37:28 ✓ go_run_eb340be4: took 1732 ms
+2024/03/14 09:37:43 ✗ zig_run_54810d20: main.zig:11:27: error: no field or member function named 'fetch' in 'http.Client [truncated]
+2024/03/14 09:39:55 ✓ go_run_9fff6b95: took 1706 ms
+2024/03/14 09:42:54 ✗ python_run_ab672574: File "/sandbox/main.py", line 3 except NameError: ^ Ind [truncated]
+2024/03/14 09:43:24 ✓ python_run_dcb987cb: took 321 ms
+2024/03/14 09:43:41 ✓ python_run_ef9f0c03: took 366 ms
+2024/03/14 09:44:21 ✓ python_run_750cadd3: took 342 ms
+2024/03/14 10:04:18 ✓ sqlite_run_042156e9: took 326 ms
+2024/03/14 10:04:43 ✓ sqlite_run_c8ab8e7c: took 320 ms
+2024/03/14 10:09:03 ✓ sqlite_run_48f213a1: took 303 ms
+2024/03/14 10:18:12 ✓ caddy_validate-json_2f2477f0: took 566 ms
+2024/03/14 10:21:17 ✓ postgres_run_5687d5b2: took 365 ms
+2024/03/14 10:21:53 ✓ postgres_run_d9e63d35: took 349 ms
+2024/03/14 10:22:07 ✓ postgres_run_c78b59c6: took 352 ms
+2024/03/14 10:22:25 ✓ postgres_run_3abc9f15: took 347 ms
+2024/03/14 10:36:28 ✓ chdb-python_run_017e921e: took 675 ms
+2024/03/14 10:37:20 ✓ python_run_6adda299: took 353 ms
+2024/03/14 10:40:06 ✓ mssql_run_089d84d0: took 1448 ms
+2024/03/14 10:54:51 ✓ shell_run_e7790340: took 379 ms
+2024/03/14 10:54:57 ✓ shell_run_61d33211: took 314 ms
+2024/03/14 10:55:00 ✓ shell_run_f7f30233: took 313 ms
+2024/03/14 10:55:04 ✓ shell_run_ee34b7d3: took 318 ms
+2024/03/14 10:57:18 ✗ python_run_d9e492a3: Traceback (most recent call last): File "/sandbox/main.py", line 11, in <modul [truncated]
+2024/03/14 10:57:29 ✓ python_run_d70d0592: took 356 ms
+2024/03/14 10:57:41 ✓ shell_run_8ab48094: took 311 ms
+2024/03/14 10:57:43 ✓ python_run_3b1825fa: took 363 ms
+2024/03/14 10:57:43 ✓ shell_run_1b7b1773: took 371 ms
+2024/03/14 10:57:45 ✓ shell_run_4d17eb20: took 318 ms
+2024/03/14 10:57:53 ✓ shell_run_07e189d3: took 348 ms
+2024/03/14 10:57:55 ✓ shell_run_d82d0d21: took 352 ms
+2024/03/14 10:57:57 ✓ shell_run_0242c688: took 355 ms
+2024/03/14 10:57:59 ✓ shell_run_b4e7a8e8: took 375 ms
+2024/03/14 10:58:09 ✓ shell_run_101ab70b: took 364 ms
+2024/03/14 10:58:11 ✓ shell_run_7f47ebfb: took 362 ms
+2024/03/14 10:58:14 ✓ shell_run_86d9ab32: took 367 ms
+2024/03/14 10:58:17 ✓ shell_run_404cb668: took 370 ms
+2024/03/14 10:58:22 ✓ shell_run_5ee11fdd: took 369 ms
+2024/03/14 10:58:30 ✓ shell_run_8b93a2a7: took 360 ms
+2024/03/14 10:58:35 ✓ shell_run_51df213b: took 392 ms
+2024/03/14 11:04:42 ✓ typescript_run_25898b46: took 449 ms
+2024/03/14 11:07:30 ✓ shell_run_835c0a7f: took 339 ms
+2024/03/14 11:07:40 ✓ shell_run_57f70f21: took 398 ms
+2024/03/14 11:09:58 ✓ shell_run_21572dfc: took 326 ms
+2024/03/14 11:10:08 ✓ shell_run_7b22662f: took 329 ms
+2024/03/14 11:10:17 ✓ shell_run_8b005d1d: took 371 ms
+2024/03/14 11:10:25 ✓ shell_run_f5612040: took 346 ms
+2024/03/14 11:10:40 ✓ shell_run_a64beb74: took 340 ms
+2024/03/14 11:10:43 ✓ shell_run_f3436d88: took 328 ms
+2024/03/14 11:10:47 ✓ shell_run_1d714b57: took 331 ms
+2024/03/14 11:10:52 ✓ shell_run_dfddc470: took 352 ms
+2024/03/14 11:10:55 ✓ shell_run_7658336b: took 339 ms
+2024/03/14 11:11:03 ✓ shell_run_b69fc0d0: took 317 ms
+2024/03/14 11:11:08 ✓ shell_run_facd0e6d: took 326 ms
+2024/03/14 11:11:10 ✓ shell_run_1f268f43: took 328 ms
+2024/03/14 11:11:13 ✓ shell_run_b92a33de: took 324 ms
+2024/03/14 11:11:19 ✓ shell_run_026275f4: took 354 ms
+2024/03/14 11:21:48 ✓ r_run_32945900: took 817 ms
+2024/03/14 11:25:24 ✓ shell_run_9b40ad99: took 340 ms
+2024/03/14 11:29:04 ✗ shell_run_7746133a: fatal: ambiguous argument 'HEAD~2': unknown revision or path not in the working [truncated]
+2024/03/14 11:30:33 ✓ shell_run_1085a5e9: took 338 ms
+2024/03/14 11:30:49 ✓ shell_run_159cc383: took 317 ms
+2024/03/14 11:31:18 ✓ shell_run_c53505f0: took 342 ms
+2024/03/14 11:31:56 ✓ shell_run_62213118: took 313 ms
+2024/03/14 11:32:23 ✓ shell_run_afaef866: took 331 ms
+2024/03/14 11:32:28 ✓ shell_run_fb901bb2: took 543 ms
+2024/03/14 11:32:29 ✓ mysql_run_158b6be0: took 2651 ms
+2024/03/14 11:32:59 ✓ shell_run_96939cca: took 322 ms
+2024/03/14 11:33:30 ✓ shell_run_62371627: took 327 ms
+2024/03/14 11:33:37 ✓ shell_run_9b6943db: took 323 ms
+2024/03/14 11:34:04 ✓ shell_run_b433bcd5: took 326 ms
+2024/03/14 11:34:14 ✓ shell_run_67d7bb26: took 381 ms
+2024/03/14 11:34:30 ✓ shell_run_c324daaf: took 319 ms
+2024/03/14 11:34:35 ✓ shell_run_a11a75d1: took 353 ms
+2024/03/14 11:34:38 ✓ shell_run_bf2900bf: took 331 ms
+2024/03/14 11:34:40 ✓ shell_run_9013cffa: took 330 ms
+2024/03/14 11:34:46 ✓ shell_run_76baccd0: took 367 ms
+2024/03/14 11:34:49 ✓ shell_run_b990969b: took 318 ms
+2024/03/14 11:34:55 ✓ shell_run_12eead33: took 331 ms
+2024/03/14 11:34:57 ✓ shell_run_21411402: took 327 ms
+2024/03/14 11:35:03 ✓ shell_run_0f14f022: took 612 ms
+2024/03/14 11:35:07 ✓ shell_run_8efb9b9b: took 334 ms
+2024/03/14 11:36:11 ✓ mysql_run_ac3caf61: took 2336 ms
+2024/03/14 11:37:37 ✓ shell_run_ad79778e: took 322 ms
+2024/03/14 11:37:43 ✓ shell_run_7058e0b8: took 388 ms
+2024/03/14 11:37:50 ✓ shell_run_5914e225: took 335 ms
+2024/03/14 11:39:27 ✓ shell_run_7c0d4c9a: took 342 ms
+2024/03/14 11:40:10 ✓ shell_run_a9ff4c0c: took 372 ms
+2024/03/14 11:40:14 ✓ shell_run_cf85b132: took 373 ms
+2024/03/14 11:40:38 ✓ shell_run_a0fb640b: took 385 ms
+2024/03/14 11:42:34 ✓ shell_run_6f275d81: took 361 ms
+2024/03/14 11:42:52 ✓ shell_run_7b3f6f43: took 355 ms
+2024/03/14 11:43:31 ✓ shell_run_51dedeac: took 407 ms
+2024/03/14 11:43:33 ✓ shell_run_1840ed39: took 371 ms
+2024/03/14 11:43:39 ✓ shell_run_775e07a9: took 352 ms
+2024/03/14 11:43:50 ✓ shell_run_4d564625: took 351 ms
+2024/03/14 11:44:23 ✓ shell_run_02a04069: took 362 ms
+2024/03/14 11:45:30 ✓ shell_run_d16c6a4b: took 371 ms
+2024/03/14 11:45:37 ✓ shell_run_42673122: took 363 ms
+2024/03/14 12:02:25 ✓ shell_run_3d803e34: took 403 ms
+2024/03/14 12:06:59 ✓ mssql_run_14817085: took 1320 ms
+2024/03/14 12:07:14 ✓ mssql_run_5dcb723d: took 1176 ms
+2024/03/14 12:07:18 ✓ mssql_run_6fac5b11: took 1177 ms
+2024/03/14 12:14:20 ✓ shell_run_bcf10122: took 350 ms
+2024/03/14 12:19:58 ✓ postgres_run_ddecb899: took 357 ms
+2024/03/14 12:21:41 ✓ postgres_run_383a8bc8: took 350 ms
+2024/03/14 12:22:24 ✓ postgres_run_2481c074: took 362 ms
+2024/03/14 12:25:25 ✓ go_run_943843a0: took 1949 ms
+2024/03/14 12:28:42 ✓ python_run_528a5798: took 2964 ms
+2024/03/14 12:29:33 ✓ sqlite_run_e2c91385: took 321 ms
+2024/03/14 12:29:39 ✓ sqlite_run_375f3a94: took 314 ms
+2024/03/14 12:29:50 ✓ sqlite_run_ec8f8562: took 320 ms
+2024/03/14 12:35:29 ✓ sqlite_run_f2ffe7ba: took 360 ms
+2024/03/14 12:36:09 ✓ mono_run_3a7a5f72: took 1726 ms
+2024/03/14 12:37:29 ✓ sqlite_run_3e594288: took 321 ms
+2024/03/14 12:38:10 ✓ sqlite_run_4595daa7: took 308 ms
+2024/03/14 12:38:40 ✓ shell_run_b89e6e79: took 380 ms
+2024/03/14 12:43:15 ✓ shell_run_97f65dad: took 333 ms
+2024/03/14 12:44:14 ✓ shell_run_1821b29a: took 327 ms
+2024/03/14 12:44:22 ✓ shell_run_8d5ffa75: took 342 ms
+2024/03/14 12:44:30 ✓ shell_run_0942c509: took 333 ms
+2024/03/14 12:47:58 ✓ mono_run_35ab4502: took 1799 ms
+2024/03/14 12:54:26 ✓ mono_run_5ccbefcb: took 1714 ms
+2024/03/14 12:59:00 ✗ zig_run_971eef4c: main.zig:4:11: error: no field or member function named 'makeSound' in 'main.Dog [truncated]
+2024/03/14 13:00:57 ✓ shell_run_c4ad77b6: took 349 ms
+2024/03/14 13:01:00 ✓ shell_run_c68d755f: took 338 ms
+2024/03/14 13:01:03 ✓ shell_run_61f328ab: took 357 ms
+2024/03/14 13:01:09 ✓ shell_run_74ee4ec7: took 344 ms
+2024/03/14 13:01:12 ✓ shell_run_88cd42c0: took 339 ms
+2024/03/14 13:01:17 ✓ shell_run_9a69d937: took 339 ms
+2024/03/14 13:01:31 ✓ shell_run_c299247d: took 354 ms
+2024/03/14 13:01:37 ✓ shell_run_d949aced: took 344 ms
+2024/03/14 13:01:49 ✗ shell_run_9041d6bf: On branch main nothing to commit, working tree clean (exit status 1)
+2024/03/14 13:01:56 ✓ shell_run_9db2633b: took 346 ms
+2024/03/14 13:02:08 ✓ shell_run_21596b03: took 348 ms
+2024/03/14 13:02:12 ✗ zig_run_32b812c7: main.zig:17:22: error: unused function parameter main.zig:23:22: error: unused f [truncated]
+2024/03/14 13:02:16 ✓ shell_run_18367570: took 352 ms
+2024/03/14 13:02:18 ✓ shell_run_3c3fbe55: took 342 ms
+2024/03/14 13:02:22 ✓ shell_run_2f74c208: took 333 ms
+2024/03/14 13:02:28 ✓ shell_run_b6cf4771: took 401 ms
+2024/03/14 13:02:58 ✗ zig_run_810622e2: main.zig:32:23: error: variable of type 'main.Animal(main.Dog)' must be const or [truncated]
+2024/03/14 13:04:53 ✓ shell_run_82202136: took 388 ms
+2024/03/14 13:13:14 ✗ go.dev_run_5c70ca7f: exec ./main: no such file or directory (exit status 1)
+2024/03/14 13:13:48 ✓ typescript_run_e550fde8: took 448 ms
+2024/03/14 13:22:11 ✓ shell_run_cd566b65: took 387 ms
+2024/03/14 13:23:02 ✓ http_run_86bf8bc8: took 6 ms
+2024/03/14 13:23:02 http_run_86bf8bc8: POST http://127.0.0.1:4201/dump/request
+2024/03/14 13:26:38 ✓ python_run_a5b9a579: took 395 ms
+2024/03/14 13:27:03 ✓ duckdb_run_9ea840c5: took 667 ms
+2024/03/14 13:28:15 ✓ mssql_run_9cfe0158: took 1380 ms
+2024/03/14 13:28:26 ✓ mssql_run_78e3b345: took 1176 ms
+2024/03/14 13:28:42 ✓ mssql_run_f1045bd0: took 1296 ms
+2024/03/14 13:28:53 ✓ mssql_run_1cfe84e9: took 1232 ms
+2024/03/14 13:29:35 ✓ mssql_run_8a996465: took 1143 ms
+2024/03/14 13:30:21 ✓ mssql_run_e1cc3fa9: took 1160 ms
+2024/03/14 13:30:47 ✓ mssql_run_570c4cba: took 1184 ms
+2024/03/14 13:31:12 ✓ mssql_run_613b9a28: took 1145 ms
+2024/03/14 13:31:23 ✓ mssql_run_fa5e8aac: took 1173 ms
+2024/03/14 13:31:54 ✗ lua_run_a2148b99: lua: main.lua:1: attempt to index a nil value (global 'divide') stack traceback: [truncated]
+2024/03/14 13:32:53 ✓ mssql_run_e0211421: took 1501 ms
+2024/03/14 13:32:53 ✗ zig_run_49d50adb: main.zig:12:9: error: use of undeclared identifier 'expect' (exit status 1)
+2024/03/14 13:33:00 ✓ mssql_run_8a5e23f2: took 1126 ms
+2024/03/14 13:33:09 ✓ mssql_run_e5f27c88: took 1107 ms
+2024/03/14 13:33:23 ✓ mssql_run_481397ab: took 1269 ms
+2024/03/14 13:33:31 ✓ zig_run_cc136143: took 4007 ms
+2024/03/14 13:33:40 ✗ zig_run_8b834f7b: main.zig:11:5: error: expected statement, found 'test' (exit status 1)
+2024/03/14 13:33:42 ✓ mssql_run_71fbb2cc: took 1297 ms
+2024/03/14 13:33:49 ✓ mssql_run_f7070f7f: took 1293 ms
+2024/03/14 13:33:55 ✓ mssql_run_51150cfb: took 1251 ms
+2024/03/14 13:34:00 ✓ mssql_run_49dbcd7a: took 1262 ms
+2024/03/14 13:34:18 ✓ mssql_run_b3cab8ea: took 1314 ms
+2024/03/14 13:34:25 ✗ zig_run_2af45377: main.zig:15:16: error: use of undeclared identifier 'fail' (exit status 1)
+2024/03/14 13:34:42 ✓ zig_run_2f0222ba: took 3634 ms
+2024/03/14 13:34:47 ✓ mssql_run_dfb923cf: took 1277 ms
+2024/03/14 13:35:17 ✓ mssql_run_5959a738: took 1287 ms
+2024/03/14 13:35:29 ✓ mssql_run_cf5a40b3: took 1442 ms
+2024/03/14 13:35:29 ✗ zig_run_957c2b04: main.zig:11:5: error: expected statement, found 'test' (exit status 1)
+2024/03/14 13:35:41 ✓ mssql_run_8f6623fc: took 1184 ms
+2024/03/14 13:35:48 ✓ mssql_run_d879e156: took 1127 ms
+2024/03/14 13:35:50 ✗ zig_run_83addf50: main.zig:11:5: error: expected statement, found 'test' (exit status 1)
+2024/03/14 13:36:06 ✗ zig_run_eff1a13c: main.zig:11:5: error: expected statement, found 'test' (exit status 1)
+2024/03/14 13:36:07 ✓ mssql_run_88d36cba: took 1421 ms
+2024/03/14 13:36:20 ✗ zig_run_915d82e6: main.zig:11:5: error: expected statement, found 'test' (exit status 1)
+2024/03/14 13:36:23 ✓ mssql_run_d9fb590b: took 1256 ms
+2024/03/14 13:36:28 ✓ mssql_run_5546a6dc: took 1248 ms
+2024/03/14 13:36:34 ✓ mssql_run_ed8b3ccb: took 1233 ms
+2024/03/14 13:37:28 ✗ zig_run_772f2b69: main.zig:11:5: error: expected statement, found 'test' (exit status 1)
+2024/03/14 13:37:44 ✓ mssql_run_e2be4131: took 1140 ms
+2024/03/14 13:37:54 ✓ mssql_run_a23c6bdb: took 1213 ms
+2024/03/14 13:38:05 ✓ mssql_run_f093b671: took 1174 ms
+2024/03/14 13:38:18 ✓ mssql_run_92df6131: took 1188 ms
+2024/03/14 13:38:30 ✓ mssql_run_e037b220: took 1144 ms
+2024/03/14 13:38:43 ✗ lua_run_f8c3be10: lua: main.lua:1: attempt to perform arithmetic on a nil value (global 'a') stack [truncated]
+2024/03/14 13:38:52 ✓ mssql_run_c540705e: took 1151 ms
+2024/03/14 13:39:21 ✓ mssql_run_a2adc559: took 1210 ms
+2024/03/14 13:39:27 ✓ mssql_run_9290c165: took 1215 ms
+2024/03/14 13:39:36 ✓ mssql_run_559ef7d7: took 1264 ms
+2024/03/14 13:39:44 ✓ mssql_run_76d1849e: took 1180 ms
+2024/03/14 13:40:19 ✓ mssql_run_f24339ee: took 1190 ms
+2024/03/14 13:40:34 ✓ postgres_run_fdf54738: took 390 ms
+2024/03/14 13:41:04 ✓ mssql_run_a006e950: took 1274 ms
+2024/03/14 13:41:23 ✓ shell_run_f000ab90: took 510 ms
+2024/03/14 13:41:25 ✗ mssql_run_c911949c: code execution timeout
+2024/03/14 13:41:25 mssql_run_c911949c: execution timeout, killed process=4034838, err=<nil>
+2024/03/14 13:42:00 ✗ mssql_run_23d9ff81: Sqlcmd: Error: Microsoft ODBC Driver 17 for SQL Server : Client unable to establ [truncated]
+2024/03/14 13:45:20 ✓ go_run_edf119b1: took 3580 ms
+2024/03/14 13:47:22 ✓ mssql_run_8517f501: took 1335 ms
+2024/03/14 13:47:35 ✓ shell_run_e943948e: took 439 ms
+2024/03/14 13:47:39 ✓ shell_run_1e5c1e55: took 339 ms
+2024/03/14 13:47:40 ✓ shell_run_85175330: took 327 ms
+2024/03/14 13:47:44 ✓ mssql_run_82ebe930: took 1338 ms
+2024/03/14 13:47:57 ✓ mssql_run_5e3d036b: took 1367 ms
+2024/03/14 13:47:57 ✓ shell_run_0a44c212: took 541 ms
+2024/03/14 13:48:09 ✓ mssql_run_f7f4d544: took 1421 ms
+2024/03/14 13:48:09 ✓ shell_run_ba3c53a1: took 561 ms
+2024/03/14 13:48:21 ✓ mssql_run_433b4cf2: took 1155 ms
+2024/03/14 13:48:34 ✓ mssql_run_924e461f: took 1196 ms
+2024/03/14 13:48:45 ✓ mssql_run_37fa938b: took 1240 ms
+2024/03/14 13:49:20 ✓ mssql_run_11761878: took 1172 ms
+2024/03/14 13:49:29 ✓ mssql_run_c910fff8: took 1182 ms
+2024/03/14 13:49:51 ✓ mssql_run_d1aac0b9: took 1262 ms
+2024/03/14 13:50:39 ✓ mssql_run_23288fbc: took 1130 ms
+2024/03/14 13:50:53 ✓ mssql_run_11856e9a: took 1457 ms
+2024/03/14 13:51:04 ✓ mssql_run_4c1cc40e: took 1197 ms
+2024/03/14 13:51:53 ✓ mssql_run_60d913b1: took 1275 ms
+2024/03/14 13:52:01 ✓ mssql_run_b07e15d0: took 1280 ms
+2024/03/14 13:52:16 ✓ mssql_run_1c8c300c: took 1358 ms
+2024/03/14 13:52:45 ✓ mssql_run_1b381f9e: took 1345 ms
+2024/03/14 13:52:50 ✓ mssql_run_797ee209: took 1154 ms
+2024/03/14 13:52:59 ✓ mssql_run_d3976f14: took 1313 ms
+2024/03/14 13:53:04 ✓ mssql_run_b2c93891: took 1307 ms
+2024/03/14 13:53:08 ✓ mssql_run_45e2e0f3: took 1166 ms
+2024/03/14 13:53:47 ✓ mssql_run_2788fd16: took 1217 ms
+2024/03/14 13:53:59 ✓ mssql_run_008ca274: took 1195 ms
+2024/03/14 13:54:49 ✓ mssql_run_583212a8: took 1232 ms
+2024/03/14 13:54:52 ✗ mono_run_4d81efce: code execution timeout
+2024/03/14 13:54:52 mono_run_4d81efce: docker kill ok
+2024/03/14 13:54:52 mono_run_4d81efce: execution timeout, killed process=4043935, err=<nil>
+2024/03/14 13:55:16 ✓ mssql_run_41e708a5: took 1113 ms
+2024/03/14 13:55:39 ✓ mssql_run_8ae0fd0d: took 1299 ms
+2024/03/14 13:56:03 ✓ mssql_run_87bbd5c7: took 1487 ms
+2024/03/14 13:58:12 ✓ mssql_run_8324f028: took 1170 ms
+2024/03/14 13:59:30 ✓ mssql_run_7a817bfc: took 1289 ms
+2024/03/14 13:59:37 ✓ mssql_run_db7f0770: took 1179 ms
+2024/03/14 14:02:02 ✓ mssql_run_f50df4a7: took 1424 ms
+2024/03/14 14:03:40 ✗ sqlite_run_a14831c7: Runtime error near line 22: UNIQUE constraint failed: employees.id (19) (exit st [truncated]
+2024/03/14 14:04:24 ✓ mysql_run_eb21daa5: took 2403 ms
+2024/03/14 14:06:00 ✓ go.dev_run_75b12bd3: took 1899 ms
+2024/03/14 14:06:11 ✓ mssql_run_124473b3: took 1335 ms
+2024/03/14 14:06:37 ✓ mssql_run_ceeb77be: took 1219 ms
+2024/03/14 14:06:46 ✓ mssql_run_1f882bde: took 1192 ms
+2024/03/14 14:06:55 ✓ mssql_run_51cb8323: took 1264 ms
+2024/03/14 14:07:01 ✓ mssql_run_b282f650: took 1347 ms
+2024/03/14 14:07:05 ✓ mssql_run_fb2cb450: took 1216 ms
+2024/03/14 14:13:23 ✗ go_run_a74835cf: panic: runtime error: slice bounds out of range [4:3] goroutine 1 [running]: sl [truncated]
+2024/03/14 14:14:03 ✓ lua_run_61e3b7c8: took 488 ms
+2024/03/14 14:14:27 ✓ lua_run_9b132f65: took 321 ms
+2024/03/14 14:14:32 ✓ lua_run_6ea4ef98: took 326 ms
+2024/03/14 14:21:19 ✓ shell_run_16b0fe17: took 439 ms
+2024/03/14 14:21:53 ✓ shell_run_b4920154: took 351 ms
+2024/03/14 14:23:47 ✓ shell_run_f2d70a3b: took 443 ms
+2024/03/14 14:35:17 ✓ shell_run_fe2365df: took 350 ms
+2024/03/14 14:37:52 ✓ go_run_9641f14b: took 1585 ms
+2024/03/14 14:38:01 ✓ go_run_6787ff69: took 1621 ms
+2024/03/14 14:40:16 ✓ python_run_d910efa1: took 367 ms
+2024/03/14 14:41:26 ✓ shell_run_9dbba0ba: took 352 ms
+2024/03/14 14:50:12 ✗ lua_run_0df51f42: lua: main.lua:5: attempt to index a nil value (global 'task') stack traceback: [truncated]
+2024/03/14 14:50:13 ✓ shell_run_23852f63: took 335 ms
+2024/03/14 14:51:17 ✓ typescript_run_12f373b8: took 454 ms
+2024/03/14 14:52:27 ✗ python_run_ebff4676: Traceback (most recent call last): File "/sandbox/main.py", line 7, in <module [truncated]
+2024/03/14 14:52:43 ✓ shell_run_a0c7f6da: took 346 ms
+2024/03/14 14:52:49 ✓ python_run_798ae6a5: took 366 ms
+2024/03/14 14:59:04 ✓ shell_run_fc8abd8e: took 307 ms
+2024/03/14 14:59:33 ✓ shell_run_b19a225b: took 332 ms
+2024/03/14 14:59:44 ✓ shell_run_5db8c0b0: took 324 ms
+2024/03/14 14:59:48 ✓ shell_run_7bfe6215: took 337 ms
+2024/03/14 15:01:59 ✓ lua_run_a71ce280: took 354 ms
+2024/03/14 15:09:07 ✓ shell_run_b38abda1: took 356 ms
+2024/03/14 15:09:15 ✓ shell_run_89ad69f4: took 340 ms
+2024/03/14 15:10:35 ✓ shell_run_b4464f81: took 397 ms
+2024/03/14 15:10:39 ✓ shell_run_e6ee2f53: took 382 ms
+2024/03/14 15:12:15 ✓ shell_run_df124280: took 304 ms
+2024/03/14 15:12:20 ✓ shell_run_3ccbd1d2: took 319 ms
+2024/03/14 15:14:03 ✓ python_run_f9878038: took 362 ms
+2024/03/14 15:15:56 ✓ shell_run_c850bc85: took 323 ms
+2024/03/14 15:22:22 ✓ go.dev_run_4062bd16: took 1703 ms
+2024/03/14 15:22:47 ✓ go.dev_run_8d143929: took 1581 ms
+2024/03/14 15:26:40 ✗ zig_run_7611ef28: main.zig:13:25: error: expected type '*hash_map.HashMapUnmanaged(u8,[]const u8,h [truncated]
+2024/03/14 15:27:57 ✗ zig_run_19f59b91: main.zig:13:25: error: expected type '*hash_map.HashMapUnmanaged(u8,[]const u8,h [truncated]
+2024/03/14 15:28:38 ✓ zig_run_e16897d1: took 3692 ms
+2024/03/14 15:28:49 ✗ zig_run_902983d6: main.zig:15:48: error: no field named 'key' in struct 'hash_map.HashMapUnmanaged [truncated]
+2024/03/14 15:29:07 ✓ zig_run_0a3531d1: took 3715 ms
+2024/03/14 15:31:47 ✗ zig_run_fcf347f8: main.zig:16:25: error: expected type '*hash_map.HashMapUnmanaged(u8,[]const u8,h [truncated]
+2024/03/14 15:32:30 ✓ shell_run_e80eb481: took 318 ms
+2024/03/14 15:33:23 ✓ gcc_run_b38d0975: took 599 ms
+2024/03/14 15:44:13 ✓ go_run_ea1a3d53: took 1697 ms
+2024/03/14 15:44:19 ✓ go_run_9bd0143c: took 1522 ms
+2024/03/14 15:44:53 ✓ go_run_df051d76: took 1554 ms
+2024/03/14 15:45:23 ✓ go_run_5398d2fc: took 1543 ms
+2024/03/14 15:51:12 ✓ mssql_run_747a060c: took 1377 ms
+2024/03/14 15:53:34 ✗ python_run_37ac87e9: File "/sandbox/main.py", line 2 f"kubectl patch secret twistlock-secrets -n [truncated]
+2024/03/14 15:55:07 ✓ mssql_run_c8eb0837: took 1218 ms
+2024/03/14 15:55:21 ✓ mssql_run_347b2644: took 1149 ms
+2024/03/14 15:58:43 ✓ mssql_run_9857cbfc: took 1160 ms
+2024/03/14 15:58:49 ✓ mssql_run_ced5dcfa: took 1123 ms
+2024/03/14 15:59:13 ✓ mssql_run_7da21772: took 1108 ms
+2024/03/14 16:00:56 ✓ shell_run_8136a542: took 376 ms
+2024/03/14 16:01:27 ✓ mssql_run_0810884e: took 1178 ms
+2024/03/14 16:01:41 ✓ mssql_run_898a6f3e: took 1418 ms
+2024/03/14 16:01:42 ✓ mssql_run_b6058fd6: took 1330 ms
+2024/03/14 16:01:49 ✓ mssql_run_f5a2b282: took 1138 ms
+2024/03/14 16:02:23 ✓ mssql_run_31495f30: took 1203 ms
+2024/03/14 16:02:25 ✓ mssql_run_cbc85b24: took 1232 ms
+2024/03/14 16:03:00 ✓ mssql_run_42194a88: took 1301 ms
+2024/03/14 16:03:24 ✓ mssql_run_6490b28b: took 1424 ms
+2024/03/14 16:03:34 ✓ mssql_run_e6260315: took 1129 ms
+2024/03/14 16:05:37 ✓ shell_run_02ada63c: took 333 ms
+2024/03/14 16:05:41 ✓ shell_run_f174b08d: took 340 ms
+2024/03/14 16:05:46 ✓ shell_run_718d9e47: took 344 ms
+2024/03/14 16:06:03 ✓ python_run_4ed2dde8: took 523 ms
+2024/03/14 16:06:15 ✓ mssql_run_2b84b896: took 1185 ms
+2024/03/14 16:06:58 ✓ mssql_run_ac038610: took 1175 ms
+2024/03/14 16:07:11 ✓ mssql_run_7a1c0f54: took 1225 ms
+2024/03/14 16:07:51 ✓ mssql_run_daf6fd62: took 1982 ms
+2024/03/14 16:08:12 ✓ mssql_run_192ef4a5: took 1244 ms
+2024/03/14 16:08:33 ✓ mssql_run_477f8b45: took 1222 ms
+2024/03/14 16:08:42 ✓ mssql_run_f30eca93: took 1218 ms
+2024/03/14 16:10:01 ✓ mssql_run_1be762db: took 1105 ms
+2024/03/14 16:11:13 ✓ mssql_run_4c6a35d8: took 1235 ms
+2024/03/14 16:11:41 ✓ mssql_run_c9f1bf98: took 1131 ms
+2024/03/14 16:11:49 ✓ mssql_run_072030ff: took 1467 ms
+2024/03/14 16:11:50 ✓ mssql_run_89fcdb22: took 1460 ms
+2024/03/14 16:12:10 ✓ mssql_run_2f5f925d: took 1160 ms
+2024/03/14 16:12:22 ✓ mssql_run_83f99053: took 1210 ms
+2024/03/14 16:12:24 ✓ go_run_133c8717: took 1636 ms
+2024/03/14 16:12:28 ✓ postgres_run_9512061a: took 376 ms
+2024/03/14 16:12:47 ✓ mssql_run_f3eba8a9: took 1232 ms
+2024/03/14 16:12:57 ✓ mssql_run_f95ded94: took 1210 ms
+2024/03/14 16:16:01 ✓ mssql_run_69d897a3: took 1220 ms
+2024/03/14 16:16:18 ✓ mssql_run_3f8de7eb: took 1177 ms
+2024/03/14 16:17:13 ✓ mssql_run_093d40df: took 1144 ms
+2024/03/14 16:17:20 ✓ mssql_run_6b6af2cd: took 1284 ms
+2024/03/14 16:18:09 ✓ mssql_run_4a430fdc: took 1202 ms
+2024/03/14 16:18:25 ✓ mssql_run_841fa953: took 1245 ms
+2024/03/14 16:18:58 ✓ mssql_run_3dc70452: took 1238 ms
+2024/03/14 16:19:41 ✓ mssql_run_68e0eb7d: took 1257 ms
+2024/03/14 16:25:11 ✓ shell_run_843aa932: took 495 ms
+2024/03/14 16:25:16 ✓ shell_run_ce39f714: took 474 ms
+2024/03/14 16:25:44 ✗ mssql_run_b9ced8fa: Sqlcmd: Error: Microsoft ODBC Driver 17 for SQL Server : Client unable to establ [truncated]
+2024/03/14 16:26:16 ✗ mssql_run_80cade61: Sqlcmd: Error: Microsoft ODBC Driver 17 for SQL Server : Login failed for user ' [truncated]
+2024/03/14 16:26:50 ✓ mssql_run_bca2df73: took 1318 ms
+2024/03/14 16:28:01 ✓ typescript_run_6446f425: took 688 ms
+2024/03/14 16:34:09 ✓ shell_run_c8b7b282: took 343 ms
+2024/03/14 16:34:39 ✓ shell_run_31572ff1: took 336 ms
+2024/03/14 16:51:08 ✓ caddy_run_d4b6a79d: took 710 ms
+2024/03/14 16:51:49 ✓ mssql_run_5aabf1f4: took 1306 ms
+2024/03/14 16:51:55 ✓ caddy_run_ce50a5a8: took 323 ms
+2024/03/14 16:52:14 ✓ caddy_exec_e39896e0: took 682 ms
+2024/03/14 16:52:56 ✓ mssql_run_68828a8c: took 1229 ms
+2024/03/14 16:53:35 ✓ mssql_run_326fb7f7: took 1258 ms
+2024/03/14 16:53:41 ✓ caddy_validate-json_f3a265cf: took 394 ms
+2024/03/14 16:54:10 ✓ caddy_exec_05cb7c43: took 651 ms
+2024/03/14 16:54:20 ✓ caddy_exec_c9c99777: took 666 ms
+2024/03/14 16:54:26 ✓ mssql_run_d79b8cb7: took 1241 ms
+2024/03/14 16:54:31 ✓ caddy_exec_6faa68d6: took 667 ms
+2024/03/14 16:54:44 ✓ mssql_run_6ff2baf4: took 1154 ms
+2024/03/14 16:55:34 ✓ caddy_validate_d12b2e60: took 385 ms
+2024/03/14 16:55:39 ✓ mono_run_b9919856: took 4834 ms
+2024/03/14 16:55:52 ✓ mssql_run_10357052: took 1285 ms
+2024/03/14 16:56:00 ✓ caddy_run_79261239: took 381 ms
+2024/03/14 16:56:12 ✓ mono_run_ec470b6b: took 1677 ms
+2024/03/14 16:57:04 ✓ shell_run_0e48b14e: took 379 ms
+2024/03/14 16:57:05 ✓ shell_run_1d2fcd14: took 326 ms
+2024/03/14 16:57:10 ✓ caddy_run_84ffdce3: took 315 ms
+2024/03/14 16:57:21 ✓ shell_run_91ed91bd: took 343 ms
+2024/03/14 16:57:26 ✓ mssql_run_88a18c42: took 1151 ms
+2024/03/14 16:57:38 ✓ caddy_exec_6ac1d368: took 665 ms
+2024/03/14 16:57:44 ✓ shell_run_7693acaa: took 343 ms
+2024/03/14 16:58:28 ✓ shell_run_bf96cba2: took 389 ms
+2024/03/14 16:59:57 ✓ shell_run_1d5b4715: took 368 ms
+2024/03/14 16:59:57 ✓ shell_run_5d57abdd: took 370 ms
+2024/03/14 17:00:05 ✓ shell_run_451922e7: took 342 ms
+2024/03/14 17:00:19 ✓ caddy_run_543b6552: took 429 ms
+2024/03/14 17:00:38 ✓ caddy_run_a70f3012: took 462 ms
+2024/03/14 17:00:48 ✓ shell_run_5b78e83e: took 343 ms
+2024/03/14 17:00:48 ✓ shell_run_f75fba91: took 334 ms
+2024/03/14 17:00:51 ✓ shell_run_5a989506: took 318 ms
+2024/03/14 17:01:29 ✓ shell_run_3b123248: took 359 ms
+2024/03/14 17:01:46 ✓ shell_run_fe82a70f: took 350 ms
+2024/03/14 17:02:17 ✓ shell_run_d750f63b: took 347 ms
+2024/03/14 17:02:34 ✓ shell_run_fa1d3360: took 350 ms
+2024/03/14 17:02:45 ✓ caddy_exec_c24842c4: took 687 ms
+2024/03/14 17:03:53 ✓ caddy_exec_70525612: took 666 ms
+2024/03/14 17:04:20 ✓ caddy_exec_6798f8ab: took 673 ms
+2024/03/14 17:04:42 ✓ caddy_exec_93373a3c: took 686 ms
+2024/03/14 17:05:28 ✓ shell_run_66441fea: took 344 ms
+2024/03/14 17:05:38 ✓ shell_run_01f28016: took 343 ms
+2024/03/14 17:06:29 ✓ shell_run_fe736ce8: took 341 ms
+2024/03/14 17:07:31 ✓ mssql_run_853b87d1: took 1285 ms
+2024/03/14 17:08:18 ✓ caddy_exec_134e2cf5: took 873 ms
+2024/03/14 17:08:18 ✓ mssql_run_d8ac0990: took 1357 ms
+2024/03/14 17:08:36 ✓ shell_run_a2fd063c: took 334 ms
+2024/03/14 17:08:50 ✓ caddy_exec_20e4b691: took 700 ms
+2024/03/14 17:09:02 ✓ caddy_exec_e64a8078: took 878 ms
+2024/03/14 17:10:05 ✓ shell_run_b3b69641: took 343 ms
+2024/03/14 17:10:32 ✓ shell_run_234ceee0: took 331 ms
+2024/03/14 17:10:52 ✓ sqlite_run_c28022d9: took 347 ms
+2024/03/14 17:10:58 ✓ caddy_run_db88cbe1: took 319 ms
+2024/03/14 17:11:25 ✓ sqlite_run_746ff113: took 324 ms
+2024/03/14 17:11:31 ✓ sqlite_run_22092d3d: took 327 ms
+2024/03/14 17:11:42 ✓ caddy_exec_a1236670: took 663 ms
+2024/03/14 17:12:02 ✓ caddy_exec_942006df: took 807 ms
+2024/03/14 17:12:04 ✓ mssql_run_e547e056: took 1353 ms
+2024/03/14 17:12:49 ✓ caddy_exec_866b32db: took 664 ms
+2024/03/14 17:13:18 ✓ caddy_exec_30740043: took 653 ms
+2024/03/14 17:13:52 ✓ sqlite_run_b87a8f4f: took 345 ms
+2024/03/14 17:14:06 ✓ shell_run_19951497: took 366 ms
+2024/03/14 17:14:21 ✓ shell_run_fd898121: took 328 ms
+2024/03/14 17:14:24 ✓ sqlite_run_b2883233: took 323 ms
+2024/03/14 17:14:31 ✓ sqlite_run_c8ec0cbc: took 329 ms
+2024/03/14 17:15:19 ✓ caddy_exec_dde618ac: took 687 ms
+2024/03/14 17:15:30 ✗ caddy_exec_a6329a9a: exit status 3
+2024/03/14 17:15:38 ✓ caddy_exec_d6b4e4cd: took 667 ms
+2024/03/14 17:15:50 ✓ sqlite_run_c49b6eaa: took 340 ms
+2024/03/14 17:17:00 ✓ mssql_run_ad6deed6: took 1157 ms
+2024/03/14 17:17:04 ✓ caddy_exec_b119ee92: took 673 ms
+2024/03/14 17:18:03 ✓ mssql_run_efccc2a8: took 1540 ms
+2024/03/14 17:18:59 ✓ caddy_run_2fa3b76c: took 798 ms
+2024/03/14 17:20:03 ✓ mssql_run_be328fbd: took 1950 ms
+2024/03/14 17:29:14 ✓ mssql_run_a01f1cb8: took 1148 ms
+2024/03/14 17:29:46 ✓ shell_run_40435f3a: took 369 ms
+2024/03/14 17:32:15 ✓ r_run_d0bb97b0: took 1600 ms
+2024/03/14 17:33:39 ✓ python_run_5331eb01: took 366 ms
+2024/03/14 17:34:19 ✓ python_run_15114307: took 339 ms
+2024/03/14 17:34:23 ✓ sqlite_run_06c27326: took 318 ms
+2024/03/14 17:34:48 ✓ typescript_run_368fa24e: took 440 ms
+2024/03/14 17:34:51 ✓ shell_run_8c2c7cd9: took 338 ms
+2024/03/14 17:35:30 ✓ shell_run_25b1405e: took 319 ms
+2024/03/14 17:35:37 ✗ shell_run_7479aaa1: fatal: not a git repository (or any parent up to mount point /sandbox) Stopping [truncated]
+2024/03/14 17:37:00 ✓ mssql_run_dbdb48f1: took 1241 ms
+2024/03/14 17:39:51 ✓ python_run_cd5565c3: took 343 ms
+2024/03/14 17:41:13 ✓ shell_run_542e91f4: took 369 ms
+2024/03/14 17:44:46 ✓ mssql_run_5538e62d: took 1193 ms
+2024/03/14 17:45:58 ✓ mssql_run_d65cc37f: took 1158 ms
+2024/03/14 17:48:06 ✓ gcc_run_da9cb9e3: took 615 ms
+2024/03/14 17:50:39 ✓ go_run_c023747e: took 1663 ms
+2024/03/14 17:51:33 ✓ mssql_run_a3c25d3d: took 1136 ms
+2024/03/14 17:52:41 ✓ python_run_971795cd: took 374 ms
+2024/03/14 17:52:48 ✓ python_run_fa1029db: took 340 ms
+2024/03/14 17:58:07 ✓ mssql_run_52923e00: took 1175 ms
+2024/03/14 17:58:18 ✓ mssql_run_3594e7b7: took 1085 ms
+2024/03/14 17:58:27 ✓ mssql_run_e75fce87: took 1219 ms
+2024/03/14 17:58:27 ✓ shell_run_4bd620f8: took 348 ms
+2024/03/14 17:59:02 ✓ mssql_run_f1fd43c7: took 1561 ms
+2024/03/14 17:59:13 ✓ mssql_run_01b458d3: took 1255 ms
+2024/03/14 17:59:22 ✓ mssql_run_ccf15f87: took 1125 ms
+2024/03/14 18:00:05 ✓ java_run_1e24cb26: took 2829 ms
+2024/03/14 18:00:37 ✓ mssql_run_6863f9a3: took 1233 ms
+2024/03/14 18:00:42 ✓ mssql_run_54799d2c: took 1099 ms
+2024/03/14 18:01:15 ✓ python_run_f34527eb: took 1091 ms
+2024/03/14 18:01:45 ✓ python_run_a9830c62: took 952 ms
+2024/03/14 18:02:39 ✓ go_run_fccc8dda: took 1200 ms
+2024/03/14 18:03:26 ✗ python_run_220168cf: Traceback (most recent call last): File "/sandbox/main.py", line 4, in <module [truncated]
+2024/03/14 18:04:04 ✗ go_run_45fea98b: # sandbox ./main.go:6:21: syntax error: unexpected comment at end of statement ( [truncated]
+2024/03/14 18:04:06 ✗ python_run_5a4bdadd: Traceback (most recent call last): File "/sandbox/main.py", line 4, in <module [truncated]
+2024/03/14 18:04:14 ✗ go_run_b13da1a5: # sandbox ./main.go:6:28: syntax error: unexpected /, expected expression (exit [truncated]
+2024/03/14 18:04:33 ✓ go_run_9e074a7f: took 1119 ms
+2024/03/14 18:04:52 ✗ rust_run_ffd536a1: error[E0308]: mismatched types --> main.rs:6:11 | 6 | greet("World"); | [truncated]
+2024/03/14 18:05:25 ✗ rust_run_8cd56f9d: error[E0308]: mismatched types --> main.rs:6:11 | 6 | greet("World"); | [truncated]
+2024/03/14 18:05:39 ✓ r_run_53f6b20a: took 1969 ms
+2024/03/14 18:05:43 ✓ r_run_eb522a6b: took 1694 ms
+2024/03/14 18:06:10 ✓ r_run_69e243a2: took 1880 ms
+2024/03/14 18:06:26 ✓ r_run_9e5df057: took 1913 ms
+2024/03/14 18:11:19 ✓ net-tools_curl_690e15d7: took 519 ms
+2024/03/14 18:11:29 ✓ mssql_run_aafeadee: took 1301 ms
+2024/03/14 18:14:54 ✓ python_run_974080f1: took 383 ms
+2024/03/14 18:15:53 ✓ python_run_fbac609f: took 1333 ms
+2024/03/14 18:16:23 ✓ python_run_79d6da57: took 1090 ms
+2024/03/14 18:16:35 ✗ go_run_42ee95b5: # sandbox ./main.go:10:11: cannot use "World" (untyped string constant) as int v [truncated]
+2024/03/14 18:17:01 ✓ rust_run_3f8619ac: took 1313 ms
+2024/03/14 18:17:35 ✓ python_run_d60a64ac: took 1019 ms
+2024/03/14 18:17:47 ✓ python_run_c92e8b57: took 1479 ms
+2024/03/14 18:18:04 ✓ python_run_915a4121: took 1694 ms
+2024/03/14 18:18:25 ✗ go_run_e8881807: # sandbox ./main.go:11:11: cannot use el (variable of type any) as int value in [truncated]
+2024/03/14 18:18:41 ✓ python_run_dcd25436: took 858 ms
+2024/03/14 18:18:44 ✗ go_run_c57b15a3: Hello, 1!panic: interface conversion: interface {} is string, not int goroutine [truncated]
+2024/03/14 18:19:00 ✓ python_run_8344a7ea: took 982 ms
+2024/03/14 18:19:19 ✗ go_run_a7f3eb67: # sandbox ./main.go:11:15: cannot convert el (variable of type any) to type int: [truncated]
+2024/03/14 18:19:29 ✓ python_run_9740c49a: took 1102 ms
+2024/03/14 18:19:42 ✓ python_run_12d6c8a6: took 1490 ms
+2024/03/14 18:19:51 ✓ python_run_7b567547: took 1300 ms
+2024/03/14 18:20:05 ✓ python_run_5939398b: took 2233 ms
+2024/03/14 18:22:16 ✗ rust_run_25c45930: error: cannot find macro `arr` in this scope --> main.rs:6:17 | 6 | let a [truncated]
+2024/03/14 18:23:22 ✗ rust_run_24e13739: error[E0432]: unresolved import `generic_array` --> main.rs:1:5 | 1 | use gen [truncated]
+2024/03/14 18:24:23 ✓ postgres_run_60a4dc9d: took 363 ms
+2024/03/14 18:24:29 ✓ postgres_run_0654c642: took 332 ms
+2024/03/14 18:25:09 ✓ postgres_run_6ceda942: took 344 ms
+2024/03/14 18:25:40 ✓ postgres_run_6ecb684b: took 354 ms
+2024/03/14 18:25:49 ✓ postgres_run_a3b51f18: took 363 ms
+2024/03/14 18:25:52 ✓ postgres_run_c54b8df9: took 364 ms
+2024/03/14 18:26:00 ✓ postgres_run_1bb0da1d: took 350 ms
+2024/03/14 18:26:49 ✓ postgres_run_e6ecc0b5: took 413 ms
+2024/03/14 18:27:06 ✓ postgres_run_8a7f4607: took 423 ms
+2024/03/14 18:27:23 ✓ postgres_run_7bc66fa5: took 512 ms
+2024/03/14 18:28:18 ✓ postgres_run_bb9dff0d: took 542 ms
+2024/03/14 18:28:30 ✓ postgres_run_b5713e25: took 503 ms
+2024/03/14 18:33:09 ✓ odin_run_c0bd6be7: took 3897 ms
+2024/03/14 18:41:56 ✓ python_run_fee16400: took 365 ms
+2024/03/14 18:42:36 ✓ typescript_run_1886477f: took 650 ms
+2024/03/14 18:42:40 ✓ sqlite_run_d1a2af0e: took 330 ms
+2024/03/14 18:42:52 ✓ shell_run_e170390d: took 318 ms
+2024/03/14 18:45:49 ✗ mono_run_d5f65093: main.cs(5,2): error CS1003: Syntax error, ',' expected main.cs(7,14): error CS10 [truncated]
+2024/03/14 18:45:58 ✗ mono_run_e7604e15: main.cs(3,5): error CS0815: Cannot assign lambda expression to an implicitly-typ [truncated]
+2024/03/14 18:46:23 ✓ typescript_run_238a1b34: took 480 ms
+2024/03/14 18:46:24 ✗ mono_run_79d743b5: main.cs(3,22): error CS1593: Delegate 'Func<string>' does not take 1 arguments m [truncated]
+2024/03/14 18:46:30 ✓ mono_run_007b9565: took 1149 ms
+2024/03/14 18:46:48 ✓ ruby_run_4b6703c7: took 593 ms
+2024/03/14 18:48:20 ✓ postgres_run_b17f80c7: took 373 ms
+2024/03/14 18:48:27 ✓ sqlite_run_8f0e39f6: took 316 ms
+2024/03/14 18:48:49 ✓ http_run_9e9b4fcf: took 4 ms
+2024/03/14 18:48:49 http_run_9e9b4fcf: POST http://127.0.0.1:4201/dump/request
+2024/03/14 18:48:57 ✓ shell_run_f299a1fc: took 399 ms
+2024/03/14 18:49:09 ✓ net-tools_run_0d6b45bd: took 508 ms
+2024/03/14 18:57:51 ✓ gcc_run_808f48e9: took 621 ms
+2024/03/14 19:00:32 ✓ odin_run_d4398511: took 2150 ms
+2024/03/14 19:00:33 ✓ java_run_d214dae2: took 2266 ms
+2024/03/14 19:01:36 ✓ mssql_run_17acc64b: took 1391 ms
+2024/03/14 19:01:47 ✓ mssql_run_4f886aed: took 1178 ms
+2024/03/14 19:01:54 ✓ mssql_run_67cc8ec7: took 1217 ms
+2024/03/14 19:01:59 ✓ mssql_run_6a671408: took 1214 ms
+2024/03/14 19:04:39 ✓ mssql_run_2a9cda4c: took 1135 ms
+2024/03/14 19:04:46 ✓ mssql_run_8118399e: took 1223 ms
+2024/03/14 19:05:04 ✓ mssql_run_ac9df633: took 1821 ms
+2024/03/14 19:05:10 ✓ mssql_run_b140cad2: took 1186 ms
+2024/03/14 19:10:21 ✓ python_run_f430ed78: took 378 ms
+2024/03/14 19:10:24 ✗ python_run_d93a7ec6: What is your age?Traceback (most recent call last): File "/sandbox/main.py", l [truncated]
+2024/03/14 19:10:35 ✗ python_run_ff5bfcba: What is your age?Traceback (most recent call last): File "/sandbox/main.py", l [truncated]
+2024/03/14 19:12:16 ✓ net-tools_curl_1745d24a: took 575 ms
+2024/03/14 19:12:31 ✓ sqlite_penguins_a770cbb7: took 352 ms
+2024/03/14 19:12:37 ✓ sqlite_penguins_672f8974: took 393 ms
+2024/03/14 19:13:17 ✓ mssql_run_f07c6bb0: took 1231 ms
+2024/03/14 19:13:36 ✓ mssql_run_f49938d9: took 1340 ms
+2024/03/14 19:13:52 ✓ mssql_run_9c529f97: took 1224 ms
+2024/03/14 19:14:12 ✓ mssql_run_da1c4a2d: took 1189 ms
+2024/03/14 19:14:26 ✓ mssql_run_c573010c: took 1269 ms
+2024/03/14 19:14:26 ✓ python_run_c1d2cd13: took 331 ms
+2024/03/14 19:14:35 ✓ mssql_run_ff58e98f: took 1274 ms
+2024/03/14 19:15:38 ✓ mssql_run_9a1ef576: took 1196 ms
+2024/03/14 19:15:56 ✓ mssql_run_424ba4b1: took 1221 ms
+2024/03/14 19:16:23 ✓ mssql_run_20336ee7: took 1235 ms
+2024/03/14 19:16:28 ✓ mssql_run_71103b94: took 1196 ms
+2024/03/14 19:17:57 ✓ expr-lang_run_4ae4bd76: took 3232 ms
+2024/03/14 19:18:11 ✓ caddy_exec-validate_c26d3ae9: took 1078 ms
+2024/03/14 19:19:39 ✗ zig_run_058d1532: main.zig:4:5: error: found compile log statement Compile Log Output: @as(*const [truncated]
+2024/03/14 19:20:16 ✗ zig_run_4c2da34f: main.zig:12:35: error: expected '}', found ':' (exit status 1)
+2024/03/14 19:20:34 ✗ zig_run_38fa93dd: main.zig:12:5: error: found compile log statement main.zig:4:5: note: also here [truncated]
+2024/03/14 19:20:44 ✗ zig_run_c9281ce4: main.zig:12:5: error: found compile log statement main.zig:4:5: note: also here [truncated]
+2024/03/14 19:21:13 ✓ mssql_run_e000c660: took 1319 ms
+2024/03/14 19:21:22 ✓ mssql_run_e75db2b1: took 1233 ms
+2024/03/14 19:21:44 ✓ mssql_run_cf880e2d: took 1222 ms
+2024/03/14 19:22:26 ✓ mssql_run_96ffa04a: took 1175 ms
+2024/03/14 19:22:40 ✓ mssql_run_817ad9e4: took 1154 ms
+2024/03/14 19:30:18 ✓ go_run_234681a3: took 2038 ms
+2024/03/14 19:38:43 ✓ lua_run_d238a8e0: took 330 ms
+2024/03/14 19:48:49 ✓ sqlite_run_247bbd7e: took 353 ms
+2024/03/14 19:49:13 ✓ shell_run_54b71d77: took 355 ms
+2024/03/14 19:49:20 ✓ shell_run_193e4013: took 375 ms
+2024/03/14 19:49:46 ✓ shell_run_a384abbd: took 329 ms
+2024/03/14 19:49:50 ✓ shell_run_fd1859a5: took 309 ms
+2024/03/14 19:50:17 ✓ shell_run_853938c2: took 340 ms
+2024/03/14 19:50:38 ✓ shell_run_af17b382: took 354 ms
+2024/03/14 19:51:41 ✓ shell_run_06018785: took 311 ms
+2024/03/14 19:52:11 ✓ shell_run_332910ae: took 330 ms
+2024/03/14 19:52:56 ✓ shell_run_8b2153a1: took 373 ms
+2024/03/14 19:53:00 ✓ shell_run_c00c0573: took 337 ms
+2024/03/14 19:53:09 ✓ python_run_62e9771d: took 344 ms
+2024/03/14 19:53:16 ✓ sqlite_run_d40a1f45: took 318 ms
+2024/03/14 19:53:32 ✓ shell_run_85a5cddd: took 371 ms
+2024/03/14 19:54:28 ✓ shell_run_a923a3ae: took 345 ms
+2024/03/14 19:54:32 ✓ typescript_run_704aeccc: took 567 ms
+2024/03/14 19:54:43 ✓ shell_run_fc33ae17: took 348 ms
+2024/03/14 19:54:44 ✓ python_run_905dc990: took 376 ms
+2024/03/14 19:54:50 ✓ shell_run_46bc2bb0: took 330 ms
+2024/03/14 19:54:56 ✓ shell_run_7c4b5ccc: took 329 ms
+2024/03/14 19:55:03 ✓ shell_run_f0a6a3f3: took 668 ms
+2024/03/14 19:55:09 ✓ shell_run_d3fd3251: took 338 ms
+2024/03/14 19:55:25 ✓ shell_run_5bc98a64: took 330 ms
+2024/03/14 19:56:05 ✓ shell_run_3d10e801: took 336 ms
+2024/03/14 19:56:10 ✓ shell_run_9a6f4c57: took 333 ms
+2024/03/14 19:56:19 ✓ shell_run_103e828e: took 337 ms
+2024/03/14 19:56:37 ✓ shell_run_bc1ff378: took 338 ms
+2024/03/14 19:56:48 ✓ shell_run_57a1883c: took 367 ms
+2024/03/14 19:57:19 ✓ python_run_48234b1a: took 383 ms
+2024/03/14 19:57:38 ✓ shell_run_26891411: took 351 ms
+2024/03/14 19:57:49 ✓ shell_run_4dab508f: took 367 ms
+2024/03/14 19:58:55 ✓ shell_run_7c244478: took 410 ms
+2024/03/14 20:00:01 ✓ shell_run_55e886af: took 375 ms
+2024/03/14 20:00:43 ✓ shell_run_22e6d409: took 352 ms
+2024/03/14 20:01:03 ✓ shell_run_6a58e5b5: took 479 ms
+2024/03/14 20:01:09 ✓ shell_run_fcacc200: took 397 ms
+2024/03/14 20:01:25 ✓ shell_run_591bf1f0: took 416 ms
+2024/03/14 20:02:02 ✓ shell_run_cad70c41: took 503 ms
+2024/03/14 20:02:17 ✓ shell_run_e8d915a5: took 433 ms
+2024/03/14 20:02:30 ✓ shell_run_190a9678: took 385 ms
+2024/03/14 20:02:39 ✓ shell_run_efa1f510: took 415 ms
+2024/03/14 20:03:17 ✓ shell_run_b52f3883: took 343 ms
+2024/03/14 20:03:20 ✓ shell_run_8102515b: took 322 ms
+2024/03/14 20:04:33 ✓ shell_run_d88c9844: took 364 ms
+2024/03/14 20:07:53 ✓ shell_run_c90d26ca: took 655 ms
+2024/03/14 20:18:04 ✓ ruby_run_8395a144: took 608 ms
+2024/03/14 20:18:29 ✗ ruby_run_a48a1ea5: <internal:/usr/local/lib/ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:127:in [truncated]
+2024/03/14 20:31:57 ✓ java_run_610962c5: took 2029 ms
+2024/03/14 20:44:19 ✓ shell_run_ad355707: took 814 ms
+2024/03/14 20:44:52 ✓ net-tools_curl_cd3feb3f: took 848 ms
+2024/03/14 20:44:57 ✓ net-tools_curl_24a5f4c9: took 759 ms
+2024/03/14 20:45:04 ✓ net-tools_curl_4869c3b0: took 1241 ms
+2024/03/14 20:45:36 ✓ r_run_1ddf3ae5: took 1309 ms
+2024/03/14 20:45:46 ✓ net-tools_curl_4ac53ebe: took 718 ms
+2024/03/14 20:46:06 ✓ r_run_03c40821: took 4085 ms
+2024/03/14 20:47:31 ✓ python_run_41e88fe0: took 2048 ms
+2024/03/14 20:47:44 ✓ python_run_000abacb: took 2740 ms
+2024/03/14 20:47:59 ✓ python_run_0df438df: took 2416 ms
+2024/03/14 20:48:15 ✓ python_run_e175ce9a: took 2685 ms
+2024/03/14 20:49:26 ✓ python_run_c10fd58b: took 5480 ms
+2024/03/14 20:50:18 ✓ net-tools_curl_ed6d2863: took 703 ms
+2024/03/14 20:50:31 ✓ net-tools_curl_bd5244dc: took 583 ms
+2024/03/14 20:51:51 ✓ postgres_run_1308d782: took 378 ms
+2024/03/14 20:52:04 ✓ mssql_run_a27881c7: took 1836 ms
+2024/03/14 20:53:51 ✓ postgres_run_0fcaa722: took 343 ms
+2024/03/14 20:53:55 ✓ go_run_b77b4bb6: took 2110 ms
+2024/03/14 20:56:31 ✓ python_run_d6991aad: took 2845 ms
+2024/03/14 20:59:37 ✓ sqlite_run_66b33e16: took 320 ms
+2024/03/14 20:59:58 ✓ sqlite_run_db422b76: took 340 ms
+2024/03/14 21:00:03 ✗ sqlite_run_9649d39c: Parse error near line 3: no such column: messages select messages from data; [truncated]
+2024/03/14 21:00:18 ✓ shell_run_fe3f2235: took 386 ms
+2024/03/14 21:05:11 ✓ python_run_947aba21: took 342 ms
+2024/03/14 21:08:34 ✓ python_run_10807164: took 365 ms
+2024/03/14 21:13:05 ✓ gcc_run_5c101b46: took 672 ms
+2024/03/14 21:13:36 ✓ typescript_run_6847711b: took 732 ms
+2024/03/14 21:16:50 ✓ sqlite_run_8c708cff: took 318 ms
+2024/03/14 21:17:36 ✓ zig_run_1d121110: took 4540 ms
+2024/03/14 21:18:04 ✓ shell_run_b7666eae: took 545 ms
+2024/03/14 21:18:09 ✓ shell_run_6c56bb2a: took 333 ms
+2024/03/14 21:18:19 ✓ shell_run_3e48ccb6: took 338 ms
+2024/03/14 21:18:37 ✓ shell_run_b24c519e: took 409 ms
+2024/03/14 21:18:41 ✓ shell_run_f1fa711a: took 332 ms
+2024/03/14 21:18:51 ✓ shell_run_81c4d384: took 343 ms
+2024/03/14 21:19:08 ✓ shell_run_497fb6d7: took 327 ms
+2024/03/14 21:19:19 ✓ shell_run_6b647cd5: took 340 ms
+2024/03/14 21:20:25 ✓ shell_run_c0af9b6f: took 339 ms
+2024/03/14 21:20:26 ✓ python_run_c63363fe: took 354 ms
+2024/03/14 21:27:34 ✓ shell_run_02eaa27a: took 321 ms
+2024/03/14 21:29:04 ✓ shell_run_24965981: took 365 ms
+2024/03/14 21:30:04 ✓ shell_run_d05a7acb: took 677 ms
+2024/03/14 21:30:27 ✓ shell_run_f1eb5a6c: took 366 ms
+2024/03/14 21:37:55 ✓ duckdb_run_003a47fb: took 543 ms
+2024/03/14 21:38:12 ✓ r_run_816b01b1: took 1644 ms
+2024/03/14 21:54:14 ✓ odin_run_d62bcaed: took 2356 ms
+2024/03/14 21:56:10 ✓ odin_run_0f5f8c5a: took 1727 ms
+2024/03/14 21:56:17 ✓ odin_run_e56c2d19: took 1382 ms
+2024/03/14 21:56:50 ✓ odin_run_a229802c: took 1318 ms
+2024/03/14 22:05:20 ✓ caddy_run_84d11e8a: took 700 ms
+2024/03/14 22:05:33 ✓ caddy_run_865f1819: took 298 ms
+2024/03/14 22:05:41 ✓ caddy_exec_aee90358: took 677 ms
+2024/03/14 22:06:08 ✓ caddy_validate-json_ca3ccff5: took 358 ms
+2024/03/14 22:06:15 ✓ caddy_exec_3fff2ca6: took 677 ms
+2024/03/14 22:06:20 ✓ caddy_exec_b760d2a3: took 680 ms
+2024/03/14 22:06:24 ✓ caddy_exec_db25270d: took 803 ms

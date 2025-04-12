@@ -1,0 +1,56 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.sh",
+        "steps": [
+            {
+                "box": "shell",
+                "command": ["bash", "main.sh"]
+            }
+        ]
+    },
+    "aha": {
+        "engine": "docker",
+        "entry": "main.sh",
+        "steps": [
+            {
+                "box": "shell",
+                "command": [
+                    "sh",
+                    "-c",
+                    "bash main.sh | aha | rg --multiline '<pre>([\\s\\S]+)</pre>' -r '$1'"
+                ]
+            }
+        ]
+    },
+    "bash": {
+        "engine": "docker",
+        "entry": "main.sh",
+        "steps": [
+            {
+                "box": "shell",
+                "command": ["bash", "main.sh"]
+            }
+        ]
+    },
+    "sh": {
+        "engine": "docker",
+        "entry": "main.sh",
+        "steps": [
+            {
+                "box": "shell",
+                "command": ["sh", "main.sh"]
+            }
+        ]
+    },
+    "zsh": {
+        "engine": "docker",
+        "entry": "main.sh",
+        "steps": [
+            {
+                "box": "shell",
+                "command": ["zsh", "main.sh"]
+            }
+        ]
+    }
+}

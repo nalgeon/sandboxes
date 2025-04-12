@@ -1,0 +1,33 @@
+{
+    "run": {
+        "engine": "docker",
+        "before": {
+            "box": "mariadb",
+            "user": "root",
+            "action": "exec",
+            "command": ["sh", "/etc/mysql/database-create.sh", ":name"]
+        },
+        "steps": [
+            {
+                "box": "mariadb-client",
+                "stdin": true,
+                "command": [
+                    "mariadb",
+                    "--host",
+                    "mariadb",
+                    "--user",
+                    ":name",
+                    "--database",
+                    ":name",
+                    "--table"
+                ]
+            }
+        ],
+        "after": {
+            "box": "mariadb",
+            "user": "root",
+            "action": "exec",
+            "command": ["sh", "/etc/mysql/database-drop.sh", ":name"]
+        }
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "image": "codapi/sqlite",
+    "volume": "%s:/sandbox/src:ro"
+}

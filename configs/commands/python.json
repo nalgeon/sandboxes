@@ -1,0 +1,25 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.py",
+        "steps": [
+            {
+                "box": "python",
+                "command": ["python", "main.py"],
+                "timeout": 8,
+                "noutput": 524288
+            }
+        ]
+    },
+    "test": {
+        "engine": "docker",
+        "entry": "test_main.py",
+        "steps": [
+            {
+                "box": "python",
+                "command": ["python", "-m", "unittest"],
+                "noutput": 8192
+            }
+        ]
+    }
+}

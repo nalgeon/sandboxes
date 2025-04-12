@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.php",
+        "steps": [
+            {
+                "box": "php",
+                "command": ["php", "main.php"]
+            }
+        ]
+    }
+}

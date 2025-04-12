@@ -1,0 +1,6 @@
+{
+    "image": "codapi/zig",
+    "memory": 256,
+    "writable": true,
+    "volume": "%s:/sandbox/src:ro"
+}

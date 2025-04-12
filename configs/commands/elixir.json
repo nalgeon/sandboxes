@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.exs",
+        "steps": [
+            {
+                "box": "elixir",
+                "command": ["elixir", "main.exs"]
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.zig",
+        "steps": [
+            {
+                "box": "zig",
+                "command": ["zig", "run", "main.zig"]
+            }
+        ]
+    },
+    "test": {
+        "engine": "docker",
+        "entry": "main.zig",
+        "steps": [
+            {
+                "box": "zig",
+                "command": ["zig", "test", "main.zig"]
+            }
+        ]
+    }
+}

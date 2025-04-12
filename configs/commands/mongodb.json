@@ -1,0 +1,13 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.js",
+        "steps": [
+            {
+                "box": "mongodb-client",
+                "command": ["bash", "/etc/mongodb/query.sh", ":name"],
+                "timeout": 8
+            }
+        ]
+    }
+}

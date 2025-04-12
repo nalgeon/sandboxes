@@ -1,0 +1,30 @@
+{
+    "run": {
+        "engine": "docker",
+        "before": {
+            "box": "clickhouse",
+            "action": "exec",
+            "command": [
+                "sh",
+                "/etc/clickhouse-client/database-create.sh",
+                ":name"
+            ]
+        },
+        "steps": [
+            {
+                "box": "clickhouse-client",
+                "stdin": true,
+                "command": ["bash", "/etc/clickhouse-client/query.sh", ":name"]
+            }
+        ],
+        "after": {
+            "box": "clickhouse",
+            "action": "exec",
+            "command": [
+                "sh",
+                "/etc/clickhouse-client/database-drop.sh",
+                ":name"
+            ]
+        }
+    }
+}

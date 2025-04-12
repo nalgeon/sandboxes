@@ -1,0 +1,16 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.cpp",
+        "steps": [
+            {
+                "box": "cpp",
+                "command": [
+                    "sh",
+                    "-c",
+                    "g++ -Wall -pedantic --std=c++20 main.cpp -o /tmp/main && /tmp/main"
+                ]
+            }
+        ]
+    }
+}

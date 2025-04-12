@@ -1,0 +1,32 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.sh",
+        "steps": [
+            {
+                "box": "net-tools",
+                "command": ["sh", "run.sh"]
+            }
+        ]
+    },
+    "curl": {
+        "engine": "docker",
+        "entry": "main.curl",
+        "steps": [
+            {
+                "box": "net-tools",
+                "command": ["sh", "-c", "cat main.curl | tr '\n' ' ' | sh"]
+            }
+        ]
+    },
+    "hurl": {
+        "engine": "docker",
+        "entry": "main.hurl",
+        "steps": [
+            {
+                "box": "net-tools",
+                "command": ["hurl", "main.hurl"]
+            }
+        ]
+    }
+}

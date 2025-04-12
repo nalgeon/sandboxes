@@ -1,0 +1,4 @@
+{
+    "image": "codapi/mssql-client",
+    "network": "codapi"
+}

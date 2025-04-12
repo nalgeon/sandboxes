@@ -1,0 +1,17 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.kt",
+        "steps": [
+            {
+                "box": "kotlin",
+                "command": [
+                    "sh",
+                    "-c",
+                    "$KOTLIN_HOME/bin/kotlinc src/main.kt -d /tmp/main.jar && $KOTLIN_HOME/bin/kotlin /tmp/main.jar"
+                ],
+                "timeout": 10
+            }
+        ]
+    }
+}

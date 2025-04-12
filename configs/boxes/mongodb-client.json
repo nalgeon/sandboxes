@@ -1,0 +1,6 @@
+{
+    "image": "codapi/mongodb-client",
+    "network": "codapi",
+    "writable": true,
+    "volume": "%s:/sandbox"
+}

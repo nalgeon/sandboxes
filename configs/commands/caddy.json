@@ -1,0 +1,82 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.sh",
+        "steps": [
+            {
+                "box": "caddy",
+                "command": ["sh", "main.sh"]
+            }
+        ]
+    },
+    "exec": {
+        "engine": "docker",
+        "entry": "main.sh",
+        "before": {
+            "box": "caddy",
+            "action": "run",
+            "detach": true,
+            "command": ["caddy", "run"]
+        },
+        "steps": [
+            {
+                "box": ":name",
+                "action": "exec",
+                "command": ["sh", "main.sh"],
+                "noutput": 102400
+            }
+        ],
+        "after": {
+            "box": ":name",
+            "action": "stop"
+        }
+    },
+    "exec-validate": {
+        "engine": "docker",
+        "entry": "main.sh",
+        "before": {
+            "box": "caddy",
+            "action": "run",
+            "command": ["caddy", "validate"]
+        },
+        "steps": [
+            {
+                "box": "caddy",
+                "action": "run",
+                "detach": true,
+                "command": ["caddy", "run"]
+            },
+            {
+                "box": ":name",
+                "user": "sandbox",
+                "action": "exec",
+                "command": ["sh", "main.sh"],
+                "noutput": 102400
+            }
+        ],
+        "after": {
+            "box": ":name",
+            "action": "stop"
+        }
+    },
+    "validate": {
+        "engine": "docker",
+        "entry": "Caddyfile",
+        "steps": [
+            {
+                "box": "caddy",
+                "command": ["caddy", "validate"]
+            }
+        ]
+    },
+    "validate-json": {
+        "engine": "docker",
+        "entry": "caddy.json",
+        "steps": [
+            {
+                "box": "caddy",
+                "command": ["caddy", "validate", "--config", "caddy.json"]
+            }
+        ]
+    }
+}

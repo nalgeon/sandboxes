@@ -1,0 +1,6 @@
+{
+    "image": "codapi/rlang",
+    "memory": 512,
+    "tmpfs": ["/tmp:rw,noexec,nosuid,size=16m"],
+    "ulimit": ["nofile=256"]
+}

@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.py",
+        "steps": [
+            {
+                "box": "chdb",
+                "command": ["python", "main.py"]
+            }
+        ]
+    }
+}

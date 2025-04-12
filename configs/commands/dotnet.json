@@ -1,0 +1,13 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.cs",
+        "steps": [
+            {
+                "box": "dotnet",
+                "command": ["sh", "/usr/share/dotnet/run.sh"],
+                "timeout": 8
+            }
+        ]
+    }
+}

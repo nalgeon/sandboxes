@@ -1,0 +1,5 @@
+{
+    "image": "codapi/clickhouse-client",
+    "network": "codapi",
+    "writable": true
+}

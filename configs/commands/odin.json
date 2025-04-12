@@ -1,0 +1,16 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.odin",
+        "steps": [
+            {
+                "box": "odin",
+                "command": [
+                    "sh",
+                    "-c",
+                    "odin build . -out:/tmp/main && /tmp/main"
+                ]
+            }
+        ]
+    }
+}

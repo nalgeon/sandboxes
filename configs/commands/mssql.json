@@ -1,0 +1,24 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.sql",
+        "before": {
+            "box": "mssql",
+            "user": "mssql",
+            "action": "exec",
+            "command": ["bash", "/opt/mssql/database-create.sh", ":name"]
+        },
+        "steps": [
+            {
+                "box": "mssql-client",
+                "command": ["sh", "/opt/mssql/query.sh", ":name"]
+            }
+        ],
+        "after": {
+            "box": "mssql",
+            "user": "mssql",
+            "action": "exec",
+            "command": ["bash", "/opt/mssql/database-drop.sh", ":name"]
+        }
+    }
+}

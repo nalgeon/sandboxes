@@ -1,0 +1,5 @@
+{
+    "image": "codapi/odin",
+    "memory": 256,
+    "tmpfs": ["/tmp:rw,exec,nosuid,size=16m"]
+}

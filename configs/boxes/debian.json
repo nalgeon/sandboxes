@@ -1,0 +1,5 @@
+{
+    "image": "codapi/debian",
+    "network": "codapi",
+    "tmpfs": ["/tmp:rw,noexec,nosuid,size=16m"]
+}

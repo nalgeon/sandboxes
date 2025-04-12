@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.raku",
+        "steps": [
+            {
+                "box": "raku",
+                "command": ["raku", "main.raku"]
+            }
+        ]
+    }
+}

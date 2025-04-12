@@ -1,0 +1,40 @@
+{
+    "run": {
+        "engine": "docker",
+        "before": {
+            "box": "postgres",
+            "user": "postgres",
+            "action": "exec",
+            "command": [
+                "psql",
+                "--quiet",
+                "-f",
+                "/var/lib/postgresql/database-create.sql",
+                "-v",
+                "user=:name"
+            ]
+        },
+        "steps": [
+            {
+                "box": "postgres",
+                "user": "sandbox",
+                "action": "exec",
+                "stdin": true,
+                "command": ["psql", "--quiet", "--user=:name"]
+            }
+        ],
+        "after": {
+            "box": "postgres",
+            "user": "postgres",
+            "action": "exec",
+            "command": [
+                "psql",
+                "--quiet",
+                "-f",
+                "/var/lib/postgresql/database-drop.sql",
+                "-v",
+                "user=:name"
+            ]
+        }
+    }
+}

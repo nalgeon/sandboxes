@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.rb",
+        "steps": [
+            {
+                "box": "ruby",
+                "command": ["ruby", "main.rb"]
+            }
+        ]
+    }
+}

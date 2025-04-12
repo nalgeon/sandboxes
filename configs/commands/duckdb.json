@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.sql",
+        "steps": [
+            {
+                "box": "duckdb",
+                "command": ["sh", "-c", "cat main.sql | /opt/duckdb -box"]
+            }
+        ]
+    }
+}

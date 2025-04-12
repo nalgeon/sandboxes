@@ -1,0 +1,16 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.rs",
+        "steps": [
+            {
+                "box": "rust",
+                "command": [
+                    "sh",
+                    "-c",
+                    "rustc -o /tmp/main main.rs && /tmp/main"
+                ]
+            }
+        ]
+    }
+}

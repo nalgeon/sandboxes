@@ -1,0 +1,33 @@
+{
+    "run": {
+        "engine": "docker",
+        "before": {
+            "box": "mysql",
+            "user": "root",
+            "action": "exec",
+            "command": ["sh", "/etc/mysql/database-create.sh", ":name"]
+        },
+        "steps": [
+            {
+                "box": "mysql-client",
+                "stdin": true,
+                "command": [
+                    "mysql",
+                    "--host",
+                    "mysql",
+                    "--user",
+                    ":name",
+                    "--database",
+                    ":name",
+                    "--table"
+                ]
+            }
+        ],
+        "after": {
+            "box": "mysql",
+            "user": "root",
+            "action": "exec",
+            "command": ["sh", "/etc/mysql/database-drop.sh", ":name"]
+        }
+    }
+}

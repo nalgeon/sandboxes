@@ -1,0 +1,14 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.r",
+        "steps": [
+            {
+                "box": "rlang",
+                "command": ["Rscript", "main.r"],
+                "timeout": 8,
+                "noutput": 524288
+            }
+        ]
+    }
+}

@@ -1,0 +1,3 @@
+http() { curlie "$@"; }
+
+. main.sh
