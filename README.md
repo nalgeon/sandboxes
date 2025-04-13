@@ -18,40 +18,40 @@ You can use sandboxes from this repository or create your own. See the [document
 
 ## Programming languages
 
--   Bash/Zsh: [image](images/shell/) • [box](configs/boxes/shell.json) • [commands](configs/commands/shell.json)
--   C: [image](images/gcc/) • [box](configs/boxes/gcc.json) • [commands](configs/commands/gcc.json)
--   C#: [image](images/dotnet/) • [box](configs/boxes/dotnet.json) • [commands](configs/commands/dotnet.json)
--   C++: [image](images/cpp/) • [box](configs/boxes/cpp.json) • [commands](configs/commands/cpp.json)
--   Elixir: [image](images/elixir/) • [box](configs/boxes/elixir.json) • [commands](configs/commands/elixir.json)
--   Go: [image](images/go/) • [box](configs/boxes/go.json) • [commands](configs/commands/go.json)
--   Java: [image](images/java/) • [box](configs/boxes/java.json) • [commands](configs/commands/java.json)
--   JavaScript: [image](images/typescript/) • [box](configs/boxes/typescript.json) • [commands](configs/commands/javascript.json)
--   Kotlin: [image](images/kotlin/) • [box](configs/boxes/kotlin.json) • [commands](configs/commands/kotlin.json)
--   Lua: [image](images/lua/) • [box](configs/boxes/lua.json) • [commands](configs/commands/lua.json)
--   Odin: [image](images/odin/) • [box](configs/boxes/odin.json) • [commands](configs/commands/odin.json)
--   PHP: [image](images/php/) • [box](configs/boxes/php.json) • [commands](configs/commands/php.json)
--   Python: [image](images/python/) • [box](configs/boxes/python.json) • [commands](configs/commands/python.json)
--   R: [image](images/rlang/) • [box](configs/boxes/rlang.json) • [commands](configs/commands/rlang.json)
--   Raku: [image](images/raku/) • [box](configs/boxes/raku.json) • [commands](configs/commands/raku.json)
--   Ruby: [image](images/ruby/) • [box](configs/boxes/ruby.json) • [commands](configs/commands/ruby.json)
--   Rust: [image](images/rust/) • [box](configs/boxes/rust.json) • [commands](configs/commands/rust.json)
--   TypeScript: [image](images/typescript/) • [box](configs/boxes/typescript.json) • [commands](configs/commands/typescript.json)
--   V: [image](images/vlang/) • [box](configs/boxes/vlang.json) • [commands](configs/commands/vlang.json)
--   Zig: [image](images/zig/) • [box](configs/boxes/zig.json) • [commands](configs/commands/zig.json)
+-   [Bash/Zsh](sandboxes/shell)
+-   [C](sandboxes/gcc)
+-   [C#](sandboxes/dotne/)
+-   [C++](sandboxes/cpp)
+-   [Elixir](sandboxes/elixir)
+-   [Go](sandboxes/go)
+-   [Java](sandboxes/java)
+-   [JavaScript](sandboxes/typescript)
+-   [Kotlin](sandboxes/kotlin)
+-   [Lua](sandboxes/lua)
+-   [Odin](sandboxes/odin)
+-   [PHP](sandboxes/php)
+-   [Python](sandboxes/python)
+-   [R](sandboxes/rlang)
+-   [Raku](sandboxes/raku)
+-   [Ruby](sandboxes/ruby)
+-   [Rust](sandboxes/rust)
+-   [TypeScript](sandboxes/typescript)
+-   [V](sandboxes/vlang)
+-   [Zig](sandboxes/zig)
 
 ## Databases
 
 Client-server databases like MySQL typically use two images: a server and a client. Start the server with `make` (e.g., `make mysql-start`). Codapi automatically runs the client for each request, so you don't need to worry about it.
 
--   chDB: [image](images/chdb/) • [box](configs/boxes/chdb.json) • [commands](configs/commands/chdb.json)
--   ClickHouse: [server](images/clickhouse/) • [client](images/clickhouse-client/) • [box](configs/boxes/clickhouse-client.json) • [commands](configs/commands/clickhouse.json)
--   DuckDB: [image](images/duckdb/) • [box](configs/boxes/duckdb.json) • [commands](configs/commands/duckdb.json)
--   MariaDB: [server](images/mariadb/) • [client](images/mariadb-client/) • [box](configs/boxes/mariadb-client.json) • [commands](configs/commands/mariadb.json)
--   MongoDB: [server](images/mongodb/) • [client](images/mongodb-client/) • [box](configs/boxes/mongodb-client.json) • [commands](configs/commands/mongodb.json)
--   MySQL: [server](images/mysql/) • [client](images/mysql-client/) • [box](configs/boxes/mysql-client.json) • [commands](configs/commands/mysql.json)
--   PostgreSQL: [image](images/postgres/) • [commands](configs/commands/postgres.json)
--   SQL Server: [server](images/mssql/) • [client](images/mssql-client/) • [box](configs/boxes/mssql-client.json) • [commands](configs/commands/mssql.json)
--   SQLite: [image](images/sqlite/) • [box](configs/boxes/sqlite.json) • [commands](configs/commands/sqlite.json)
+-   [chDB](sandboxes/chdb)
+-   [ClickHouse](sandboxes/clickhouse)
+-   [DuckDB](sandboxes/duckdb)
+-   [MariaDB](sandboxes/mariadb)
+-   [MongoDB](sandboxes/mongodb)
+-   [MySQL](sandboxes/mysql)
+-   [PostgreSQL](sandboxes/postgres)
+-   [SQL Server](sandboxes/mssql)
+-   [SQLite](sandboxes/sqlite)
 
 Servers:
 
@@ -66,11 +66,11 @@ make postgres-start
 
 ## Network & tools
 
--   Caddy: [image](images/caddy/) • [box](configs/boxes/caddy.json) • [commands](configs/commands/caddy.json)
--   Curl: [image](images/shell/) • [box](configs/boxes/shell.json) • [commands](configs/commands/shell.json)
--   Git: [image](images/shell/) • [box](configs/boxes/shell.json) • [commands](configs/commands/shell.json)
--   Network tools: [image](images/net-tools/) • [box](configs/boxes/net-tools.json) • [commands](configs/commands/net-tools.json)
--   Ripgrep: [image](images/shell/) • [box](configs/boxes/shell.json) • [commands](configs/commands/shell.json)
+-   [Caddy](sandboxes/caddy)
+-   [Curl](sandboxes/shell)
+-   [Git](sandboxes/shell)
+-   [Network tools](sandboxes/net-tools)
+-   [Ripgrep](sandboxes/shell)
 
 ## Contributing
 

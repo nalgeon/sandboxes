@@ -2,5 +2,5 @@
     "image": "codapi/net-tools",
     "network": "codapi",
     "tmpfs": ["/tmp:rw,noexec,nosuid,size=1m"],
-    "files": ["images/net-tools/.curlrc", "images/net-tools/run.sh"]
+    "files": ["sandboxes/net-tools/.curlrc", "sandboxes/net-tools/run.sh"]
 }

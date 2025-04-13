@@ -4,7 +4,7 @@
         "entry": "main.sh",
         "steps": [
             {
-                "box": "alpine",
+                "box": "ash",
                 "command": ["sh", "main.sh"]
             }
         ]

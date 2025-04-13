@@ -19,7 +19,8 @@
                     ":name",
                     "--database",
                     ":name",
-                    "--table"
+                    "--table",
+                    "--skip-ssl"
                 ]
             }
         ],

@@ -1,9 +1,8 @@
 {
     "image": "codapi/go",
     "memory": 256,
-    "storage": "256m",
     "writable": true,
     "volume": "%s:/sandbox/src",
     "ulimit": ["nofile=256"],
-    "files": ["images/go/go.*"]
+    "files": ["sandboxes/go/go.*"]
 }

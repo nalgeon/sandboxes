@@ -1,4 +1,5 @@
 {
+    "name": "mssql-client",
     "image": "codapi/mssql-client",
     "network": "codapi"
 }

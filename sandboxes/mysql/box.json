@@ -1,4 +1,5 @@
 {
+    "name": "mysql-client",
     "image": "codapi/mysql-client",
     "network": "codapi"
 }

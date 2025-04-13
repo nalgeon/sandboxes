@@ -1,4 +1,5 @@
 {
+    "name": "mariadb-client",
     "image": "codapi/mariadb-client",
     "network": "codapi"
 }

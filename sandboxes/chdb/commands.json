@@ -8,5 +8,15 @@
                 "command": ["python", "/opt/query.py", "main.sql"]
             }
         ]
+    },
+    "python": {
+        "engine": "docker",
+        "entry": "main.py",
+        "steps": [
+            {
+                "box": "chdb",
+                "command": ["python", "main.py"]
+            }
+        ]
     }
 }

@@ -1,4 +1,5 @@
 {
+    "name": "mongodb-client",
     "image": "codapi/mongodb-client",
     "network": "codapi",
     "writable": true,
