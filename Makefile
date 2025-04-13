@@ -1,12 +1,42 @@
-.PHONY: build
+# Helper tasks for Codapi sandboxes.
+
+# -- Sandboxes --
+
+image:
+	@[ -n "$(name)" ] || (echo "Syntax: make image name=<image-name>" >&2; exit 1)
+	@echo "Building image codapi/$(name)"
+ifdef server
+	@docker build \
+		--file sandboxes/$(name)/server/Dockerfile \
+		--tag codapi/$(name):latest \
+		sandboxes/$(name)/server
+else
+	@docker build \
+		--file sandboxes/$(name)/Dockerfile \
+		--tag codapi/$(name):latest \
+		sandboxes/$(name)
+endif
+	@echo "✓ codapi/$(name)"
+ifdef client
+	@echo "Building image codapi/$(name)-client"
+	@docker build \
+		--file sandboxes/$(name)/client/Dockerfile \
+		--tag codapi/$(name)-client:latest \
+		sandboxes/$(name)/client
+	@echo "✓ codapi/$(name)-client"
+endif
+
+sandbox:
+	@[ -n "$(name)" ] || (echo "Syntax: make package name=<image-name>" >&2; exit 1)
+	@echo "Packing $(name) sandbox"
+	@mkdir -p build
+	@rm -f build/$(name).zip
+	@tar -cvzf build/$(name).tar.gz -C sandboxes $(name)
+	@echo "✓ build/$(name).tar.gz"
+
+# -- Database containers --
 
 STORAGE_OPT := $(if $(storage),--storage-opt=size=$(storage))
-
-build:
-	@[ -n "$(name)" ] || (echo "Syntax: make build name=<image-name>" >&2; exit 1)
-	@echo "Building image codapi/$(name)"
-	@docker build --file images/$(name)/Dockerfile --tag codapi/$(name):latest images/$(name)/
-	@echo "✓ codapi/$(name)"
 
 clickhouse-start:
 	@echo "Starting ClickHouse..."
