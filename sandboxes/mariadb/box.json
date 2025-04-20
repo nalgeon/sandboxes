@@ -1,5 +1,6 @@
 {
     "name": "mariadb-client",
     "image": "codapi/mariadb-client",
+    "memory": 128,
     "network": "codapi"
 }
