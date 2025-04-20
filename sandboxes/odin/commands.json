@@ -9,7 +9,8 @@
                     "sh",
                     "-c",
                     "odin build . -out:/tmp/main && /tmp/main"
-                ]
+                ],
+                "timeout": 8
             }
         ]
     }
