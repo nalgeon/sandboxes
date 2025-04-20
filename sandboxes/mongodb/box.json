@@ -1,6 +1,7 @@
 {
     "name": "mongodb-client",
     "image": "codapi/mongodb-client",
+    "memory": 128,
     "network": "codapi",
     "writable": true,
     "volume": "%s:/sandbox"
