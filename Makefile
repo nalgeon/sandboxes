@@ -1,6 +1,7 @@
 # Helper tasks for Codapi sandboxes.
 
 # Creates a sandbox package which can be installed using the Codapi CLI.
+.PHONY: sandbox
 sandbox:
 	@[ -n "$(name)" ] || (echo "Syntax: make sandbox name=<sandbox-name>" >&2; exit 1)
 	@echo "Packing $(name) sandbox"
@@ -9,6 +10,8 @@ sandbox:
 	@tar -cvzf build/$(name).tar.gz -C sandboxes $(name)
 	@echo "✓ build/$(name).tar.gz"
 
+# Creates packages for all sandboxes.
+.PHONY: sandboxes
 sandboxes:
 	make sandbox name=ash
 	make sandbox name=caddy
