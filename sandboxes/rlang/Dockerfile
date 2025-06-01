@@ -1,7 +1,7 @@
 FROM debian:12-slim
 
 RUN apt-get update && \
-    apt-get install -y r-base r-recommended r-cran-tidyverse r-cran-svglite && \
+    apt-get install -y r-base r-recommended && \
     rm -rf /var/lib/apt/lists/*
 
 RUN adduser --home /sandbox --disabled-password sandbox
