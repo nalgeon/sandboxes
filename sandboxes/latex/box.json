@@ -1,0 +1,4 @@
+{    
+    "image": "codapi/latex",
+    "tmpfs": ["/tmp:rw,size=1024m"]
+}

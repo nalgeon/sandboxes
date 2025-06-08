@@ -1,0 +1,14 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "in.tex",
+        "steps": [
+            {
+                "box": "latex",
+                "command": ["convert.sh"],
+		        "timeout": 10,
+                "noutput": 65536
+            }
+        ]
+    }
+}
