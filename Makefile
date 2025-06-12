@@ -27,6 +27,7 @@ sandboxes:
 	make sandbox name=java
 	make sandbox name=javascript
 	make sandbox name=kotlin
+	make sandbox name=latex
 	make sandbox name=lua
 	make sandbox name=mariadb
 	make sandbox name=mongodb

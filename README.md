@@ -73,10 +73,11 @@ Client-server databases like MySQL typically use two images: a server and a clie
 
 ## Network & tools
 
-| Name        | Sandbox                              |
-| ----------- | ------------------------------------ |
-| `caddy`     | [Caddy](sandboxes/caddy)             |
-| `net-tools` | [Network tools](sandboxes/net-tools) |
+| Name        | Sandbox                                                                 |
+| ----------- | ----------------------------------------------------------------------- |
+| `caddy`     | [Caddy](sandboxes/caddy)                                                |
+| `latex`     | [LaTeX](sandboxes/latex) by [Patricio Díaz](https://github.com/padiazg) |
+| `net-tools` | [Network tools](sandboxes/net-tools)                                    |
 
 ## Contributing
 

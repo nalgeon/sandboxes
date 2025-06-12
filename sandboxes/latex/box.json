@@ -1,4 +1,4 @@
-{    
+{
     "image": "codapi/latex",
-    "tmpfs": ["/tmp:rw,size=1024m"]
+    "tmpfs": ["/tmp:rw,noexec,nosuid,size=64m"]
 }

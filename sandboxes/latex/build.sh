@@ -3,7 +3,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 name=latex
-title=Latex
+title=LaTeX
 
 echo "Building $title image..."
 docker build --file ./Dockerfile --tag codapi/$name:latest .
