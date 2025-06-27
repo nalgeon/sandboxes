@@ -25,5 +25,16 @@
                 "timeout": 8
             }
         ]
+    },
+    "test-verbose": {
+        "engine": "docker",
+        "entry": "main_test.go",
+        "steps": [
+            {
+                "box": "go",
+                "command": ["go", "test", "-v"],
+                "timeout": 8
+            }
+        ]
     }
 }
