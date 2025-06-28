@@ -66,9 +66,10 @@ Client-server databases like MySQL typically use two images: a server and a clie
 | `duckdb`     | [DuckDB](sandboxes/duckdb)         |
 | `mariadb`    | [MariaDB](sandboxes/mariadb)       |
 | `mongodb`    | [MongoDB](sandboxes/mongodb)       |
+| `mssql`      | [SQL Server](sandboxes/mssql)      |
 | `mysql`      | [MySQL](sandboxes/mysql)           |
 | `postgres`   | [PostgreSQL](sandboxes/postgres)   |
-| `mssql`      | [SQL Server](sandboxes/mssql)      |
+| `redis`      | [Redis](sandboxes/redis)           |
 | `sqlite`     | [SQLite](sandboxes/sqlite)         |
 
 ## Network & tools
