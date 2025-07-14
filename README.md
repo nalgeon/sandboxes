@@ -70,6 +70,7 @@ Client-server databases like MySQL typically use two images: a server and a clie
 | `mysql`      | [MySQL](sandboxes/mysql)           |
 | `postgres`   | [PostgreSQL](sandboxes/postgres)   |
 | `redis`      | [Redis](sandboxes/redis)           |
+| `redka`      | [Redka](sandboxes/redka)           |
 | `sqlite`     | [SQLite](sandboxes/sqlite)         |
 
 ## Network & tools

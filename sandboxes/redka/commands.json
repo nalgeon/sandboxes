@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "commands.cli",
+        "steps": [
+            {
+                "box": "redka",
+                "command": ["query.sh"]
+            }
+        ]
+    }
+}

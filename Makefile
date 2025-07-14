@@ -40,6 +40,7 @@ sandboxes:
 	make sandbox name=python
 	make sandbox name=raku
 	make sandbox name=redis
+	make sandbox name=redka
 	make sandbox name=rlang
 	make sandbox name=ruby
 	make sandbox name=rust
