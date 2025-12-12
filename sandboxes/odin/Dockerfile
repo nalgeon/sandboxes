@@ -1,8 +1,8 @@
-FROM alpine:3.21
+FROM alpine:3.23
 
-RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/main clang20 llvm20
+RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/main clang21 llvm21
 RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/testing odin
-RUN ln -sf /usr/bin/clang-20 /usr/bin/clang
+RUN ln -sf /usr/bin/clang-21 /usr/bin/clang
 RUN adduser --home /sandbox --disabled-password sandbox
 
 USER sandbox
