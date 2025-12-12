@@ -1,4 +1,4 @@
-chdb==3.1.2
+chdb==3.7.2
 numpy
 pandas
 pyarrow
