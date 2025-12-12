@@ -1,6 +1,6 @@
-FROM alpine:3.21
+FROM alpine:3.23
 
-RUN apk add --no-cache postgresql17
+RUN apk add --no-cache postgresql18
 RUN adduser --home /sandbox --disabled-password sandbox
 
 COPY --chown=postgres:postgres database-create.sql database-drop.sql /var/lib/postgresql/
