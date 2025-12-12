@@ -1,4 +1,4 @@
-FROM clickhouse:25.3
+FROM clickhouse:25.11
 
 RUN useradd --create-home --home /sandbox sandbox
 COPY config.xml /etc/clickhouse-server/config.d/codapi.xml

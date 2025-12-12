@@ -1,4 +1,4 @@
-FROM clickhouse:25.3
+FROM clickhouse:25.11
 
 COPY *.sh /etc/clickhouse-client
 
