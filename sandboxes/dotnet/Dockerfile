@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:9.0-alpine
+FROM mcr.microsoft.com/dotnet/sdk:10.0-alpine
 
 COPY run.sh /usr/share/dotnet
 
