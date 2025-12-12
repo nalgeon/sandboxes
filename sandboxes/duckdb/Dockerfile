@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get install -y curl unzip && \
     rm -rf /var/lib/apt/lists/*
 
-ARG VERSION=1.2.2
+ARG VERSION=1.4.3
 ARG ARCH=amd64
 
 RUN <<EOF
