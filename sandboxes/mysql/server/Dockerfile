@@ -1,4 +1,4 @@
-FROM mysql:9.2
+FROM mysql:9.5
 
 COPY *.sh /etc/mysql/
 COPY init.sql /docker-entrypoint-initdb.d/
