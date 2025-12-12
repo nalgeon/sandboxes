@@ -1,4 +1,4 @@
-FROM mariadb:11.7
+FROM mariadb:12.1
 
 COPY *.sh /etc/mysql/
 COPY init.sql /docker-entrypoint-initdb.d/
