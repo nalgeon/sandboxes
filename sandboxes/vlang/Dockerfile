@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get install -y build-essential curl unzip && \
     rm -rf /var/lib/apt/lists/*
 
-ARG VERSION=0.4.10
+ARG VERSION=0.4.12
 ARG ARCH=linux
 
 RUN <<EOF
