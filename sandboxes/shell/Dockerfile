@@ -1,4 +1,4 @@
-FROM alpine:3.21
+FROM alpine:3.23
 
 RUN apk add --no-cache aha bash coreutils curl git grep ripgrep zsh
 RUN adduser --home /sandbox --disabled-password sandbox
