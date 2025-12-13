@@ -1,21 +1,20 @@
-FROM debian:12-slim
-SHELL ["/bin/bash", "-c"]
+FROM amazoncorretto:21-alpine
 
-RUN apt-get update && \
-    apt-get install -y curl zip unzip && \
-    rm -rf /var/lib/apt/lists/*
+RUN apk add --no-cache bash curl unzip
+
+ARG VERSION=2.2.21
+RUN <<EOF
+curl -Lf "https://github.com/JetBrains/kotlin/releases/download/v$VERSION/kotlin-compiler-$VERSION.zip" -o kotlin.zip
+unzip -d /usr/local/ kotlin.zip
+rm kotlin.zip
+chmod -R +x /usr/local/kotlinc/bin/
+ln -s /usr/local/kotlinc/bin/kotlin /bin/kotlin
+ln -s /usr/local/kotlinc/bin/kotlinc /bin/kotlinc
+EOF
 
 RUN adduser --home /sandbox --disabled-password sandbox
 
 USER sandbox
 WORKDIR /sandbox
 
-RUN <<EOF
-curl -s "https://get.sdkman.io?rcupdate=false" | bash
-source "$HOME/.sdkman/bin/sdkman-init.sh"
-sdk install java
-sdk install kotlin
-EOF
-
-ENV JAVA_HOME="/sandbox/.sdkman/candidates/java/current"
-ENV KOTLIN_HOME="/sandbox/.sdkman/candidates/kotlin/current"
+ENV PATH=$PATH:/usr/local/kotlinc/bin/

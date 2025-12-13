@@ -8,7 +8,7 @@
                 "command": [
                     "sh",
                     "-c",
-                    "$KOTLIN_HOME/bin/kotlinc src/main.kt -d /tmp/main.jar && $KOTLIN_HOME/bin/kotlin /tmp/main.jar"
+                    "kotlinc -include-runtime main.kt -d /tmp/main.jar && java -jar /tmp/main.jar"
                 ],
                 "timeout": 10
             }
