@@ -1,6 +1,5 @@
 {
     "image": "codapi/kotlin",
     "memory": 256,
-    "volume": "%s:/sandbox:ro",
     "tmpfs": ["/tmp:rw,exec,nosuid,size=64m"]
 }
