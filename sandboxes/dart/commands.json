@@ -5,15 +5,7 @@
         "steps": [
             {
                 "box": "dart",
-                "command": [
-                    "dart",
-                    "compile",
-                    "exe",
-                    "main.dart",
-                    "-o",
-                    "main"
-                ],
-                "timeout": 8
+                "command": ["dart", "compile", "exe", "main.dart", "-o", "main"]
             },
             {
                 "box": "debian",
