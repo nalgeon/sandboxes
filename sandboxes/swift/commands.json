@@ -1,0 +1,18 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.swift",
+        "steps": [
+            {
+                "box": "swift",
+                "command": ["swiftc", "main.swift", "-o", "main"],
+                "timeout": 8
+            },
+            {
+                "box": "swift-runtime",
+                "version": "latest",
+                "command": ["./main"]
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "image": "codapi/swift",
+    "memory": 256,
+    "writable": true,
+    "volume": "%s:/sandbox/src",
+    "ulimit": ["nofile=256"]
+}
