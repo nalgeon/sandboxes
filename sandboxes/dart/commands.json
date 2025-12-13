@@ -1,0 +1,25 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.dart",
+        "steps": [
+            {
+                "box": "dart",
+                "command": [
+                    "dart",
+                    "compile",
+                    "exe",
+                    "main.dart",
+                    "-o",
+                    "main"
+                ],
+                "timeout": 8
+            },
+            {
+                "box": "debian",
+                "version": "latest",
+                "command": ["./main"]
+            }
+        ]
+    }
+}

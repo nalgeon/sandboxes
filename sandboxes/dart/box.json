@@ -1,0 +1,6 @@
+{
+    "image": "codapi/dart",
+    "memory": 256,
+    "volume": "%s:/sandbox:rw",
+    "tmpfs": ["/tmp:rw,noexec,nosuid,size=16m"]
+}
