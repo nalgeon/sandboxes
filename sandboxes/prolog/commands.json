@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.pro",
+        "steps": [
+            {
+                "box": "prolog",
+                "command": ["swipl", "main.pro"]
+            }
+        ]
+    }
+}
