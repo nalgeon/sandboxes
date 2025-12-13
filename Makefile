@@ -18,12 +18,14 @@ sandboxes:
 	make sandbox name=chdb
 	make sandbox name=clickhouse
 	make sandbox name=cpp
+	make sandbox name=dart
 	make sandbox name=debian
 	make sandbox name=dotnet
 	make sandbox name=duckdb
 	make sandbox name=elixir
 	make sandbox name=gcc
 	make sandbox name=go
+	make sandbox name=haskell
 	make sandbox name=java
 	make sandbox name=javascript
 	make sandbox name=kotlin
@@ -37,6 +39,7 @@ sandboxes:
 	make sandbox name=odin
 	make sandbox name=php
 	make sandbox name=postgres
+	make sandbox name=prolog
 	make sandbox name=python
 	make sandbox name=raku
 	make sandbox name=redis
@@ -46,6 +49,8 @@ sandboxes:
 	make sandbox name=rust
 	make sandbox name=shell
 	make sandbox name=sqlite
+	make sandbox name=swift
+	make sandbox name=swift-runtime
 	make sandbox name=typescript
 	make sandbox name=vlang
 	make sandbox name=zig
