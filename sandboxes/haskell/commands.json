@@ -1,0 +1,17 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.hs",
+        "steps": [
+            {
+                "box": "haskell",
+                "command": ["ghc", "main.hs"]
+            },
+            {
+                "box": "debian",
+                "version": "latest",
+                "command": ["./main"]
+            }
+        ]
+    }
+}
