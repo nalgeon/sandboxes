@@ -1,6 +1,6 @@
 {
     "image": "codapi/zig",
     "memory": 256,
-    "writable": true,
-    "volume": "%s:/sandbox/src:ro"
+    "volume": "%s:/sandbox/src:ro",
+    "tmpfs": ["/tmp:rw,exec,nosuid,size=256m"]
 }

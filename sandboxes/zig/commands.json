@@ -5,7 +5,7 @@
         "steps": [
             {
                 "box": "zig",
-                "command": ["zig", "run", "main.zig", "-O", "ReleaseFast"]
+                "command": ["sh", "/sandbox/run.sh"]
             }
         ]
     },
@@ -15,7 +15,7 @@
         "steps": [
             {
                 "box": "zig",
-                "command": ["zig", "test", "main.zig"]
+                "command": ["sh", "/sandbox/test.sh"]
             }
         ]
     }
