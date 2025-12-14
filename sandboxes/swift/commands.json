@@ -5,8 +5,7 @@
         "steps": [
             {
                 "box": "swift",
-                "command": ["swiftc", "main.swift", "-o", "main"],
-                "timeout": 8
+                "command": ["swiftc", "main.swift", "-o", "main"]
             },
             {
                 "box": "swift-runtime",

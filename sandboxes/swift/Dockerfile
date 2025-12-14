@@ -6,5 +6,4 @@ USER sandbox
 WORKDIR /sandbox/src
 
 COPY --chown=sandbox hello.swift /sandbox/src/main.swift
-RUN swift run main.swift || true
-RUN rm -f main.swift
+RUN swift run main.swift && rm -f main.swift
