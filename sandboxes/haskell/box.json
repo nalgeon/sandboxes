@@ -1,6 +1,6 @@
 {
     "image": "codapi/haskell",
     "memory": 256,
-    "volume": "%s:/sandbox:rw",
-    "tmpfs": ["/tmp:rw,noexec,nosuid,size=16m"]
+    "volume": "%s:/sandbox/src:ro",
+    "tmpfs": ["/tmp:rw,exec,nosuid,size=64m"]
 }

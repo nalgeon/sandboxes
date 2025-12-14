@@ -5,12 +5,7 @@
         "steps": [
             {
                 "box": "haskell",
-                "command": ["ghc", "main.hs"]
-            },
-            {
-                "box": "debian",
-                "version": "latest",
-                "command": ["./main"]
+                "command": ["sh", "/sandbox/run.sh"]
             }
         ]
     }
