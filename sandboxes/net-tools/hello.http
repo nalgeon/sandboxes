@@ -1,0 +1,6 @@
+POST https://httpbingo.org/dump/request
+content-type: application/json
+
+{
+    "message": "hello"
+}

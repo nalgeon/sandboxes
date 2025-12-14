@@ -1,0 +1,2 @@
+set message "hello world"
+get message
