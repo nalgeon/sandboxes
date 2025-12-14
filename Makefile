@@ -50,7 +50,6 @@ sandboxes:
 	make sandbox name=shell
 	make sandbox name=sqlite
 	make sandbox name=swift
-	make sandbox name=swift-runtime
 	make sandbox name=typescript
 	make sandbox name=vlang
 	make sandbox name=zig
