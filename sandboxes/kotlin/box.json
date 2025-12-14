@@ -1,5 +1,5 @@
 {
     "image": "codapi/kotlin",
-    "memory": 256,
+    "memory": 512,
     "tmpfs": ["/tmp:rw,exec,nosuid,size=64m"]
 }
