@@ -5,6 +5,7 @@ on:
         branches: [main]
         paths:
             - "sandboxes/**"
+            - Makefile
     workflow_dispatch:
 
 permissions:
