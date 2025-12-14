@@ -5,7 +5,7 @@
         "steps": [
             {
                 "box": "zig",
-                "command": ["zig", "run", "main.zig"]
+                "command": ["zig", "run", "main.zig", "-O", "ReleaseFast"]
             }
         ]
     },
