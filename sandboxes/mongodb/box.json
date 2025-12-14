@@ -3,6 +3,5 @@
     "image": "codapi/mongodb-client",
     "memory": 128,
     "network": "codapi",
-    "writable": true,
-    "volume": "%s:/sandbox"
+    "tmpfs": ["/tmp:rw,noexec,nosuid,size=16m"]
 }
