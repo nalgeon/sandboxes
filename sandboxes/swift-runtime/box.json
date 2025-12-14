@@ -1,5 +1,0 @@
-{
-    "image": "codapi/swift-runtime",
-    "network": "codapi",
-    "tmpfs": ["/tmp:rw,noexec,nosuid,size=16m"]
-}

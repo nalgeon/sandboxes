@@ -1,7 +1,7 @@
 {
     "image": "codapi/swift",
     "memory": 256,
-    "writable": true,
-    "volume": "%s:/sandbox/src",
+    "volume": "%s:/sandbox/src:ro",
+    "tmpfs": ["/tmp:rw,exec,nosuid,size=64m"],
     "ulimit": ["nofile=256"]
 }

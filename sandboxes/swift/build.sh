@@ -11,5 +11,5 @@ echo "Done"
 
 cat << EOF
 $title image: codapi/$name:latest
-Make sure to also build the swift-runtime sandbox.
+No additional setup is required.
 EOF

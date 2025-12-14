@@ -5,12 +5,7 @@
         "steps": [
             {
                 "box": "swift",
-                "command": ["swiftc", "main.swift", "-o", "main"]
-            },
-            {
-                "box": "swift-runtime",
-                "version": "latest",
-                "command": ["./main"]
+                "command": ["sh", "/sandbox/run.sh"]
             }
         ]
     }
