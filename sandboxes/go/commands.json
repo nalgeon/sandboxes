@@ -5,13 +5,8 @@
         "steps": [
             {
                 "box": "go",
-                "command": ["go", "build", "-o", "main"],
+                "command": ["sh", "/sandbox/run.sh"],
                 "timeout": 8
-            },
-            {
-                "box": "debian",
-                "version": "latest",
-                "command": ["./main"]
             }
         ]
     },
@@ -21,7 +16,7 @@
         "steps": [
             {
                 "box": "go",
-                "command": ["go", "test"],
+                "command": ["sh", "/sandbox/test.sh"],
                 "timeout": 8
             }
         ]
@@ -32,7 +27,7 @@
         "steps": [
             {
                 "box": "go",
-                "command": ["go", "test", "-v"],
+                "command": ["sh", "/sandbox/test.sh", "-v"],
                 "timeout": 8
             }
         ]
