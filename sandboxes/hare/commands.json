@@ -1,0 +1,13 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.ha",
+        "steps": [
+            {
+                "box": "hare",
+                "command": ["sh", "/sandbox/run.sh"],
+                "timeout": 8
+            }
+        ]
+    }
+}

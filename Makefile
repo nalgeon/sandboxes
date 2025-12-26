@@ -26,6 +26,7 @@ sandboxes:
 	make sandbox name=elixir
 	make sandbox name=gcc
 	make sandbox name=go
+	make sandbox name=hare
 	make sandbox name=haskell
 	make sandbox name=java
 	make sandbox name=javascript

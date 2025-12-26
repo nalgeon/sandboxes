@@ -1,0 +1,5 @@
+{
+    "image": "codapi/hare",
+    "volume": "%s:/sandbox/src:ro",
+    "tmpfs": ["/tmp:rw,exec,nosuid,size=64m"]
+}

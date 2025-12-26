@@ -39,6 +39,7 @@ You can use sandboxes from this repository or [create your own](https://github.c
 | `elixir`     | [Elixir](sandboxes/elixir)         |
 | `dart`       | [Dart](sandboxes/dart)             |
 | `go`         | [Go](sandboxes/go)                 |
+| `hare`       | [Hare](sandboxes/hare)             |
 | `haskell`    | [Haskell](sandboxes/haskell)       |
 | `java`       | [Java](sandboxes/java)             |
 | `typescript` | [JavaScript](sandboxes/typescript) |
