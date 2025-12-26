@@ -35,6 +35,7 @@ You can use sandboxes from this repository or [create your own](https://github.c
 | `gcc`        | [C](sandboxes/gcc)                 |
 | `dotnet`     | [C#](sandboxes/dotnet/)            |
 | `cpp`        | [C++](sandboxes/cpp)               |
+| `c3`         | [C3](sandboxes/c3)                 |
 | `elixir`     | [Elixir](sandboxes/elixir)         |
 | `dart`       | [Dart](sandboxes/dart)             |
 | `go`         | [Go](sandboxes/go)                 |

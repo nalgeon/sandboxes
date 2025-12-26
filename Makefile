@@ -14,6 +14,7 @@ sandbox:
 .PHONY: sandboxes
 sandboxes:
 	make sandbox name=ash
+	make sandbox name=c3
 	make sandbox name=caddy
 	make sandbox name=chdb
 	make sandbox name=clickhouse
