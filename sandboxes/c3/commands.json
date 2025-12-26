@@ -1,0 +1,12 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.c3",
+        "steps": [
+            {
+                "box": "c3",
+                "command": ["sh", "/sandbox/run.sh"]
+            }
+        ]
+    }
+}
