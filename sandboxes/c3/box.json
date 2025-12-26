@@ -1,6 +1,5 @@
 {
     "image": "codapi/c3",
-    "network": "codapi",
     "volume": "%s:/sandbox/src:ro",
     "tmpfs": ["/tmp:rw,exec,nosuid,size=64m"]
 }
