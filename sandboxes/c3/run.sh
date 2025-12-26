@@ -5,4 +5,4 @@ mkdir -p /tmp/sandbox
 cd /tmp/sandbox
 cp /sandbox/src/* ./
 
-c3c compile-run main.c3
+c3c compile-run --quiet main.c3

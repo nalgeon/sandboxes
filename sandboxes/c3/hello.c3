@@ -2,7 +2,7 @@ import std::io;
 
 fn void greet(String name)
 {
-    io::prinfn("Hello, %s!", name);
+    io::printfn("Hello, %s!", name);
 }
 
 fn void main()

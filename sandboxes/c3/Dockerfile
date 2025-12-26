@@ -1,7 +1,7 @@
 FROM debian:12-slim
 
 RUN apt-get update && \
-    apt-get install -y curl unzip && \
+    apt-get install -y curl gcc libxml2-dev unzip && \
     rm -rf /var/lib/apt/lists/*
 
 RUN <<EOF
@@ -19,3 +19,4 @@ USER sandbox
 WORKDIR /sandbox/src
 
 COPY --chown=sandbox run.sh /sandbox
+ENV C3C_LIB=/opt/c3/lib
