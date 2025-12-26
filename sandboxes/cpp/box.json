@@ -1,4 +1,5 @@
 {
     "image": "codapi/cpp",
-    "tmpfs": ["/tmp:rw,exec,nosuid,size=16m"]
+    "memory": 256,
+    "tmpfs": ["/tmp:rw,exec,nosuid,size=64m"]
 }
