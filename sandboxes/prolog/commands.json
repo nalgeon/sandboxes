@@ -5,7 +5,7 @@
         "steps": [
             {
                 "box": "prolog",
-                "command": ["swipl", "main.pro"]
+                "command": ["swipl", "-q", "-t", "halt", "-s", "main.pro"]
             }
         ]
     }
