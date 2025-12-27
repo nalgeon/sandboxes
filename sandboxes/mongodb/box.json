@@ -1,7 +1,7 @@
 {
     "name": "mongodb-client",
     "image": "codapi/mongodb-client",
-    "memory": 128,
+    "memory": 256,
     "network": "codapi",
     "tmpfs": ["/tmp:rw,noexec,nosuid,size=16m"]
 }
