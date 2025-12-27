@@ -1,3 +1,4 @@
 {
-    "image": "codapi/java"
+    "image": "codapi/java",
+    "memory": 256
 }
