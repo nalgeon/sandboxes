@@ -1,5 +1,6 @@
 {
     "image": "codapi/c3",
+    "memory": 128,
     "volume": "%s:/sandbox/src:ro",
     "tmpfs": ["/tmp:rw,exec,nosuid,size=64m"]
 }
