@@ -1,4 +1,4 @@
-POST https://httpbingo.org/dump/request
+POST http://httpbingo.org/dump/request
 content-type: application/json
 
 {
