@@ -28,6 +28,7 @@ sandboxes:
 	make sandbox name=go
 	make sandbox name=hare
 	make sandbox name=haskell
+	make sandbox name=http
 	make sandbox name=java
 	make sandbox name=javascript
 	make sandbox name=kotlin
