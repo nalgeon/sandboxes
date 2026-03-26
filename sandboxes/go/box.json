@@ -3,6 +3,5 @@
     "memory": 256,
     "volume": "%s:/sandbox/src:ro",
     "tmpfs": ["/tmp:rw,exec,nosuid,size=256m"],
-    "ulimit": ["nofile=256"],
-    "files": ["sandboxes/go/go.*"]
+    "ulimit": ["nofile=256"]
 }

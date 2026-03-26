@@ -1,4 +1,4 @@
-FROM golang:1.25-bookworm
+FROM golang:1.26-trixie
 
 RUN adduser --home /sandbox --disabled-password sandbox
 
@@ -13,7 +13,8 @@ export GOCACHE=/tmp/go-cache
 mkdir -p /tmp/go-cache /tmp/sandbox
 cd /tmp/sandbox
 cp /sandbox/src/* ./
-go mod tidy && go run main.go && go test
+go mod tidy && go get && go run main.go && go test
 rm -f main.go main_test.go
 mv /tmp/go-cache /sandbox/go-cache
+mv /tmp/sandbox/go.* /sandbox
 EOF
