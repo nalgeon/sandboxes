@@ -21,9 +21,9 @@ See the available sandboxes below, or [try them out](https://codapi.org/#sandbox
 
 Sandbox = image + box + commands:
 
--   _Image_ as a Docker image containing specific software, like a compiler or a database engine.
--   _Box_ is a configuration for running a container: cpu and memory restrictions, file systems, etc.
--   _Commands_ are predefined actions you can run in a container.
+- _Image_ as a Docker image containing specific software, like a compiler or a database engine.
+- _Box_ is a configuration for running a container: cpu and memory restrictions, file systems, etc.
+- _Commands_ are predefined actions you can run in a container.
 
 You can use sandboxes from this repository or [create your own](https://github.com/nalgeon/codapi/blob/main/docs/add-sandbox.md).
 
@@ -53,6 +53,7 @@ You can use sandboxes from this repository or [create your own](https://github.c
 | `raku`       | [Raku](sandboxes/raku)             |
 | `ruby`       | [Ruby](sandboxes/ruby)             |
 | `rust`       | [Rust](sandboxes/rust)             |
+| `so`         | [Solod](sandboxes/so)              |
 | `swift`      | [Swift](sandboxes/swift)           |
 | `typescript` | [TypeScript](sandboxes/typescript) |
 | `vlang`      | [V](sandboxes/vlang)               |
@@ -62,8 +63,8 @@ You can use sandboxes from this repository or [create your own](https://github.c
 
 Client-server databases like MySQL typically use two images: a server and a client:
 
--   The server container is started when you add a sandbox using `codapi-cli`.
--   The client container is created by the Codapi server on each request.
+- The server container is started when you add a sandbox using `codapi-cli`.
+- The client container is created by the Codapi server on each request.
 
 | Name         | Sandbox                            |
 | ------------ | ---------------------------------- |
