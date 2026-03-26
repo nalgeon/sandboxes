@@ -1,0 +1,24 @@
+{
+    "run": {
+        "engine": "docker",
+        "entry": "main.go",
+        "steps": [
+            {
+                "box": "so",
+                "command": ["sh", "/sandbox/run.sh"],
+                "timeout": 8
+            }
+        ]
+    },
+    "translate": {
+        "engine": "docker",
+        "entry": "main.go",
+        "steps": [
+            {
+                "box": "so",
+                "command": ["sh", "/sandbox/translate.sh"],
+                "timeout": 8
+            }
+        ]
+    }
+}
