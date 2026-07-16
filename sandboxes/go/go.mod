@@ -2,4 +2,7 @@ module sandbox
 
 go 1.26
 
-require github.com/ncruces/go-sqlite3 v0.32.0
+require (
+	github.com/nalgeon/be v0.3.0
+	github.com/ncruces/go-sqlite3 v0.35.2
+)
