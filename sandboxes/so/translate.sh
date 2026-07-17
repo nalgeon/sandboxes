@@ -7,7 +7,7 @@ mkdir -p /tmp/sandbox
 cd /tmp/sandbox
 cp /sandbox/go.* ./
 cp /sandbox/src/* ./
-so translate -o generated .
+so translate -o generated . || exit $?
 echo "-- main.h --"
 cat generated/main.h
 echo ""
