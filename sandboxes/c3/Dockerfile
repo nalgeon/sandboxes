@@ -1,4 +1,4 @@
-FROM debian:12-slim
+FROM debian:13-slim
 
 RUN apt-get update && \
     apt-get install -y curl gcc libxml2-dev unzip && \
@@ -13,7 +13,7 @@ rm -f c3-linux.tar.gz
 ln -s /opt/c3/c3c /usr/local/bin/c3c
 EOF
 
-RUN adduser --home /sandbox --disabled-password sandbox
+RUN useradd --create-home --home-dir /sandbox --shell /bin/bash sandbox
 
 USER sandbox
 WORKDIR /sandbox/src
