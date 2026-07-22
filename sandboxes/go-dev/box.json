@@ -1,0 +1,8 @@
+{
+    "name": "go:dev",
+    "image": "codapi/go:dev",
+    "memory": 256,
+    "volume": "%s:/sandbox/src:ro",
+    "tmpfs": ["/tmp:rw,exec,nosuid,size=256m"],
+    "ulimit": ["nofile=256"]
+}
