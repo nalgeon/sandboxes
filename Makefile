@@ -43,6 +43,7 @@ sandboxes:
 	make sandbox name=odin
 	make sandbox name=php
 	make sandbox name=postgres
+	make sandbox name=postgres-dev
 	make sandbox name=prolog
 	make sandbox name=python
 	make sandbox name=raku
