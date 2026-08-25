@@ -1,4 +1,4 @@
-FROM golang:1.26-trixie
+FROM golang:1.27-trixie
 
 RUN adduser --home /sandbox --disabled-password sandbox
 
@@ -9,6 +9,7 @@ COPY --chown=sandbox run.sh test.sh /sandbox
 COPY --chown=sandbox go.mod main.go main_test.go /sandbox/src
 
 RUN <<EOF
+set -e
 export GOCACHE=/tmp/go-cache
 mkdir -p /tmp/go-cache /tmp/sandbox
 cd /tmp/sandbox

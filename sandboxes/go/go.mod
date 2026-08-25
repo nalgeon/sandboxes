@@ -1,6 +1,6 @@
 module sandbox
 
-go 1.26
+go 1.27
 
 require (
 	github.com/nalgeon/be v0.3.0
