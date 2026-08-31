@@ -53,7 +53,7 @@ You can use sandboxes from this repository or [create your own](https://github.c
 | `raku`       | [Raku](sandboxes/raku)             |
 | `ruby`       | [Ruby](sandboxes/ruby)             |
 | `rust`       | [Rust](sandboxes/rust)             |
-| `so`         | [Solod](sandboxes/so)              |
+| `solod`      | [Solod](sandboxes/solod)           |
 | `swift`      | [Swift](sandboxes/swift)           |
 | `typescript` | [TypeScript](sandboxes/typescript) |
 | `vlang`      | [V](sandboxes/vlang)               |

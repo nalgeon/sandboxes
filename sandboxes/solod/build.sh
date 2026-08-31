@@ -2,7 +2,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-name=so
+name=solod
 title=Solod
 
 echo "Building $title image..."

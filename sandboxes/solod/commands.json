@@ -4,7 +4,7 @@
         "entry": "main.go",
         "steps": [
             {
-                "box": "so",
+                "box": "solod",
                 "command": ["sh", "/sandbox/run.sh"],
                 "timeout": 8
             }
@@ -15,7 +15,7 @@
         "entry": "main.go",
         "steps": [
             {
-                "box": "so",
+                "box": "solod",
                 "command": ["sh", "/sandbox/translate.sh"],
                 "timeout": 8
             }

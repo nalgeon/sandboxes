@@ -53,7 +53,7 @@ sandboxes:
 	make sandbox name=ruby
 	make sandbox name=rust
 	make sandbox name=shell
-	make sandbox name=so
+	make sandbox name=solod
 	make sandbox name=sqlite
 	make sandbox name=swift
 	make sandbox name=typescript

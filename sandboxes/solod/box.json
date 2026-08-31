@@ -1,5 +1,5 @@
 {
-    "image": "codapi/so",
+    "image": "codapi/solod",
     "memory": 256,
     "volume": "%s:/sandbox/src:ro",
     "tmpfs": ["/tmp:rw,exec,nosuid,size=256m"],
