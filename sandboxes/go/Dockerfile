@@ -19,3 +19,5 @@ rm -f main.go main_test.go
 mv /tmp/go-cache /sandbox/go-cache
 mv /tmp/sandbox/go.* /sandbox
 EOF
+
+ENV GOEXPERIMENT=mapsplitgroup,simd
